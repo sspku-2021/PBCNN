@@ -1,0 +1,1416 @@
+20-03-19 16:39-INFO-{'session_length': 24, 'height': 32, 'width': 32, 'num_labels': 13, 'learning_rate': 0.0005, 'filter_sizes': [3, 4, 5, 6], 'num_filters': 64, 'lstm_size': 256, 'lstm_num_layers': 1, 'lstm_dropout_rate': 0.9, 'attention_size': 256, 'average': False, 'is_train': True, 'early_stop': False, 'is_pretrain': False, 'is_time': False, 'is_size': False, 'uncertainty': False}
+20-03-19 16:39-WARNING-From ../utils.py:123: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+20-03-19 16:39-WARNING-From ../model/train.py:79: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+20-03-19 16:39-WARNING-From ../model/base_model.py:46: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+20-03-19 16:39-WARNING-From ../model/hierarchical_fusion_model.py:55: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+20-03-19 16:39-WARNING-From ../model/hierarchical_fusion_model.py:55: The name tf.AUTO_REUSE is deprecated. Please use tf.compat.v1.AUTO_REUSE instead.
+
+20-03-19 16:39-WARNING-From ../model/utils/utils.py:25: conv1d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv1D` instead.
+20-03-19 16:39-WARNING-Entity <bound method Conv1D.call of <tensorflow.python.layers.convolutional.Conv1D object at 0x7fc07378e3d0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv1D.call of <tensorflow.python.layers.convolutional.Conv1D object at 0x7fc07378e3d0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-19 16:39-WARNING-From ../model/utils/utils.py:44: max_pooling1d (from tensorflow.python.layers.pooling) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.MaxPooling1D instead.
+20-03-19 16:39-WARNING-Entity <bound method Pooling1D.call of <tensorflow.python.layers.pooling.MaxPooling1D object at 0x7fc0736ece10>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Pooling1D.call of <tensorflow.python.layers.pooling.MaxPooling1D object at 0x7fc0736ece10>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-19 16:39-WARNING-Entity <bound method Conv1D.call of <tensorflow.python.layers.convolutional.Conv1D object at 0x7fc072b74c10>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv1D.call of <tensorflow.python.layers.convolutional.Conv1D object at 0x7fc072b74c10>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-19 16:39-WARNING-Entity <bound method Pooling1D.call of <tensorflow.python.layers.pooling.MaxPooling1D object at 0x7fc07379e650>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Pooling1D.call of <tensorflow.python.layers.pooling.MaxPooling1D object at 0x7fc07379e650>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-19 16:39-WARNING-Entity <bound method Conv1D.call of <tensorflow.python.layers.convolutional.Conv1D object at 0x7fc072b74490>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv1D.call of <tensorflow.python.layers.convolutional.Conv1D object at 0x7fc072b74490>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-19 16:39-WARNING-Entity <bound method Pooling1D.call of <tensorflow.python.layers.pooling.MaxPooling1D object at 0x7fc072b748d0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Pooling1D.call of <tensorflow.python.layers.pooling.MaxPooling1D object at 0x7fc072b748d0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-19 16:39-WARNING-Entity <bound method Conv1D.call of <tensorflow.python.layers.convolutional.Conv1D object at 0x7fc072b80550>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv1D.call of <tensorflow.python.layers.convolutional.Conv1D object at 0x7fc072b80550>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-19 16:39-WARNING-Entity <bound method Pooling1D.call of <tensorflow.python.layers.pooling.MaxPooling1D object at 0x7fc072b24e90>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Pooling1D.call of <tensorflow.python.layers.pooling.MaxPooling1D object at 0x7fc072b24e90>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-19 16:39-WARNING-From ../model/utils/modules.py:170: dropout (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.dropout instead.
+20-03-19 16:39-WARNING-Entity <bound method Dropout.call of <tensorflow.python.layers.core.Dropout object at 0x7fc073793d50>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dropout.call of <tensorflow.python.layers.core.Dropout object at 0x7fc073793d50>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-19 16:39-WARNING-From ../model/utils/utils.py:61: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+20-03-19 16:39-WARNING-From ../model/utils/utils.py:65: MultiRNNCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.StackedRNNCells, and will be replaced by that in Tensorflow 2.0.
+20-03-19 16:39-WARNING-From ../model/utils/utils.py:78: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+20-03-19 16:39-WARNING-From /root/anaconda3/lib/python3.7/site-packages/tensorflow/python/ops/rnn.py:464: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+20-03-19 16:39-WARNING-Entity <bound method MultiRNNCell.call of <tensorflow.python.ops.rnn_cell_impl.MultiRNNCell object at 0x7fc072b74e90>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method MultiRNNCell.call of <tensorflow.python.ops.rnn_cell_impl.MultiRNNCell object at 0x7fc072b74e90>>: AttributeError: module 'gast' has no attribute 'Num'
+20-03-19 16:39-WARNING-From /root/anaconda3/lib/python3.7/site-packages/tensorflow/python/ops/rnn_cell_impl.py:961: calling Zeros.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+20-03-19 16:39-WARNING-Entity <bound method LSTMCell.call of <tensorflow.python.ops.rnn_cell_impl.LSTMCell object at 0x7fc072b2cf50>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method LSTMCell.call of <tensorflow.python.ops.rnn_cell_impl.LSTMCell object at 0x7fc072b2cf50>>: AttributeError: module 'gast' has no attribute 'Num'
+20-03-19 16:39-WARNING-From /root/anaconda3/lib/python3.7/site-packages/tensorflow/python/ops/rnn_cell_impl.py:1372: div (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Deprecated in favor of operator or tf.math.divide.
+20-03-19 16:39-WARNING-From /root/anaconda3/lib/python3.7/site-packages/tensorflow/python/ops/rnn.py:244: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+20-03-19 16:39-WARNING-Entity <bound method MultiRNNCell.call of <tensorflow.python.ops.rnn_cell_impl.MultiRNNCell object at 0x7fc0736ebe90>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method MultiRNNCell.call of <tensorflow.python.ops.rnn_cell_impl.MultiRNNCell object at 0x7fc0736ebe90>>: AttributeError: module 'gast' has no attribute 'Num'
+20-03-19 16:39-WARNING-Entity <bound method LSTMCell.call of <tensorflow.python.ops.rnn_cell_impl.LSTMCell object at 0x7fc072b2c910>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method LSTMCell.call of <tensorflow.python.ops.rnn_cell_impl.LSTMCell object at 0x7fc072b2c910>>: AttributeError: module 'gast' has no attribute 'Num'
+20-03-19 16:39-WARNING-From /root/anaconda3/lib/python3.7/site-packages/tensorflow/python/ops/init_ops.py:1251: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+20-03-19 16:39-WARNING-Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7fc07273ded0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7fc07273ded0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-19 16:39-WARNING-From ../model/utils/modules.py:235: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.dense instead.
+20-03-19 16:39-WARNING-Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7fc0726a5dd0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7fc0726a5dd0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-19 16:39-WARNING-From ../model/utils/modules.py:237: batch_normalization (from tensorflow.python.layers.normalization) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.BatchNormalization instead.  In particular, `tf.control_dependencies(tf.GraphKeys.UPDATE_OPS)` should not be used (consult the `tf.keras.layers.batch_normalization` documentation).
+20-03-19 16:39-WARNING-Entity <bound method BatchNormalization.call of <tensorflow.python.layers.normalization.BatchNormalization object at 0x7fc0728d62d0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method BatchNormalization.call of <tensorflow.python.layers.normalization.BatchNormalization object at 0x7fc0728d62d0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-19 16:39-WARNING-From ../model/utils/modules.py:240: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+20-03-19 16:39-WARNING-Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7fc072716ad0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7fc072716ad0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-19 16:39-WARNING-Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7fc072aa53d0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7fc072aa53d0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-19 16:39-WARNING-From ../model/base_model.py:132: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+20-03-19 16:39-WARNING-From ../model/train.py:90: The name tf.train.Saver is deprecated. Please use tf.compat.v1.train.Saver instead.
+
+20-03-19 16:41-INFO-Epoch 0, Batch 100, Global step 100:
+20-03-19 16:41-INFO-training batch loss: 0.4732; avg_loss: 0.7188
+20-03-19 16:41-INFO-training batch accuracy: 0.8672; avg_accuracy: 0.7412
+20-03-19 16:41-INFO-
+20-03-19 16:44-INFO-Epoch 0, Batch 200, Global step 200:
+20-03-19 16:44-INFO-training batch loss: 0.3175; avg_loss: 0.5570
+20-03-19 16:44-INFO-training batch accuracy: 0.9219; avg_accuracy: 0.8155
+20-03-19 16:44-INFO-
+20-03-19 16:46-INFO-Epoch 0, Batch 300, Global step 300:
+20-03-19 16:46-INFO-training batch loss: 0.3547; avg_loss: 0.4911
+20-03-19 16:46-INFO-training batch accuracy: 0.8828; avg_accuracy: 0.8433
+20-03-19 16:46-INFO-
+20-03-19 16:48-INFO-Epoch 0, Batch 400, Global step 400:
+20-03-19 16:48-INFO-training batch loss: 0.3314; avg_loss: 0.4484
+20-03-19 16:48-INFO-training batch accuracy: 0.8906; avg_accuracy: 0.8585
+20-03-19 16:48-INFO-
+20-03-19 16:50-INFO-Epoch 0, Batch 500, Global step 500:
+20-03-19 16:50-INFO-training batch loss: 0.3103; avg_loss: 0.4171
+20-03-19 16:50-INFO-training batch accuracy: 0.9062; avg_accuracy: 0.8692
+20-03-19 16:50-INFO-
+20-03-19 16:53-INFO-Epoch 0, Batch 600, Global step 600:
+20-03-19 16:53-INFO-training batch loss: 0.3703; avg_loss: 0.3907
+20-03-19 16:53-INFO-training batch accuracy: 0.8750; avg_accuracy: 0.8786
+20-03-19 16:53-INFO-
+20-03-19 16:55-INFO-Epoch 0, Batch 700, Global step 700:
+20-03-19 16:55-INFO-training batch loss: 0.2718; avg_loss: 0.3695
+20-03-19 16:55-INFO-training batch accuracy: 0.9141; avg_accuracy: 0.8856
+20-03-19 16:55-INFO-
+20-03-19 16:57-INFO-Epoch 0, Batch 800, Global step 800:
+20-03-19 16:57-INFO-training batch loss: 0.2971; avg_loss: 0.3530
+20-03-19 16:57-INFO-training batch accuracy: 0.9297; avg_accuracy: 0.8909
+20-03-19 16:57-INFO-
+20-03-19 17:00-INFO-Epoch 0, Batch 900, Global step 900:
+20-03-19 17:00-INFO-training batch loss: 0.3439; avg_loss: 0.3403
+20-03-19 17:00-INFO-training batch accuracy: 0.9141; avg_accuracy: 0.8956
+20-03-19 17:00-INFO-
+20-03-19 17:02-INFO-Epoch 0, Batch 1000, Global step 1000:
+20-03-19 17:02-INFO-training batch loss: 0.1080; avg_loss: 0.3282
+20-03-19 17:02-INFO-training batch accuracy: 0.9688; avg_accuracy: 0.8996
+20-03-19 17:02-INFO-
+20-03-19 17:04-INFO-Epoch 0, Batch 1100, Global step 1100:
+20-03-19 17:04-INFO-training batch loss: 0.2686; avg_loss: 0.3171
+20-03-19 17:04-INFO-training batch accuracy: 0.9375; avg_accuracy: 0.9035
+20-03-19 17:04-INFO-
+20-03-19 17:07-INFO-Epoch 0, Batch 1200, Global step 1200:
+20-03-19 17:07-INFO-training batch loss: 0.2798; avg_loss: 0.3078
+20-03-19 17:07-INFO-training batch accuracy: 0.9297; avg_accuracy: 0.9068
+20-03-19 17:07-INFO-
+20-03-19 17:09-INFO-Epoch 0, Batch 1300, Global step 1300:
+20-03-19 17:09-INFO-training batch loss: 0.2312; avg_loss: 0.3002
+20-03-19 17:09-INFO-training batch accuracy: 0.9453; avg_accuracy: 0.9093
+20-03-19 17:09-INFO-
+20-03-19 17:11-INFO-Epoch 0, Batch 1400, Global step 1400:
+20-03-19 17:11-INFO-training batch loss: 0.2055; avg_loss: 0.2923
+20-03-19 17:11-INFO-training batch accuracy: 0.9453; avg_accuracy: 0.9119
+20-03-19 17:11-INFO-
+20-03-19 17:14-INFO-Epoch 0, Batch 1500, Global step 1500:
+20-03-19 17:14-INFO-training batch loss: 0.1280; avg_loss: 0.2853
+20-03-19 17:14-INFO-training batch accuracy: 0.9688; avg_accuracy: 0.9141
+20-03-19 17:14-INFO-
+20-03-19 17:16-INFO-Epoch 0, Batch 1600, Global step 1600:
+20-03-19 17:16-INFO-training batch loss: 0.1468; avg_loss: 0.2798
+20-03-19 17:16-INFO-training batch accuracy: 0.9375; avg_accuracy: 0.9158
+20-03-19 17:16-INFO-
+20-03-19 17:18-INFO-Epoch 0, Batch 1700, Global step 1700:
+20-03-19 17:18-INFO-training batch loss: 0.1509; avg_loss: 0.2743
+20-03-19 17:18-INFO-training batch accuracy: 0.9453; avg_accuracy: 0.9175
+20-03-19 17:18-INFO-
+20-03-19 17:21-INFO-Epoch 0, Batch 1800, Global step 1800:
+20-03-19 17:21-INFO-training batch loss: 0.1882; avg_loss: 0.2691
+20-03-19 17:21-INFO-training batch accuracy: 0.9297; avg_accuracy: 0.9191
+20-03-19 17:21-INFO-
+20-03-19 17:23-INFO-Epoch 0, Batch 1900, Global step 1900:
+20-03-19 17:23-INFO-training batch loss: 0.1362; avg_loss: 0.2648
+20-03-19 17:23-INFO-training batch accuracy: 0.9531; avg_accuracy: 0.9204
+20-03-19 17:23-INFO-
+20-03-19 17:26-INFO-Epoch 0, Batch 2000, Global step 2000:
+20-03-19 17:26-INFO-training batch loss: 0.2372; avg_loss: 0.2600
+20-03-19 17:26-INFO-training batch accuracy: 0.9141; avg_accuracy: 0.9218
+20-03-19 17:26-INFO-
+20-03-19 17:28-INFO-training batch accuracy: 0.9048; avg_accuracy: 0.9233
+20-03-19 17:28-INFO-
+20-03-19 17:30-INFO-Epoch 0, evaluating batch loss: 0.2530; avg_loss: 0.3185
+20-03-19 17:30-INFO-evaluating batch accuracy: 0.9423; avg_accuracy: 0.9002
+
+20-03-19 17:30-INFO-
+20-03-19 17:30-INFO-Epoch 1, Batch 16, Global step 2100:
+20-03-19 17:30-INFO-training batch loss: 0.1297; avg_loss: 0.1475
+20-03-19 17:30-INFO-training batch accuracy: 0.9766; avg_accuracy: 0.8882
+20-03-19 17:30-INFO-
+20-03-19 17:33-INFO-Epoch 1, Batch 116, Global step 2200:
+20-03-19 17:33-INFO-training batch loss: 0.1592; avg_loss: 0.1672
+20-03-19 17:33-INFO-training batch accuracy: 0.9453; avg_accuracy: 0.9406
+20-03-19 17:33-INFO-
+20-03-19 17:35-INFO-Epoch 1, Batch 216, Global step 2300:
+20-03-19 17:35-INFO-training batch loss: 0.1805; avg_loss: 0.1728
+20-03-19 17:35-INFO-training batch accuracy: 0.9453; avg_accuracy: 0.9431
+20-03-19 17:35-INFO-
+20-03-19 17:37-INFO-Epoch 1, Batch 316, Global step 2400:
+20-03-19 17:37-INFO-training batch loss: 0.2293; avg_loss: 0.1734
+20-03-19 17:37-INFO-training batch accuracy: 0.9219; avg_accuracy: 0.9440
+20-03-19 17:37-INFO-
+20-03-19 17:40-INFO-Epoch 1, Batch 416, Global step 2500:
+20-03-19 17:40-INFO-training batch loss: 0.1654; avg_loss: 0.1748
+20-03-19 17:40-INFO-training batch accuracy: 0.9297; avg_accuracy: 0.9446
+20-03-19 17:40-INFO-
+20-03-19 17:42-INFO-Epoch 1, Batch 516, Global step 2600:
+20-03-19 17:42-INFO-training batch loss: 0.1554; avg_loss: 0.1750
+20-03-19 17:42-INFO-training batch accuracy: 0.9375; avg_accuracy: 0.9449
+20-03-19 17:42-INFO-
+20-03-19 17:45-INFO-Epoch 1, Batch 616, Global step 2700:
+20-03-19 17:45-INFO-training batch loss: 0.1589; avg_loss: 0.1758
+20-03-19 17:45-INFO-training batch accuracy: 0.9531; avg_accuracy: 0.9447
+20-03-19 17:45-INFO-
+20-03-19 17:47-INFO-Epoch 1, Batch 716, Global step 2800:
+20-03-19 17:47-INFO-training batch loss: 0.1856; avg_loss: 0.1763
+20-03-19 17:47-INFO-training batch accuracy: 0.9609; avg_accuracy: 0.9447
+20-03-19 17:47-INFO-
+20-03-19 17:49-INFO-Epoch 1, Batch 816, Global step 2900:
+20-03-19 17:49-INFO-training batch loss: 0.1801; avg_loss: 0.1766
+20-03-19 17:49-INFO-training batch accuracy: 0.9453; avg_accuracy: 0.9447
+20-03-19 17:49-INFO-
+20-03-19 17:51-INFO-Epoch 1, Batch 916, Global step 3000:
+20-03-19 17:51-INFO-training batch loss: 0.1118; avg_loss: 0.1770
+20-03-19 17:51-INFO-training batch accuracy: 0.9609; avg_accuracy: 0.9446
+20-03-19 17:51-INFO-
+20-03-19 17:54-INFO-Epoch 1, Batch 1016, Global step 3100:
+20-03-19 17:54-INFO-training batch loss: 0.1563; avg_loss: 0.1762
+20-03-19 17:54-INFO-training batch accuracy: 0.9609; avg_accuracy: 0.9450
+20-03-19 17:54-INFO-
+20-03-19 17:56-INFO-Epoch 1, Batch 1116, Global step 3200:
+20-03-19 17:56-INFO-training batch loss: 0.1843; avg_loss: 0.1751
+20-03-19 17:56-INFO-training batch accuracy: 0.9375; avg_accuracy: 0.9457
+20-03-19 17:56-INFO-
+20-03-19 17:59-INFO-Epoch 1, Batch 1216, Global step 3300:
+20-03-19 17:59-INFO-training batch loss: 0.1003; avg_loss: 0.1740
+20-03-19 17:59-INFO-training batch accuracy: 0.9766; avg_accuracy: 0.9461
+20-03-19 17:59-INFO-
+20-03-19 18:01-INFO-Epoch 1, Batch 1316, Global step 3400:
+20-03-19 18:01-INFO-training batch loss: 0.1738; avg_loss: 0.1738
+20-03-19 18:01-INFO-training batch accuracy: 0.9297; avg_accuracy: 0.9462
+20-03-19 18:01-INFO-
+20-03-19 18:03-INFO-Epoch 1, Batch 1416, Global step 3500:
+20-03-19 18:03-INFO-training batch loss: 0.1990; avg_loss: 0.1736
+20-03-19 18:03-INFO-training batch accuracy: 0.9453; avg_accuracy: 0.9462
+20-03-19 18:03-INFO-
+20-03-19 18:05-INFO-Epoch 1, Batch 1516, Global step 3600:
+20-03-19 18:05-INFO-training batch loss: 0.2413; avg_loss: 0.1730
+20-03-19 18:05-INFO-training batch accuracy: 0.9219; avg_accuracy: 0.9464
+20-03-19 18:05-INFO-
+20-03-19 18:08-INFO-Epoch 1, Batch 1616, Global step 3700:
+20-03-19 18:08-INFO-training batch loss: 0.1454; avg_loss: 0.1724
+20-03-19 18:08-INFO-training batch accuracy: 0.9531; avg_accuracy: 0.9465
+20-03-19 18:08-INFO-
+20-03-19 18:10-INFO-Epoch 1, Batch 1716, Global step 3800:
+20-03-19 18:10-INFO-training batch loss: 0.1373; avg_loss: 0.1716
+20-03-19 18:10-INFO-training batch accuracy: 0.9609; avg_accuracy: 0.9466
+20-03-19 18:10-INFO-
+20-03-19 18:12-INFO-Epoch 1, Batch 1816, Global step 3900:
+20-03-19 18:12-INFO-training batch loss: 0.1240; avg_loss: 0.1709
+20-03-19 18:12-INFO-training batch accuracy: 0.9609; avg_accuracy: 0.9466
+20-03-19 18:12-INFO-
+20-03-19 18:15-INFO-Epoch 1, Batch 1916, Global step 4000:
+20-03-19 18:15-INFO-training batch loss: 0.1518; avg_loss: 0.1701
+20-03-19 18:15-INFO-training batch accuracy: 0.9609; avg_accuracy: 0.9468
+20-03-19 18:15-INFO-
+20-03-19 18:17-INFO-Epoch 1, Batch 2016, Global step 4100:
+20-03-19 18:17-INFO-training batch loss: 0.1446; avg_loss: 0.1696
+20-03-19 18:17-INFO-training batch accuracy: 0.9609; avg_accuracy: 0.9469
+20-03-19 18:17-INFO-
+20-03-19 18:19-INFO-training batch accuracy: 0.9048; avg_accuracy: 0.9474
+20-03-19 18:19-INFO-
+20-03-19 18:21-INFO-Epoch 1, evaluating batch loss: 0.2458; avg_loss: 0.2705
+20-03-19 18:21-INFO-evaluating batch accuracy: 0.9423; avg_accuracy: 0.9040
+
+20-03-19 18:21-INFO-
+20-03-19 18:22-INFO-Epoch 2, Batch 32, Global step 4200:
+20-03-19 18:22-INFO-training batch loss: 0.1443; avg_loss: 0.1412
+20-03-19 18:22-INFO-training batch accuracy: 0.9609; avg_accuracy: 0.9236
+20-03-19 18:22-INFO-
+20-03-19 18:24-INFO-Epoch 2, Batch 132, Global step 4300:
+20-03-19 18:24-INFO-training batch loss: 0.2099; avg_loss: 0.1468
+20-03-19 18:24-INFO-training batch accuracy: 0.9297; avg_accuracy: 0.9447
+20-03-19 18:24-INFO-
+20-03-19 18:26-INFO-Epoch 2, Batch 232, Global step 4400:
+20-03-19 18:26-INFO-training batch loss: 0.0886; avg_loss: 0.1510
+20-03-19 18:26-INFO-training batch accuracy: 0.9766; avg_accuracy: 0.9466
+20-03-19 18:26-INFO-
+20-03-19 18:29-INFO-Epoch 2, Batch 332, Global step 4500:
+20-03-19 18:29-INFO-training batch loss: 0.1029; avg_loss: 0.1482
+20-03-19 18:29-INFO-training batch accuracy: 0.9688; avg_accuracy: 0.9487
+20-03-19 18:29-INFO-
+20-03-19 18:31-INFO-Epoch 2, Batch 432, Global step 4600:
+20-03-19 18:31-INFO-training batch loss: 0.2250; avg_loss: 0.1490
+20-03-19 18:31-INFO-training batch accuracy: 0.9062; avg_accuracy: 0.9489
+20-03-19 18:31-INFO-
+20-03-19 18:33-INFO-Epoch 2, Batch 532, Global step 4700:
+20-03-19 18:33-INFO-training batch loss: 0.1909; avg_loss: 0.1493
+20-03-19 18:33-INFO-training batch accuracy: 0.9141; avg_accuracy: 0.9489
+20-03-19 18:33-INFO-
+20-03-19 18:36-INFO-Epoch 2, Batch 632, Global step 4800:
+20-03-19 18:36-INFO-training batch loss: 0.1960; avg_loss: 0.1502
+20-03-19 18:36-INFO-training batch accuracy: 0.9297; avg_accuracy: 0.9485
+20-03-19 18:36-INFO-
+20-03-19 18:38-INFO-Epoch 2, Batch 732, Global step 4900:
+20-03-19 18:38-INFO-training batch loss: 0.1314; avg_loss: 0.1496
+20-03-19 18:38-INFO-training batch accuracy: 0.9531; avg_accuracy: 0.9487
+20-03-19 18:38-INFO-
+20-03-19 18:40-INFO-Epoch 2, Batch 832, Global step 5000:
+20-03-19 18:40-INFO-training batch loss: 0.1494; avg_loss: 0.1489
+20-03-19 18:40-INFO-training batch accuracy: 0.9844; avg_accuracy: 0.9490
+20-03-19 18:40-INFO-
+20-03-19 18:42-INFO-Epoch 2, Batch 932, Global step 5100:
+20-03-19 18:42-INFO-training batch loss: 0.1512; avg_loss: 0.1500
+20-03-19 18:42-INFO-training batch accuracy: 0.9453; avg_accuracy: 0.9486
+20-03-19 18:42-INFO-
+20-03-19 18:45-INFO-Epoch 2, Batch 1032, Global step 5200:
+20-03-19 18:45-INFO-training batch loss: 0.0939; avg_loss: 0.1492
+20-03-19 18:45-INFO-training batch accuracy: 0.9844; avg_accuracy: 0.9489
+20-03-19 18:45-INFO-
+20-03-19 18:47-INFO-Epoch 2, Batch 1132, Global step 5300:
+20-03-19 18:47-INFO-training batch loss: 0.1416; avg_loss: 0.1479
+20-03-19 18:47-INFO-training batch accuracy: 0.9375; avg_accuracy: 0.9494
+20-03-19 18:47-INFO-
+20-03-19 18:49-INFO-Epoch 2, Batch 1232, Global step 5400:
+20-03-19 18:49-INFO-training batch loss: 0.0986; avg_loss: 0.1466
+20-03-19 18:49-INFO-training batch accuracy: 0.9766; avg_accuracy: 0.9497
+20-03-19 18:49-INFO-
+20-03-19 18:52-INFO-Epoch 2, Batch 1332, Global step 5500:
+20-03-19 18:52-INFO-training batch loss: 0.1055; avg_loss: 0.1466
+20-03-19 18:52-INFO-training batch accuracy: 0.9609; avg_accuracy: 0.9498
+20-03-19 18:52-INFO-
+20-03-19 18:54-INFO-Epoch 2, Batch 1432, Global step 5600:
+20-03-19 18:54-INFO-training batch loss: 0.1415; avg_loss: 0.1458
+20-03-19 18:54-INFO-training batch accuracy: 0.9531; avg_accuracy: 0.9501
+20-03-19 18:54-INFO-
+20-03-19 18:56-INFO-Epoch 2, Batch 1532, Global step 5700:
+20-03-19 18:56-INFO-training batch loss: 0.1557; avg_loss: 0.1459
+20-03-19 18:56-INFO-training batch accuracy: 0.9688; avg_accuracy: 0.9501
+20-03-19 18:56-INFO-
+20-03-19 18:58-INFO-Epoch 2, Batch 1632, Global step 5800:
+20-03-19 18:58-INFO-training batch loss: 0.1069; avg_loss: 0.1450
+20-03-19 18:58-INFO-training batch accuracy: 0.9688; avg_accuracy: 0.9501
+20-03-19 18:58-INFO-
+20-03-19 19:01-INFO-Epoch 2, Batch 1732, Global step 5900:
+20-03-19 19:01-INFO-training batch loss: 0.0881; avg_loss: 0.1440
+20-03-19 19:01-INFO-training batch accuracy: 0.9688; avg_accuracy: 0.9503
+20-03-19 19:01-INFO-
+20-03-19 19:03-INFO-Epoch 2, Batch 1832, Global step 6000:
+20-03-19 19:03-INFO-training batch loss: 0.1296; avg_loss: 0.1434
+20-03-19 19:03-INFO-training batch accuracy: 0.9375; avg_accuracy: 0.9503
+20-03-19 19:03-INFO-
+20-03-19 19:05-INFO-Epoch 2, Batch 1932, Global step 6100:
+20-03-19 19:05-INFO-training batch loss: 0.1521; avg_loss: 0.1432
+20-03-19 19:05-INFO-training batch accuracy: 0.9531; avg_accuracy: 0.9503
+20-03-19 19:05-INFO-
+20-03-19 19:08-INFO-Epoch 2, Batch 2032, Global step 6200:
+20-03-19 19:08-INFO-training batch loss: 0.1363; avg_loss: 0.1426
+20-03-19 19:08-INFO-training batch accuracy: 0.9453; avg_accuracy: 0.9504
+20-03-19 19:08-INFO-
+20-03-19 19:09-INFO-training batch accuracy: 0.9048; avg_accuracy: 0.9509
+20-03-19 19:09-INFO-
+20-03-19 19:11-INFO-Epoch 2, evaluating batch loss: 0.2227; avg_loss: 0.2446
+20-03-19 19:11-INFO-evaluating batch accuracy: 0.9423; avg_accuracy: 0.9134
+
+20-03-19 19:11-INFO-
+20-03-19 19:13-INFO-Epoch 3, Batch 48, Global step 6300:
+20-03-19 19:13-INFO-training batch loss: 0.1043; avg_loss: 0.1202
+20-03-19 19:13-INFO-training batch accuracy: 0.9688; avg_accuracy: 0.9344
+20-03-19 19:13-INFO-
+20-03-19 19:15-INFO-Epoch 3, Batch 148, Global step 6400:
+20-03-19 19:15-INFO-training batch loss: 0.1077; avg_loss: 0.1286
+20-03-19 19:15-INFO-training batch accuracy: 0.9453; avg_accuracy: 0.9459
+20-03-19 19:15-INFO-
+20-03-19 19:17-INFO-Epoch 3, Batch 248, Global step 6500:
+20-03-19 19:17-INFO-training batch loss: 0.1425; avg_loss: 0.1292
+20-03-19 19:17-INFO-training batch accuracy: 0.9453; avg_accuracy: 0.9489
+20-03-19 19:17-INFO-
+20-03-19 19:19-INFO-Epoch 3, Batch 348, Global step 6600:
+20-03-19 19:19-INFO-training batch loss: 0.1595; avg_loss: 0.1268
+20-03-19 19:19-INFO-training batch accuracy: 0.9531; avg_accuracy: 0.9509
+20-03-19 19:19-INFO-
+20-03-19 19:21-INFO-Epoch 3, Batch 448, Global step 6700:
+20-03-19 19:21-INFO-training batch loss: 0.1262; avg_loss: 0.1282
+20-03-19 19:21-INFO-training batch accuracy: 0.9609; avg_accuracy: 0.9510
+20-03-19 19:21-INFO-
+20-03-19 19:24-INFO-Epoch 3, Batch 548, Global step 6800:
+20-03-19 19:24-INFO-training batch loss: 0.1300; avg_loss: 0.1280
+20-03-19 19:24-INFO-training batch accuracy: 0.9453; avg_accuracy: 0.9515
+20-03-19 19:24-INFO-
+20-03-19 19:26-INFO-Epoch 3, Batch 648, Global step 6900:
+20-03-19 19:26-INFO-training batch loss: 0.1369; avg_loss: 0.1285
+20-03-19 19:26-INFO-training batch accuracy: 0.9375; avg_accuracy: 0.9517
+20-03-19 19:26-INFO-
+20-03-19 19:28-INFO-Epoch 3, Batch 748, Global step 7000:
+20-03-19 19:28-INFO-training batch loss: 0.1159; avg_loss: 0.1294
+20-03-19 19:28-INFO-training batch accuracy: 0.9531; avg_accuracy: 0.9516
+20-03-19 19:28-INFO-
+20-03-19 19:30-INFO-Epoch 3, Batch 848, Global step 7100:
+20-03-19 19:30-INFO-training batch loss: 0.1078; avg_loss: 0.1290
+20-03-19 19:30-INFO-training batch accuracy: 0.9453; avg_accuracy: 0.9516
+20-03-19 19:30-INFO-
+20-03-19 19:32-INFO-Epoch 3, Batch 948, Global step 7200:
+20-03-19 19:32-INFO-training batch loss: 0.1332; avg_loss: 0.1290
+20-03-19 19:32-INFO-training batch accuracy: 0.9453; avg_accuracy: 0.9517
+20-03-19 19:32-INFO-
+20-03-19 19:34-INFO-Epoch 3, Batch 1048, Global step 7300:
+20-03-19 19:34-INFO-training batch loss: 0.0935; avg_loss: 0.1287
+20-03-19 19:34-INFO-training batch accuracy: 0.9609; avg_accuracy: 0.9519
+20-03-19 19:34-INFO-
+20-03-19 19:37-INFO-Epoch 3, Batch 1148, Global step 7400:
+20-03-19 19:37-INFO-training batch loss: 0.1078; avg_loss: 0.1279
+20-03-19 19:37-INFO-training batch accuracy: 0.9453; avg_accuracy: 0.9524
+20-03-19 19:37-INFO-
+20-03-19 19:39-INFO-Epoch 3, Batch 1248, Global step 7500:
+20-03-19 19:39-INFO-training batch loss: 0.0941; avg_loss: 0.1271
+20-03-19 19:39-INFO-training batch accuracy: 0.9531; avg_accuracy: 0.9528
+20-03-19 19:39-INFO-
+20-03-19 19:41-INFO-Epoch 3, Batch 1348, Global step 7600:
+20-03-19 19:41-INFO-training batch loss: 0.0968; avg_loss: 0.1272
+20-03-19 19:41-INFO-training batch accuracy: 0.9609; avg_accuracy: 0.9529
+20-03-19 19:41-INFO-
+20-03-19 19:43-INFO-Epoch 3, Batch 1448, Global step 7700:
+20-03-19 19:43-INFO-training batch loss: 0.0760; avg_loss: 0.1267
+20-03-19 19:43-INFO-training batch accuracy: 0.9766; avg_accuracy: 0.9531
+20-03-19 19:43-INFO-
+20-03-19 19:45-INFO-Epoch 3, Batch 1548, Global step 7800:
+20-03-19 19:45-INFO-training batch loss: 0.1540; avg_loss: 0.1264
+20-03-19 19:45-INFO-training batch accuracy: 0.9531; avg_accuracy: 0.9533
+20-03-19 19:45-INFO-
+20-03-19 19:47-INFO-Epoch 3, Batch 1648, Global step 7900:
+20-03-19 19:47-INFO-training batch loss: 0.1216; avg_loss: 0.1257
+20-03-19 19:47-INFO-training batch accuracy: 0.9453; avg_accuracy: 0.9535
+20-03-19 19:47-INFO-
+20-03-19 19:50-INFO-Epoch 3, Batch 1748, Global step 8000:
+20-03-19 19:50-INFO-training batch loss: 0.1082; avg_loss: 0.1253
+20-03-19 19:50-INFO-training batch accuracy: 0.9531; avg_accuracy: 0.9534
+20-03-19 19:50-INFO-
+20-03-19 19:52-INFO-Epoch 3, Batch 1848, Global step 8100:
+20-03-19 19:52-INFO-training batch loss: 0.1515; avg_loss: 0.1250
+20-03-19 19:52-INFO-training batch accuracy: 0.9453; avg_accuracy: 0.9535
+20-03-19 19:52-INFO-
+20-03-19 19:54-INFO-Epoch 3, Batch 1948, Global step 8200:
+20-03-19 19:54-INFO-training batch loss: 0.0898; avg_loss: 0.1245
+20-03-19 19:54-INFO-training batch accuracy: 0.9609; avg_accuracy: 0.9535
+20-03-19 19:54-INFO-
+20-03-19 19:56-INFO-Epoch 3, Batch 2048, Global step 8300:
+20-03-19 19:56-INFO-training batch loss: 0.1216; avg_loss: 0.1244
+20-03-19 19:56-INFO-training batch accuracy: 0.9375; avg_accuracy: 0.9537
+20-03-19 19:56-INFO-
+20-03-19 19:57-INFO-training batch accuracy: 0.9048; avg_accuracy: 0.9542
+20-03-19 19:57-INFO-
+20-03-19 19:59-INFO-Epoch 3, evaluating batch loss: 0.1856; avg_loss: 0.2242
+20-03-19 19:59-INFO-evaluating batch accuracy: 0.9519; avg_accuracy: 0.9278
+
+20-03-19 19:59-INFO-
+20-03-19 20:00-INFO-Epoch 4, Batch 64, Global step 8400:
+20-03-19 20:00-INFO-training batch loss: 0.1530; avg_loss: 0.1123
+20-03-19 20:00-INFO-training batch accuracy: 0.9375; avg_accuracy: 0.9427
+20-03-19 20:00-INFO-
+20-03-19 20:02-INFO-Epoch 4, Batch 164, Global step 8500:
+20-03-19 20:02-INFO-training batch loss: 0.0846; avg_loss: 0.1167
+20-03-19 20:02-INFO-training batch accuracy: 0.9688; avg_accuracy: 0.9501
+20-03-19 20:02-INFO-
+20-03-19 20:05-INFO-Epoch 4, Batch 264, Global step 8600:
+20-03-19 20:05-INFO-training batch loss: 0.1898; avg_loss: 0.1189
+20-03-19 20:05-INFO-training batch accuracy: 0.9297; avg_accuracy: 0.9515
+20-03-19 20:05-INFO-
+20-03-19 20:07-INFO-Epoch 4, Batch 364, Global step 8700:
+20-03-19 20:07-INFO-training batch loss: 0.1445; avg_loss: 0.1180
+20-03-19 20:07-INFO-training batch accuracy: 0.9375; avg_accuracy: 0.9527
+20-03-19 20:07-INFO-
+20-03-19 20:09-INFO-Epoch 4, Batch 464, Global step 8800:
+20-03-19 20:09-INFO-training batch loss: 0.0525; avg_loss: 0.1194
+20-03-19 20:09-INFO-training batch accuracy: 0.9844; avg_accuracy: 0.9524
+20-03-19 20:09-INFO-
+20-03-19 20:11-INFO-Epoch 4, Batch 564, Global step 8900:
+20-03-19 20:11-INFO-training batch loss: 0.0801; avg_loss: 0.1188
+20-03-19 20:11-INFO-training batch accuracy: 0.9609; avg_accuracy: 0.9528
+20-03-19 20:11-INFO-
+20-03-19 20:14-INFO-Epoch 4, Batch 664, Global step 9000:
+20-03-19 20:14-INFO-training batch loss: 0.0853; avg_loss: 0.1177
+20-03-19 20:14-INFO-training batch accuracy: 0.9609; avg_accuracy: 0.9535
+20-03-19 20:14-INFO-
+20-03-19 20:16-INFO-Epoch 4, Batch 764, Global step 9100:
+20-03-19 20:16-INFO-training batch loss: 0.1211; avg_loss: 0.1188
+20-03-19 20:16-INFO-training batch accuracy: 0.9453; avg_accuracy: 0.9534
+20-03-19 20:16-INFO-
+20-03-19 20:18-INFO-Epoch 4, Batch 864, Global step 9200:
+20-03-19 20:18-INFO-training batch loss: 0.1688; avg_loss: 0.1190
+20-03-19 20:18-INFO-training batch accuracy: 0.9688; avg_accuracy: 0.9535
+20-03-19 20:18-INFO-
+20-03-19 20:20-INFO-Epoch 4, Batch 964, Global step 9300:
+20-03-19 20:20-INFO-training batch loss: 0.1484; avg_loss: 0.1186
+20-03-19 20:20-INFO-training batch accuracy: 0.9219; avg_accuracy: 0.9539
+20-03-19 20:20-INFO-
+20-03-19 20:22-INFO-Epoch 4, Batch 1064, Global step 9400:
+20-03-19 20:22-INFO-training batch loss: 0.1607; avg_loss: 0.1186
+20-03-19 20:22-INFO-training batch accuracy: 0.9219; avg_accuracy: 0.9542
+20-03-19 20:22-INFO-
+20-03-19 20:25-INFO-Epoch 4, Batch 1164, Global step 9500:
+20-03-19 20:25-INFO-training batch loss: 0.1136; avg_loss: 0.1182
+20-03-19 20:25-INFO-training batch accuracy: 0.9531; avg_accuracy: 0.9545
+20-03-19 20:25-INFO-
+20-03-19 20:27-INFO-Epoch 4, Batch 1264, Global step 9600:
+20-03-19 20:27-INFO-training batch loss: 0.1334; avg_loss: 0.1182
+20-03-19 20:27-INFO-training batch accuracy: 0.9375; avg_accuracy: 0.9544
+20-03-19 20:27-INFO-
+20-03-19 20:29-INFO-Epoch 4, Batch 1364, Global step 9700:
+20-03-19 20:29-INFO-training batch loss: 0.1734; avg_loss: 0.1185
+20-03-19 20:29-INFO-training batch accuracy: 0.9453; avg_accuracy: 0.9545
+20-03-19 20:29-INFO-
+20-03-19 20:31-INFO-Epoch 4, Batch 1464, Global step 9800:
+20-03-19 20:31-INFO-training batch loss: 0.0959; avg_loss: 0.1186
+20-03-19 20:31-INFO-training batch accuracy: 0.9609; avg_accuracy: 0.9545
+20-03-19 20:31-INFO-
+20-03-19 20:34-INFO-Epoch 4, Batch 1564, Global step 9900:
+20-03-19 20:34-INFO-training batch loss: 0.1505; avg_loss: 0.1185
+20-03-19 20:34-INFO-training batch accuracy: 0.9453; avg_accuracy: 0.9546
+20-03-19 20:34-INFO-
+20-03-19 20:36-INFO-Epoch 4, Batch 1664, Global step 10000:
+20-03-19 20:36-INFO-training batch loss: 0.0898; avg_loss: 0.1181
+20-03-19 20:36-INFO-training batch accuracy: 0.9453; avg_accuracy: 0.9547
+20-03-19 20:36-INFO-
+20-03-19 20:38-INFO-Epoch 4, Batch 1764, Global step 10100:
+20-03-19 20:38-INFO-training batch loss: 0.1030; avg_loss: 0.1180
+20-03-19 20:38-INFO-training batch accuracy: 0.9609; avg_accuracy: 0.9548
+20-03-19 20:38-INFO-
+20-03-19 20:41-INFO-Epoch 4, Batch 1864, Global step 10200:
+20-03-19 20:41-INFO-training batch loss: 0.0956; avg_loss: 0.1176
+20-03-19 20:41-INFO-training batch accuracy: 0.9531; avg_accuracy: 0.9549
+20-03-19 20:41-INFO-
+20-03-19 20:43-INFO-Epoch 4, Batch 1964, Global step 10300:
+20-03-19 20:43-INFO-training batch loss: 0.1282; avg_loss: 0.1173
+20-03-19 20:43-INFO-training batch accuracy: 0.9609; avg_accuracy: 0.9549
+20-03-19 20:43-INFO-
+20-03-19 20:45-INFO-Epoch 4, Batch 2064, Global step 10400:
+20-03-19 20:45-INFO-training batch loss: 0.0888; avg_loss: 0.1171
+20-03-19 20:45-INFO-training batch accuracy: 0.9609; avg_accuracy: 0.9552
+20-03-19 20:45-INFO-
+20-03-19 20:45-INFO-training batch accuracy: 0.9048; avg_accuracy: 0.9555
+20-03-19 20:45-INFO-
+20-03-19 20:48-INFO-Epoch 4, evaluating batch loss: 0.1821; avg_loss: 0.2002
+20-03-19 20:48-INFO-evaluating batch accuracy: 0.9615; avg_accuracy: 0.9179
+
+20-03-19 20:48-INFO-
+20-03-19 20:49-INFO-Epoch 5, Batch 80, Global step 10500:
+20-03-19 20:49-INFO-training batch loss: 0.0371; avg_loss: 0.1041
+20-03-19 20:49-INFO-training batch accuracy: 0.9922; avg_accuracy: 0.9469
+20-03-19 20:49-INFO-
+20-03-19 20:52-INFO-Epoch 5, Batch 180, Global step 10600:
+20-03-19 20:52-INFO-training batch loss: 0.1061; avg_loss: 0.1100
+20-03-19 20:52-INFO-training batch accuracy: 0.9688; avg_accuracy: 0.9519
+20-03-19 20:52-INFO-
+20-03-19 20:54-INFO-Epoch 5, Batch 280, Global step 10700:
+20-03-19 20:54-INFO-training batch loss: 0.1357; avg_loss: 0.1088
+20-03-19 20:54-INFO-training batch accuracy: 0.9531; avg_accuracy: 0.9540
+20-03-19 20:54-INFO-
+20-03-19 20:56-INFO-Epoch 5, Batch 380, Global step 10800:
+20-03-19 20:56-INFO-training batch loss: 0.0861; avg_loss: 0.1088
+20-03-19 20:56-INFO-training batch accuracy: 0.9688; avg_accuracy: 0.9553
+20-03-19 20:56-INFO-
+20-03-19 20:58-INFO-Epoch 5, Batch 480, Global step 10900:
+20-03-19 20:58-INFO-training batch loss: 0.1851; avg_loss: 0.1094
+20-03-19 20:58-INFO-training batch accuracy: 0.9062; avg_accuracy: 0.9553
+20-03-19 20:58-INFO-
+20-03-19 21:01-INFO-Epoch 5, Batch 580, Global step 11000:
+20-03-19 21:01-INFO-training batch loss: 0.1308; avg_loss: 0.1086
+20-03-19 21:01-INFO-training batch accuracy: 0.9531; avg_accuracy: 0.9557
+20-03-19 21:01-INFO-
+20-03-19 21:03-INFO-Epoch 5, Batch 680, Global step 11100:
+20-03-19 21:03-INFO-training batch loss: 0.1064; avg_loss: 0.1079
+20-03-19 21:03-INFO-training batch accuracy: 0.9766; avg_accuracy: 0.9562
+20-03-19 21:03-INFO-
+20-03-19 21:05-INFO-Epoch 5, Batch 780, Global step 11200:
+20-03-19 21:05-INFO-training batch loss: 0.0996; avg_loss: 0.1083
+20-03-19 21:05-INFO-training batch accuracy: 0.9609; avg_accuracy: 0.9560
+20-03-19 21:05-INFO-
+20-03-19 21:07-INFO-Epoch 5, Batch 880, Global step 11300:
+20-03-19 21:07-INFO-training batch loss: 0.1220; avg_loss: 0.1081
+20-03-19 21:07-INFO-training batch accuracy: 0.9531; avg_accuracy: 0.9563
+20-03-19 21:07-INFO-
+20-03-19 21:10-INFO-Epoch 5, Batch 980, Global step 11400:
+20-03-19 21:10-INFO-training batch loss: 0.1152; avg_loss: 0.1089
+20-03-19 21:10-INFO-training batch accuracy: 0.9531; avg_accuracy: 0.9563
+20-03-19 21:10-INFO-
+20-03-19 21:12-INFO-Epoch 5, Batch 1080, Global step 11500:
+20-03-19 21:12-INFO-training batch loss: 0.1340; avg_loss: 0.1083
+20-03-19 21:12-INFO-training batch accuracy: 0.9375; avg_accuracy: 0.9567
+20-03-19 21:12-INFO-
+20-03-19 21:14-INFO-Epoch 5, Batch 1180, Global step 11600:
+20-03-19 21:14-INFO-training batch loss: 0.0978; avg_loss: 0.1075
+20-03-19 21:14-INFO-training batch accuracy: 0.9453; avg_accuracy: 0.9571
+20-03-19 21:14-INFO-
+20-03-19 21:16-INFO-Epoch 5, Batch 1280, Global step 11700:
+20-03-19 21:16-INFO-training batch loss: 0.1023; avg_loss: 0.1078
+20-03-19 21:16-INFO-training batch accuracy: 0.9766; avg_accuracy: 0.9571
+20-03-19 21:16-INFO-
+20-03-19 21:19-INFO-Epoch 5, Batch 1380, Global step 11800:
+20-03-19 21:19-INFO-training batch loss: 0.1365; avg_loss: 0.1080
+20-03-19 21:19-INFO-training batch accuracy: 0.9453; avg_accuracy: 0.9572
+20-03-19 21:19-INFO-
+20-03-19 21:21-INFO-Epoch 5, Batch 1480, Global step 11900:
+20-03-19 21:21-INFO-training batch loss: 0.1094; avg_loss: 0.1078
+20-03-19 21:21-INFO-training batch accuracy: 0.9531; avg_accuracy: 0.9573
+20-03-19 21:21-INFO-
+20-03-19 21:23-INFO-Epoch 5, Batch 1580, Global step 12000:
+20-03-19 21:23-INFO-training batch loss: 0.0593; avg_loss: 0.1077
+20-03-19 21:23-INFO-training batch accuracy: 0.9766; avg_accuracy: 0.9573
+20-03-19 21:23-INFO-
+20-03-19 21:25-INFO-Epoch 5, Batch 1680, Global step 12100:
+20-03-19 21:25-INFO-training batch loss: 0.1358; avg_loss: 0.1074
+20-03-19 21:25-INFO-training batch accuracy: 0.9297; avg_accuracy: 0.9574
+20-03-19 21:25-INFO-
+20-03-19 21:28-INFO-Epoch 5, Batch 1780, Global step 12200:
+20-03-19 21:28-INFO-training batch loss: 0.1381; avg_loss: 0.1072
+20-03-19 21:28-INFO-training batch accuracy: 0.9297; avg_accuracy: 0.9573
+20-03-19 21:28-INFO-
+20-03-19 21:30-INFO-Epoch 5, Batch 1880, Global step 12300:
+20-03-19 21:30-INFO-training batch loss: 0.0979; avg_loss: 0.1069
+20-03-19 21:30-INFO-training batch accuracy: 0.9375; avg_accuracy: 0.9573
+20-03-19 21:30-INFO-
+20-03-19 21:32-INFO-Epoch 5, Batch 1980, Global step 12400:
+20-03-19 21:32-INFO-training batch loss: 0.0873; avg_loss: 0.1064
+20-03-19 21:32-INFO-training batch accuracy: 0.9844; avg_accuracy: 0.9574
+20-03-19 21:32-INFO-
+20-03-19 21:35-INFO-Epoch 5, Batch 2080, Global step 12500:
+20-03-19 21:35-INFO-training batch loss: 0.1080; avg_loss: 0.1062
+20-03-19 21:35-INFO-training batch accuracy: 0.9688; avg_accuracy: 0.9576
+20-03-19 21:35-INFO-
+20-03-19 21:35-INFO-training batch accuracy: 0.9286; avg_accuracy: 0.9581
+20-03-19 21:35-INFO-
+20-03-19 21:37-INFO-Epoch 5, evaluating batch loss: 0.1573; avg_loss: 0.1910
+20-03-19 21:37-INFO-evaluating batch accuracy: 0.9615; avg_accuracy: 0.9332
+
+20-03-19 21:37-INFO-
+20-03-19 21:37-WARNING-From /root/anaconda3/lib/python3.7/site-packages/tensorflow/python/training/saver.py:960: remove_checkpoint (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to delete files with this prefix.
+20-03-19 21:39-INFO-Epoch 6, Batch 96, Global step 12600:
+20-03-19 21:39-INFO-training batch loss: 0.0901; avg_loss: 0.0997
+20-03-19 21:39-INFO-training batch accuracy: 0.9609; avg_accuracy: 0.9483
+20-03-19 21:39-INFO-
+20-03-19 21:41-INFO-Epoch 6, Batch 196, Global step 12700:
+20-03-19 21:41-INFO-training batch loss: 0.0806; avg_loss: 0.1014
+20-03-19 21:41-INFO-training batch accuracy: 0.9531; avg_accuracy: 0.9538
+20-03-19 21:41-INFO-
+20-03-19 21:43-INFO-Epoch 6, Batch 296, Global step 12800:
+20-03-19 21:43-INFO-training batch loss: 0.1050; avg_loss: 0.1004
+20-03-19 21:43-INFO-training batch accuracy: 0.9609; avg_accuracy: 0.9558
+20-03-19 21:43-INFO-
+20-03-19 21:46-INFO-Epoch 6, Batch 396, Global step 12900:
+20-03-19 21:46-INFO-training batch loss: 0.0910; avg_loss: 0.1018
+20-03-19 21:46-INFO-training batch accuracy: 0.9375; avg_accuracy: 0.9561
+20-03-19 21:46-INFO-
+20-03-19 21:48-INFO-Epoch 6, Batch 496, Global step 13000:
+20-03-19 21:48-INFO-training batch loss: 0.0718; avg_loss: 0.1012
+20-03-19 21:48-INFO-training batch accuracy: 0.9844; avg_accuracy: 0.9563
+20-03-19 21:48-INFO-
+20-03-19 21:50-INFO-Epoch 6, Batch 596, Global step 13100:
+20-03-19 21:50-INFO-training batch loss: 0.0580; avg_loss: 0.1010
+20-03-19 21:50-INFO-training batch accuracy: 0.9922; avg_accuracy: 0.9565
+20-03-19 21:50-INFO-
+20-03-19 21:52-INFO-Epoch 6, Batch 696, Global step 13200:
+20-03-19 21:52-INFO-training batch loss: 0.0405; avg_loss: 0.1012
+20-03-19 21:52-INFO-training batch accuracy: 0.9844; avg_accuracy: 0.9565
+20-03-19 21:52-INFO-
+20-03-19 21:55-INFO-Epoch 6, Batch 796, Global step 13300:
+20-03-19 21:55-INFO-training batch loss: 0.1259; avg_loss: 0.1008
+20-03-19 21:55-INFO-training batch accuracy: 0.9688; avg_accuracy: 0.9571
+20-03-19 21:55-INFO-
+20-03-19 21:57-INFO-Epoch 6, Batch 896, Global step 13400:
+20-03-19 21:57-INFO-training batch loss: 0.1036; avg_loss: 0.1013
+20-03-19 21:57-INFO-training batch accuracy: 0.9688; avg_accuracy: 0.9571
+20-03-19 21:57-INFO-
+20-03-19 21:59-INFO-Epoch 6, Batch 996, Global step 13500:
+20-03-19 21:59-INFO-training batch loss: 0.0796; avg_loss: 0.1017
+20-03-19 21:59-INFO-training batch accuracy: 0.9531; avg_accuracy: 0.9572
+20-03-19 21:59-INFO-
+20-03-19 22:01-INFO-Epoch 6, Batch 1096, Global step 13600:
+20-03-19 22:01-INFO-training batch loss: 0.0762; avg_loss: 0.1020
+20-03-19 22:01-INFO-training batch accuracy: 0.9766; avg_accuracy: 0.9574
+20-03-19 22:01-INFO-
+20-03-19 22:04-INFO-Epoch 6, Batch 1196, Global step 13700:
+20-03-19 22:04-INFO-training batch loss: 0.1415; avg_loss: 0.1018
+20-03-19 22:04-INFO-training batch accuracy: 0.9453; avg_accuracy: 0.9577
+20-03-19 22:04-INFO-
+20-03-19 22:06-INFO-Epoch 6, Batch 1296, Global step 13800:
+20-03-19 22:06-INFO-training batch loss: 0.1039; avg_loss: 0.1024
+20-03-19 22:06-INFO-training batch accuracy: 0.9609; avg_accuracy: 0.9576
+20-03-19 22:06-INFO-
+20-03-19 22:08-INFO-Epoch 6, Batch 1396, Global step 13900:
+20-03-19 22:08-INFO-training batch loss: 0.0905; avg_loss: 0.1021
+20-03-19 22:08-INFO-training batch accuracy: 0.9453; avg_accuracy: 0.9578
+20-03-19 22:08-INFO-
+20-03-19 22:11-INFO-Epoch 6, Batch 1496, Global step 14000:
+20-03-19 22:11-INFO-training batch loss: 0.1084; avg_loss: 0.1017
+20-03-19 22:11-INFO-training batch accuracy: 0.9531; avg_accuracy: 0.9580
+20-03-19 22:11-INFO-
+20-03-19 22:13-INFO-Epoch 6, Batch 1596, Global step 14100:
+20-03-19 22:13-INFO-training batch loss: 0.1051; avg_loss: 0.1015
+20-03-19 22:13-INFO-training batch accuracy: 0.9453; avg_accuracy: 0.9581
+20-03-19 22:13-INFO-
+20-03-19 22:15-INFO-Epoch 6, Batch 1696, Global step 14200:
+20-03-19 22:15-INFO-training batch loss: 0.1395; avg_loss: 0.1012
+20-03-19 22:15-INFO-training batch accuracy: 0.9531; avg_accuracy: 0.9580
+20-03-19 22:15-INFO-
+20-03-19 22:18-INFO-Epoch 6, Batch 1796, Global step 14300:
+20-03-19 22:18-INFO-training batch loss: 0.0970; avg_loss: 0.1010
+20-03-19 22:18-INFO-training batch accuracy: 0.9453; avg_accuracy: 0.9581
+20-03-19 22:18-INFO-
+20-03-19 22:20-INFO-Epoch 6, Batch 1896, Global step 14400:
+20-03-19 22:20-INFO-training batch loss: 0.0758; avg_loss: 0.1006
+20-03-19 22:20-INFO-training batch accuracy: 0.9688; avg_accuracy: 0.9582
+20-03-19 22:20-INFO-
+20-03-19 22:22-INFO-Epoch 6, Batch 1996, Global step 14500:
+20-03-19 22:22-INFO-training batch loss: 0.0798; avg_loss: 0.1001
+20-03-19 22:22-INFO-training batch accuracy: 0.9688; avg_accuracy: 0.9583
+20-03-19 22:22-INFO-
+20-03-19 22:24-INFO-training batch accuracy: 0.9286; avg_accuracy: 0.9589
+20-03-19 22:24-INFO-
+20-03-19 22:26-INFO-Epoch 6, evaluating batch loss: 0.1431; avg_loss: 0.1701
+20-03-19 22:26-INFO-evaluating batch accuracy: 0.9615; avg_accuracy: 0.9280
+
+20-03-19 22:26-INFO-
+20-03-19 22:27-INFO-Epoch 7, Batch 12, Global step 14600:
+20-03-19 22:27-INFO-training batch loss: 0.0925; avg_loss: 0.0831
+20-03-19 22:27-INFO-training batch accuracy: 0.9609; avg_accuracy: 0.8867
+20-03-19 22:27-INFO-
+20-03-19 22:29-INFO-Epoch 7, Batch 112, Global step 14700:
+20-03-19 22:29-INFO-training batch loss: 0.0961; avg_loss: 0.0945
+20-03-19 22:29-INFO-training batch accuracy: 0.9688; avg_accuracy: 0.9510
+20-03-19 22:29-INFO-
+20-03-19 22:31-INFO-Epoch 7, Batch 212, Global step 14800:
+20-03-19 22:31-INFO-training batch loss: 0.1427; avg_loss: 0.0977
+20-03-19 22:31-INFO-training batch accuracy: 0.9219; avg_accuracy: 0.9551
+20-03-19 22:31-INFO-
+20-03-19 22:34-INFO-Epoch 7, Batch 312, Global step 14900:
+20-03-19 22:34-INFO-training batch loss: 0.2508; avg_loss: 0.0962
+20-03-19 22:34-INFO-training batch accuracy: 0.9219; avg_accuracy: 0.9568
+20-03-19 22:34-INFO-
+20-03-19 22:36-INFO-Epoch 7, Batch 412, Global step 15000:
+20-03-19 22:36-INFO-training batch loss: 0.0551; avg_loss: 0.0969
+20-03-19 22:36-INFO-training batch accuracy: 0.9766; avg_accuracy: 0.9571
+20-03-19 22:36-INFO-
+20-03-19 22:38-INFO-Epoch 7, Batch 512, Global step 15100:
+20-03-19 22:38-INFO-training batch loss: 0.1179; avg_loss: 0.0966
+20-03-19 22:38-INFO-training batch accuracy: 0.9375; avg_accuracy: 0.9580
+20-03-19 22:38-INFO-
+20-03-19 22:40-INFO-Epoch 7, Batch 612, Global step 15200:
+20-03-19 22:40-INFO-training batch loss: 0.1015; avg_loss: 0.0970
+20-03-19 22:40-INFO-training batch accuracy: 0.9375; avg_accuracy: 0.9580
+20-03-19 22:40-INFO-
+20-03-19 22:43-INFO-Epoch 7, Batch 712, Global step 15300:
+20-03-19 22:43-INFO-training batch loss: 0.0942; avg_loss: 0.0971
+20-03-19 22:43-INFO-training batch accuracy: 0.9609; avg_accuracy: 0.9582
+20-03-19 22:43-INFO-
+20-03-19 22:45-INFO-Epoch 7, Batch 812, Global step 15400:
+20-03-19 22:45-INFO-training batch loss: 0.0805; avg_loss: 0.0967
+20-03-19 22:45-INFO-training batch accuracy: 0.9688; avg_accuracy: 0.9584
+20-03-19 22:45-INFO-
+20-03-19 22:47-INFO-Epoch 7, Batch 912, Global step 15500:
+20-03-19 22:47-INFO-training batch loss: 0.0974; avg_loss: 0.0975
+20-03-19 22:47-INFO-training batch accuracy: 0.9609; avg_accuracy: 0.9583
+20-03-19 22:47-INFO-
+20-03-19 22:50-INFO-Epoch 7, Batch 1012, Global step 15600:
+20-03-19 22:50-INFO-training batch loss: 0.1070; avg_loss: 0.0975
+20-03-19 22:50-INFO-training batch accuracy: 0.9297; avg_accuracy: 0.9585
+20-03-19 22:50-INFO-
+20-03-19 22:52-INFO-Epoch 7, Batch 1112, Global step 15700:
+20-03-19 22:52-INFO-training batch loss: 0.2073; avg_loss: 0.0974
+20-03-19 22:52-INFO-training batch accuracy: 0.9297; avg_accuracy: 0.9586
+20-03-19 22:52-INFO-
+20-03-19 22:54-INFO-Epoch 7, Batch 1212, Global step 15800:
+20-03-19 22:54-INFO-training batch loss: 0.0438; avg_loss: 0.0970
+20-03-19 22:54-INFO-training batch accuracy: 0.9766; avg_accuracy: 0.9589
+20-03-19 22:54-INFO-
+20-03-19 22:56-INFO-Epoch 7, Batch 1312, Global step 15900:
+20-03-19 22:56-INFO-training batch loss: 0.1381; avg_loss: 0.0972
+20-03-19 22:56-INFO-training batch accuracy: 0.9531; avg_accuracy: 0.9589
+20-03-19 22:56-INFO-
+20-03-19 22:59-INFO-Epoch 7, Batch 1412, Global step 16000:
+20-03-19 22:59-INFO-training batch loss: 0.0894; avg_loss: 0.0970
+20-03-19 22:59-INFO-training batch accuracy: 0.9531; avg_accuracy: 0.9590
+20-03-19 22:59-INFO-
+20-03-19 23:01-INFO-Epoch 7, Batch 1512, Global step 16100:
+20-03-19 23:01-INFO-training batch loss: 0.1571; avg_loss: 0.0969
+20-03-19 23:01-INFO-training batch accuracy: 0.9375; avg_accuracy: 0.9590
+20-03-19 23:01-INFO-
+20-03-19 23:03-INFO-Epoch 7, Batch 1612, Global step 16200:
+20-03-19 23:03-INFO-training batch loss: 0.1099; avg_loss: 0.0964
+20-03-19 23:03-INFO-training batch accuracy: 0.9375; avg_accuracy: 0.9592
+20-03-19 23:03-INFO-
+20-03-19 23:06-INFO-Epoch 7, Batch 1712, Global step 16300:
+20-03-19 23:06-INFO-training batch loss: 0.1147; avg_loss: 0.0963
+20-03-19 23:06-INFO-training batch accuracy: 0.9453; avg_accuracy: 0.9591
+20-03-19 23:06-INFO-
+20-03-19 23:08-INFO-Epoch 7, Batch 1812, Global step 16400:
+20-03-19 23:08-INFO-training batch loss: 0.0729; avg_loss: 0.0960
+20-03-19 23:08-INFO-training batch accuracy: 0.9766; avg_accuracy: 0.9591
+20-03-19 23:08-INFO-
+20-03-19 23:10-INFO-Epoch 7, Batch 1912, Global step 16500:
+20-03-19 23:10-INFO-training batch loss: 0.1071; avg_loss: 0.0957
+20-03-19 23:10-INFO-training batch accuracy: 0.9688; avg_accuracy: 0.9593
+20-03-19 23:10-INFO-
+20-03-19 23:12-INFO-Epoch 7, Batch 2012, Global step 16600:
+20-03-19 23:12-INFO-training batch loss: 0.1579; avg_loss: 0.0955
+20-03-19 23:12-INFO-training batch accuracy: 0.9375; avg_accuracy: 0.9594
+20-03-19 23:12-INFO-
+20-03-19 23:14-INFO-training batch accuracy: 0.9048; avg_accuracy: 0.9599
+20-03-19 23:14-INFO-
+20-03-19 23:16-INFO-Epoch 7, evaluating batch loss: 0.1286; avg_loss: 0.1600
+20-03-19 23:16-INFO-evaluating batch accuracy: 0.9615; avg_accuracy: 0.9335
+
+20-03-19 23:16-INFO-
+20-03-19 23:16-INFO-Epoch 8, Batch 28, Global step 16700:
+20-03-19 23:16-INFO-training batch loss: 0.1239; avg_loss: 0.0791
+20-03-19 23:16-INFO-training batch accuracy: 0.9453; avg_accuracy: 0.9294
+20-03-19 23:16-INFO-
+20-03-19 23:19-INFO-Epoch 8, Batch 128, Global step 16800:
+20-03-19 23:19-INFO-training batch loss: 0.1360; avg_loss: 0.0861
+20-03-19 23:19-INFO-training batch accuracy: 0.9609; avg_accuracy: 0.9553
+20-03-19 23:19-INFO-
+20-03-19 23:21-INFO-Epoch 8, Batch 228, Global step 16900:
+20-03-19 23:21-INFO-training batch loss: 0.0708; avg_loss: 0.0879
+20-03-19 23:21-INFO-training batch accuracy: 0.9688; avg_accuracy: 0.9579
+20-03-19 23:21-INFO-
+20-03-19 23:23-INFO-Epoch 8, Batch 328, Global step 17000:
+20-03-19 23:23-INFO-training batch loss: 0.0637; avg_loss: 0.0886
+20-03-19 23:23-INFO-training batch accuracy: 0.9766; avg_accuracy: 0.9586
+20-03-19 23:23-INFO-
+20-03-19 23:25-INFO-Epoch 8, Batch 428, Global step 17100:
+20-03-19 23:25-INFO-training batch loss: 0.0808; avg_loss: 0.0893
+20-03-19 23:25-INFO-training batch accuracy: 0.9609; avg_accuracy: 0.9592
+20-03-19 23:25-INFO-
+20-03-19 23:27-INFO-Epoch 8, Batch 528, Global step 17200:
+20-03-19 23:27-INFO-training batch loss: 0.0786; avg_loss: 0.0895
+20-03-19 23:27-INFO-training batch accuracy: 0.9766; avg_accuracy: 0.9597
+20-03-19 23:27-INFO-
+20-03-19 23:29-INFO-Epoch 8, Batch 628, Global step 17300:
+20-03-19 23:29-INFO-training batch loss: 0.0496; avg_loss: 0.0898
+20-03-19 23:29-INFO-training batch accuracy: 0.9844; avg_accuracy: 0.9598
+20-03-19 23:29-INFO-
+20-03-19 23:31-INFO-Epoch 8, Batch 728, Global step 17400:
+20-03-19 23:31-INFO-training batch loss: 0.0931; avg_loss: 0.0900
+20-03-19 23:31-INFO-training batch accuracy: 0.9609; avg_accuracy: 0.9600
+20-03-19 23:31-INFO-
+20-03-19 23:34-INFO-Epoch 8, Batch 828, Global step 17500:
+20-03-19 23:34-INFO-training batch loss: 0.0480; avg_loss: 0.0896
+20-03-19 23:34-INFO-training batch accuracy: 0.9609; avg_accuracy: 0.9602
+20-03-19 23:34-INFO-
+20-03-19 23:36-INFO-Epoch 8, Batch 928, Global step 17600:
+20-03-19 23:36-INFO-training batch loss: 0.1607; avg_loss: 0.0899
+20-03-19 23:36-INFO-training batch accuracy: 0.9453; avg_accuracy: 0.9604
+20-03-19 23:36-INFO-
+20-03-19 23:38-INFO-Epoch 8, Batch 1028, Global step 17700:
+20-03-19 23:38-INFO-training batch loss: 0.0804; avg_loss: 0.0897
+20-03-19 23:38-INFO-training batch accuracy: 0.9609; avg_accuracy: 0.9606
+20-03-19 23:38-INFO-
+20-03-19 23:40-INFO-Epoch 8, Batch 1128, Global step 17800:
+20-03-19 23:40-INFO-training batch loss: 0.0697; avg_loss: 0.0893
+20-03-19 23:40-INFO-training batch accuracy: 0.9609; avg_accuracy: 0.9608
+20-03-19 23:40-INFO-
+20-03-19 23:42-INFO-Epoch 8, Batch 1228, Global step 17900:
+20-03-19 23:42-INFO-training batch loss: 0.0957; avg_loss: 0.0891
+20-03-19 23:42-INFO-training batch accuracy: 0.9688; avg_accuracy: 0.9609
+20-03-19 23:42-INFO-
+20-03-19 23:44-INFO-Epoch 8, Batch 1328, Global step 18000:
+20-03-19 23:44-INFO-training batch loss: 0.0437; avg_loss: 0.0895
+20-03-19 23:44-INFO-training batch accuracy: 0.9844; avg_accuracy: 0.9609
+20-03-19 23:44-INFO-
+20-03-19 23:46-INFO-Epoch 8, Batch 1428, Global step 18100:
+20-03-19 23:46-INFO-training batch loss: 0.0565; avg_loss: 0.0892
+20-03-19 23:46-INFO-training batch accuracy: 0.9922; avg_accuracy: 0.9612
+20-03-19 23:46-INFO-
+20-03-19 23:49-INFO-Epoch 8, Batch 1528, Global step 18200:
+20-03-19 23:49-INFO-training batch loss: 0.1190; avg_loss: 0.0890
+20-03-19 23:49-INFO-training batch accuracy: 0.9453; avg_accuracy: 0.9614
+20-03-19 23:49-INFO-
+20-03-19 23:51-INFO-Epoch 8, Batch 1628, Global step 18300:
+20-03-19 23:51-INFO-training batch loss: 0.0957; avg_loss: 0.0883
+20-03-19 23:51-INFO-training batch accuracy: 0.9375; avg_accuracy: 0.9618
+20-03-19 23:51-INFO-
+20-03-19 23:53-INFO-Epoch 8, Batch 1728, Global step 18400:
+20-03-19 23:53-INFO-training batch loss: 0.1101; avg_loss: 0.0882
+20-03-19 23:53-INFO-training batch accuracy: 0.9688; avg_accuracy: 0.9618
+20-03-19 23:53-INFO-
+20-03-19 23:55-INFO-Epoch 8, Batch 1828, Global step 18500:
+20-03-19 23:55-INFO-training batch loss: 0.0864; avg_loss: 0.0877
+20-03-19 23:55-INFO-training batch accuracy: 0.9453; avg_accuracy: 0.9620
+20-03-19 23:55-INFO-
+20-03-19 23:57-INFO-Epoch 8, Batch 1928, Global step 18600:
+20-03-19 23:57-INFO-training batch loss: 0.1111; avg_loss: 0.0873
+20-03-19 23:57-INFO-training batch accuracy: 0.9375; avg_accuracy: 0.9623
+20-03-19 23:57-INFO-
+20-03-19 23:59-INFO-Epoch 8, Batch 2028, Global step 18700:
+20-03-19 23:59-INFO-training batch loss: 0.0842; avg_loss: 0.0865
+20-03-19 23:59-INFO-training batch accuracy: 0.9531; avg_accuracy: 0.9626
+20-03-19 23:59-INFO-
+20-03-20 00:01-INFO-training batch accuracy: 0.9048; avg_accuracy: 0.9630
+20-03-20 00:01-INFO-
+20-03-20 00:03-INFO-Epoch 8, evaluating batch loss: 0.1205; avg_loss: 0.1440
+20-03-20 00:03-INFO-evaluating batch accuracy: 0.9615; avg_accuracy: 0.9401
+
+20-03-20 00:03-INFO-
+20-03-20 00:04-INFO-Epoch 9, Batch 44, Global step 18800:
+20-03-20 00:04-INFO-training batch loss: 0.0726; avg_loss: 0.0712
+20-03-20 00:04-INFO-training batch accuracy: 0.9766; avg_accuracy: 0.9458
+20-03-20 00:04-INFO-
+20-03-20 00:06-INFO-Epoch 9, Batch 144, Global step 18900:
+20-03-20 00:06-INFO-training batch loss: 0.0723; avg_loss: 0.0800
+20-03-20 00:06-INFO-training batch accuracy: 0.9766; avg_accuracy: 0.9581
+20-03-20 00:06-INFO-
+20-03-20 00:08-INFO-Epoch 9, Batch 244, Global step 19000:
+20-03-20 00:08-INFO-training batch loss: 0.1300; avg_loss: 0.0799
+20-03-20 00:08-INFO-training batch accuracy: 0.9375; avg_accuracy: 0.9612
+20-03-20 00:08-INFO-
+20-03-20 00:10-INFO-Epoch 9, Batch 344, Global step 19100:
+20-03-20 00:10-INFO-training batch loss: 0.0943; avg_loss: 0.0798
+20-03-20 00:10-INFO-training batch accuracy: 0.9297; avg_accuracy: 0.9623
+20-03-20 00:10-INFO-
+20-03-20 00:12-INFO-Epoch 9, Batch 444, Global step 19200:
+20-03-20 00:12-INFO-training batch loss: 0.0682; avg_loss: 0.0799
+20-03-20 00:12-INFO-training batch accuracy: 0.9688; avg_accuracy: 0.9628
+20-03-20 00:12-INFO-
+20-03-20 00:14-INFO-Epoch 9, Batch 544, Global step 19300:
+20-03-20 00:14-INFO-training batch loss: 0.0837; avg_loss: 0.0800
+20-03-20 00:14-INFO-training batch accuracy: 0.9531; avg_accuracy: 0.9633
+20-03-20 00:14-INFO-
+20-03-20 00:17-INFO-Epoch 9, Batch 644, Global step 19400:
+20-03-20 00:17-INFO-training batch loss: 0.0449; avg_loss: 0.0815
+20-03-20 00:17-INFO-training batch accuracy: 1.0000; avg_accuracy: 0.9629
+20-03-20 00:17-INFO-
+20-03-20 00:19-INFO-Epoch 9, Batch 744, Global step 19500:
+20-03-20 00:19-INFO-training batch loss: 0.1128; avg_loss: 0.0802
+20-03-20 00:19-INFO-training batch accuracy: 0.9375; avg_accuracy: 0.9640
+20-03-20 00:19-INFO-
+20-03-20 00:21-INFO-Epoch 9, Batch 844, Global step 19600:
+20-03-20 00:21-INFO-training batch loss: 0.0934; avg_loss: 0.0797
+20-03-20 00:21-INFO-training batch accuracy: 0.9531; avg_accuracy: 0.9644
+20-03-20 00:21-INFO-
+20-03-20 00:23-INFO-Epoch 9, Batch 944, Global step 19700:
+20-03-20 00:23-INFO-training batch loss: 0.1650; avg_loss: 0.0803
+20-03-20 00:23-INFO-training batch accuracy: 0.9453; avg_accuracy: 0.9645
+20-03-20 00:23-INFO-
+20-03-20 00:25-INFO-Epoch 9, Batch 1044, Global step 19800:
+20-03-20 00:25-INFO-training batch loss: 0.1425; avg_loss: 0.0801
+20-03-20 00:25-INFO-training batch accuracy: 0.9688; avg_accuracy: 0.9646
+20-03-20 00:25-INFO-
+20-03-20 00:28-INFO-Epoch 9, Batch 1144, Global step 19900:
+20-03-20 00:28-INFO-training batch loss: 0.2390; avg_loss: 0.0798
+20-03-20 00:28-INFO-training batch accuracy: 0.9375; avg_accuracy: 0.9649
+20-03-20 00:28-INFO-
+20-03-20 00:30-INFO-Epoch 9, Batch 1244, Global step 20000:
+20-03-20 00:30-INFO-training batch loss: 0.0462; avg_loss: 0.0799
+20-03-20 00:30-INFO-training batch accuracy: 0.9844; avg_accuracy: 0.9651
+20-03-20 00:30-INFO-
+20-03-20 00:32-INFO-Epoch 9, Batch 1344, Global step 20100:
+20-03-20 00:32-INFO-training batch loss: 0.0446; avg_loss: 0.0799
+20-03-20 00:32-INFO-training batch accuracy: 0.9844; avg_accuracy: 0.9652
+20-03-20 00:32-INFO-
+20-03-20 00:34-INFO-Epoch 9, Batch 1444, Global step 20200:
+20-03-20 00:34-INFO-training batch loss: 0.1044; avg_loss: 0.0794
+20-03-20 00:34-INFO-training batch accuracy: 0.9531; avg_accuracy: 0.9655
+20-03-20 00:34-INFO-
+20-03-20 00:36-INFO-Epoch 9, Batch 1544, Global step 20300:
+20-03-20 00:36-INFO-training batch loss: 0.0305; avg_loss: 0.0791
+20-03-20 00:36-INFO-training batch accuracy: 0.9844; avg_accuracy: 0.9656
+20-03-20 00:36-INFO-
+20-03-20 00:38-INFO-Epoch 9, Batch 1644, Global step 20400:
+20-03-20 00:38-INFO-training batch loss: 0.0565; avg_loss: 0.0782
+20-03-20 00:38-INFO-training batch accuracy: 0.9922; avg_accuracy: 0.9659
+20-03-20 00:38-INFO-
+20-03-20 00:41-INFO-Epoch 9, Batch 1744, Global step 20500:
+20-03-20 00:41-INFO-training batch loss: 0.1064; avg_loss: 0.0781
+20-03-20 00:41-INFO-training batch accuracy: 0.9688; avg_accuracy: 0.9660
+20-03-20 00:41-INFO-
+20-03-20 00:43-INFO-Epoch 9, Batch 1844, Global step 20600:
+20-03-20 00:43-INFO-training batch loss: 0.0497; avg_loss: 0.0774
+20-03-20 00:43-INFO-training batch accuracy: 0.9766; avg_accuracy: 0.9662
+20-03-20 00:43-INFO-
+20-03-20 00:45-INFO-Epoch 9, Batch 1944, Global step 20700:
+20-03-20 00:45-INFO-training batch loss: 0.0385; avg_loss: 0.0767
+20-03-20 00:45-INFO-training batch accuracy: 0.9922; avg_accuracy: 0.9666
+20-03-20 00:45-INFO-
+20-03-20 00:47-INFO-Epoch 9, Batch 2044, Global step 20800:
+20-03-20 00:47-INFO-training batch loss: 0.0866; avg_loss: 0.0763
+20-03-20 00:47-INFO-training batch accuracy: 0.9531; avg_accuracy: 0.9669
+20-03-20 00:47-INFO-
+20-03-20 00:48-INFO-training batch accuracy: 0.9286; avg_accuracy: 0.9673
+20-03-20 00:48-INFO-
+20-03-20 00:50-INFO-Epoch 9, evaluating batch loss: 0.1275; avg_loss: 0.1583
+20-03-20 00:50-INFO-evaluating batch accuracy: 0.9615; avg_accuracy: 0.9394
+
+20-03-20 00:50-INFO-
+20-03-20 00:51-INFO-Epoch 10, Batch 60, Global step 20900:
+20-03-20 00:51-INFO-training batch loss: 0.1002; avg_loss: 0.0662
+20-03-20 00:51-INFO-training batch accuracy: 0.9531; avg_accuracy: 0.9572
+20-03-20 00:51-INFO-
+20-03-20 00:53-INFO-Epoch 10, Batch 160, Global step 21000:
+20-03-20 00:53-INFO-training batch loss: 0.0486; avg_loss: 0.0719
+20-03-20 00:53-INFO-training batch accuracy: 0.9844; avg_accuracy: 0.9638
+20-03-20 00:53-INFO-
+20-03-20 00:55-INFO-Epoch 10, Batch 260, Global step 21100:
+20-03-20 00:55-INFO-training batch loss: 0.0888; avg_loss: 0.0712
+20-03-20 00:55-INFO-training batch accuracy: 0.9531; avg_accuracy: 0.9666
+20-03-20 00:55-INFO-
+20-03-20 00:58-INFO-Epoch 10, Batch 360, Global step 21200:
+20-03-20 00:58-INFO-training batch loss: 0.1338; avg_loss: 0.0707
+20-03-20 00:58-INFO-training batch accuracy: 0.9453; avg_accuracy: 0.9675
+20-03-20 00:58-INFO-
+20-03-20 01:00-INFO-Epoch 10, Batch 460, Global step 21300:
+20-03-20 01:00-INFO-training batch loss: 0.0846; avg_loss: 0.0708
+20-03-20 01:00-INFO-training batch accuracy: 0.9609; avg_accuracy: 0.9679
+20-03-20 01:00-INFO-
+20-03-20 01:02-INFO-Epoch 10, Batch 560, Global step 21400:
+20-03-20 01:02-INFO-training batch loss: 0.0362; avg_loss: 0.0695
+20-03-20 01:02-INFO-training batch accuracy: 0.9922; avg_accuracy: 0.9687
+20-03-20 01:02-INFO-
+20-03-20 01:04-INFO-Epoch 10, Batch 660, Global step 21500:
+20-03-20 01:04-INFO-training batch loss: 0.0523; avg_loss: 0.0689
+20-03-20 01:04-INFO-training batch accuracy: 0.9766; avg_accuracy: 0.9691
+20-03-20 01:04-INFO-
+20-03-20 01:06-INFO-Epoch 10, Batch 760, Global step 21600:
+20-03-20 01:06-INFO-training batch loss: 0.0369; avg_loss: 0.0682
+20-03-20 01:06-INFO-training batch accuracy: 0.9766; avg_accuracy: 0.9696
+20-03-20 01:06-INFO-
+20-03-20 01:09-INFO-Epoch 10, Batch 860, Global step 21700:
+20-03-20 01:09-INFO-training batch loss: 0.0608; avg_loss: 0.0681
+20-03-20 01:09-INFO-training batch accuracy: 0.9766; avg_accuracy: 0.9697
+20-03-20 01:09-INFO-
+20-03-20 01:11-INFO-Epoch 10, Batch 960, Global step 21800:
+20-03-20 01:11-INFO-training batch loss: 0.0431; avg_loss: 0.0685
+20-03-20 01:11-INFO-training batch accuracy: 0.9766; avg_accuracy: 0.9696
+20-03-20 01:11-INFO-
+20-03-20 01:13-INFO-Epoch 10, Batch 1060, Global step 21900:
+20-03-20 01:13-INFO-training batch loss: 0.0862; avg_loss: 0.0686
+20-03-20 01:13-INFO-training batch accuracy: 0.9766; avg_accuracy: 0.9695
+20-03-20 01:13-INFO-
+20-03-20 01:15-INFO-Epoch 10, Batch 1160, Global step 22000:
+20-03-20 01:15-INFO-training batch loss: 0.0334; avg_loss: 0.0677
+20-03-20 01:15-INFO-training batch accuracy: 0.9922; avg_accuracy: 0.9700
+20-03-20 01:15-INFO-
+20-03-20 01:17-INFO-Epoch 10, Batch 1260, Global step 22100:
+20-03-20 01:17-INFO-training batch loss: 0.0444; avg_loss: 0.0679
+20-03-20 01:17-INFO-training batch accuracy: 0.9922; avg_accuracy: 0.9700
+20-03-20 01:17-INFO-
+20-03-20 01:20-INFO-Epoch 10, Batch 1360, Global step 22200:
+20-03-20 01:20-INFO-training batch loss: 0.0994; avg_loss: 0.0683
+20-03-20 01:20-INFO-training batch accuracy: 0.9531; avg_accuracy: 0.9700
+20-03-20 01:20-INFO-
+20-03-20 01:22-INFO-Epoch 10, Batch 1460, Global step 22300:
+20-03-20 01:22-INFO-training batch loss: 0.0168; avg_loss: 0.0682
+20-03-20 01:22-INFO-training batch accuracy: 1.0000; avg_accuracy: 0.9700
+20-03-20 01:22-INFO-
+20-03-20 01:24-INFO-Epoch 10, Batch 1560, Global step 22400:
+20-03-20 01:24-INFO-training batch loss: 0.0289; avg_loss: 0.0676
+20-03-20 01:24-INFO-training batch accuracy: 0.9922; avg_accuracy: 0.9703
+20-03-20 01:24-INFO-
+20-03-20 01:26-INFO-Epoch 10, Batch 1660, Global step 22500:
+20-03-20 01:26-INFO-training batch loss: 0.0250; avg_loss: 0.0674
+20-03-20 01:26-INFO-training batch accuracy: 0.9922; avg_accuracy: 0.9704
+20-03-20 01:26-INFO-
+20-03-20 01:28-INFO-Epoch 10, Batch 1760, Global step 22600:
+20-03-20 01:28-INFO-training batch loss: 0.0562; avg_loss: 0.0675
+20-03-20 01:28-INFO-training batch accuracy: 0.9609; avg_accuracy: 0.9703
+20-03-20 01:28-INFO-
+20-03-20 01:30-INFO-Epoch 10, Batch 1860, Global step 22700:
+20-03-20 01:30-INFO-training batch loss: 0.0536; avg_loss: 0.0671
+20-03-20 01:30-INFO-training batch accuracy: 0.9531; avg_accuracy: 0.9706
+20-03-20 01:30-INFO-
+20-03-20 01:33-INFO-Epoch 10, Batch 1960, Global step 22800:
+20-03-20 01:33-INFO-training batch loss: 0.0174; avg_loss: 0.0666
+20-03-20 01:33-INFO-training batch accuracy: 1.0000; avg_accuracy: 0.9709
+20-03-20 01:33-INFO-
+20-03-20 01:35-INFO-Epoch 10, Batch 2060, Global step 22900:
+20-03-20 01:35-INFO-training batch loss: 0.0336; avg_loss: 0.0666
+20-03-20 01:35-INFO-training batch accuracy: 0.9844; avg_accuracy: 0.9710
+20-03-20 01:35-INFO-
+20-03-20 01:35-INFO-training batch accuracy: 0.9048; avg_accuracy: 0.9713
+20-03-20 01:35-INFO-
+20-03-20 01:37-INFO-Epoch 10, evaluating batch loss: 0.0970; avg_loss: 0.1416
+20-03-20 01:37-INFO-evaluating batch accuracy: 0.9519; avg_accuracy: 0.9393
+
+20-03-20 01:37-INFO-
+20-03-20 01:39-INFO-Epoch 11, Batch 76, Global step 23000:
+20-03-20 01:39-INFO-training batch loss: 0.0365; avg_loss: 0.0573
+20-03-20 01:39-INFO-training batch accuracy: 0.9844; avg_accuracy: 0.9618
+20-03-20 01:39-INFO-
+20-03-20 01:41-INFO-Epoch 11, Batch 176, Global step 23100:
+20-03-20 01:41-INFO-training batch loss: 0.0512; avg_loss: 0.0626
+20-03-20 01:41-INFO-training batch accuracy: 0.9766; avg_accuracy: 0.9680
+20-03-20 01:41-INFO-
+20-03-20 01:43-INFO-Epoch 11, Batch 276, Global step 23200:
+20-03-20 01:43-INFO-training batch loss: 0.0618; avg_loss: 0.0613
+20-03-20 01:43-INFO-training batch accuracy: 0.9688; avg_accuracy: 0.9704
+20-03-20 01:43-INFO-
+20-03-20 01:45-INFO-Epoch 11, Batch 376, Global step 23300:
+20-03-20 01:45-INFO-training batch loss: 0.0379; avg_loss: 0.0625
+20-03-20 01:45-INFO-training batch accuracy: 0.9922; avg_accuracy: 0.9705
+20-03-20 01:45-INFO-
+20-03-20 01:47-INFO-Epoch 11, Batch 476, Global step 23400:
+20-03-20 01:47-INFO-training batch loss: 0.0935; avg_loss: 0.0620
+20-03-20 01:47-INFO-training batch accuracy: 0.9609; avg_accuracy: 0.9715
+20-03-20 01:47-INFO-
+20-03-20 01:50-INFO-Epoch 11, Batch 576, Global step 23500:
+20-03-20 01:50-INFO-training batch loss: 0.0923; avg_loss: 0.0631
+20-03-20 01:50-INFO-training batch accuracy: 0.9609; avg_accuracy: 0.9717
+20-03-20 01:50-INFO-
+20-03-20 01:52-INFO-Epoch 11, Batch 676, Global step 23600:
+20-03-20 01:52-INFO-training batch loss: 0.0331; avg_loss: 0.0626
+20-03-20 01:52-INFO-training batch accuracy: 0.9844; avg_accuracy: 0.9721
+20-03-20 01:52-INFO-
+20-03-20 01:54-INFO-Epoch 11, Batch 776, Global step 23700:
+20-03-20 01:54-INFO-training batch loss: 0.0246; avg_loss: 0.0618
+20-03-20 01:54-INFO-training batch accuracy: 0.9844; avg_accuracy: 0.9725
+20-03-20 01:54-INFO-
+20-03-20 01:56-INFO-Epoch 11, Batch 876, Global step 23800:
+20-03-20 01:56-INFO-training batch loss: 0.0672; avg_loss: 0.0617
+20-03-20 01:56-INFO-training batch accuracy: 0.9609; avg_accuracy: 0.9726
+20-03-20 01:56-INFO-
+20-03-20 01:58-INFO-Epoch 11, Batch 976, Global step 23900:
+20-03-20 01:58-INFO-training batch loss: 0.0932; avg_loss: 0.0618
+20-03-20 01:58-INFO-training batch accuracy: 0.9375; avg_accuracy: 0.9730
+20-03-20 01:58-INFO-
+20-03-20 02:00-INFO-Epoch 11, Batch 1076, Global step 24000:
+20-03-20 02:00-INFO-training batch loss: 0.0600; avg_loss: 0.0615
+20-03-20 02:00-INFO-training batch accuracy: 0.9688; avg_accuracy: 0.9732
+20-03-20 02:00-INFO-
+20-03-20 02:03-INFO-Epoch 11, Batch 1176, Global step 24100:
+20-03-20 02:03-INFO-training batch loss: 0.0435; avg_loss: 0.0608
+20-03-20 02:03-INFO-training batch accuracy: 0.9766; avg_accuracy: 0.9736
+20-03-20 02:03-INFO-
+20-03-20 02:05-INFO-Epoch 11, Batch 1276, Global step 24200:
+20-03-20 02:05-INFO-training batch loss: 0.1001; avg_loss: 0.0609
+20-03-20 02:05-INFO-training batch accuracy: 0.9766; avg_accuracy: 0.9737
+20-03-20 02:05-INFO-
+20-03-20 02:07-INFO-Epoch 11, Batch 1376, Global step 24300:
+20-03-20 02:07-INFO-training batch loss: 0.0462; avg_loss: 0.0609
+20-03-20 02:07-INFO-training batch accuracy: 0.9766; avg_accuracy: 0.9739
+20-03-20 02:07-INFO-
+20-03-20 02:09-INFO-Epoch 11, Batch 1476, Global step 24400:
+20-03-20 02:09-INFO-training batch loss: 0.0235; avg_loss: 0.0606
+20-03-20 02:09-INFO-training batch accuracy: 0.9922; avg_accuracy: 0.9740
+20-03-20 02:09-INFO-
+20-03-20 02:11-INFO-Epoch 11, Batch 1576, Global step 24500:
+20-03-20 02:11-INFO-training batch loss: 0.0453; avg_loss: 0.0602
+20-03-20 02:11-INFO-training batch accuracy: 0.9766; avg_accuracy: 0.9742
+20-03-20 02:11-INFO-
+20-03-20 02:14-INFO-Epoch 11, Batch 1676, Global step 24600:
+20-03-20 02:14-INFO-training batch loss: 0.0720; avg_loss: 0.0597
+20-03-20 02:14-INFO-training batch accuracy: 0.9766; avg_accuracy: 0.9744
+20-03-20 02:14-INFO-
+20-03-20 02:16-INFO-Epoch 11, Batch 1776, Global step 24700:
+20-03-20 02:16-INFO-training batch loss: 0.0482; avg_loss: 0.0594
+20-03-20 02:16-INFO-training batch accuracy: 0.9766; avg_accuracy: 0.9745
+20-03-20 02:16-INFO-
+20-03-20 02:18-INFO-Epoch 11, Batch 1876, Global step 24800:
+20-03-20 02:18-INFO-training batch loss: 0.0090; avg_loss: 0.0589
+20-03-20 02:18-INFO-training batch accuracy: 1.0000; avg_accuracy: 0.9748
+20-03-20 02:18-INFO-
+20-03-20 02:20-INFO-Epoch 11, Batch 1976, Global step 24900:
+20-03-20 02:20-INFO-training batch loss: 0.0291; avg_loss: 0.0586
+20-03-20 02:20-INFO-training batch accuracy: 1.0000; avg_accuracy: 0.9750
+20-03-20 02:20-INFO-
+20-03-20 02:23-INFO-Epoch 11, Batch 2076, Global step 25000:
+20-03-20 02:23-INFO-training batch loss: 0.1241; avg_loss: 0.0587
+20-03-20 02:23-INFO-training batch accuracy: 0.9453; avg_accuracy: 0.9751
+20-03-20 02:23-INFO-
+20-03-20 02:23-INFO-training batch accuracy: 0.9524; avg_accuracy: 0.9755
+20-03-20 02:23-INFO-
+20-03-20 02:25-INFO-Epoch 11, evaluating batch loss: 0.0853; avg_loss: 0.1063
+20-03-20 02:25-INFO-evaluating batch accuracy: 0.9712; avg_accuracy: 0.9535
+
+20-03-20 02:25-INFO-
+20-03-20 02:27-INFO-Epoch 12, Batch 92, Global step 25100:
+20-03-20 02:27-INFO-training batch loss: 0.0923; avg_loss: 0.0601
+20-03-20 02:27-INFO-training batch accuracy: 0.9453; avg_accuracy: 0.9653
+20-03-20 02:27-INFO-
+20-03-20 02:29-INFO-Epoch 12, Batch 192, Global step 25200:
+20-03-20 02:29-INFO-training batch loss: 0.0404; avg_loss: 0.0593
+20-03-20 02:29-INFO-training batch accuracy: 0.9766; avg_accuracy: 0.9710
+20-03-20 02:29-INFO-
+20-03-20 02:31-INFO-Epoch 12, Batch 292, Global step 25300:
+20-03-20 02:31-INFO-training batch loss: 0.0269; avg_loss: 0.0586
+20-03-20 02:31-INFO-training batch accuracy: 0.9922; avg_accuracy: 0.9730
+20-03-20 02:31-INFO-
+20-03-20 02:33-INFO-Epoch 12, Batch 392, Global step 25400:
+20-03-20 02:33-INFO-training batch loss: 0.0499; avg_loss: 0.0573
+20-03-20 02:33-INFO-training batch accuracy: 0.9609; avg_accuracy: 0.9742
+20-03-20 02:33-INFO-
+20-03-20 02:35-INFO-Epoch 12, Batch 492, Global step 25500:
+20-03-20 02:35-INFO-training batch loss: 0.0369; avg_loss: 0.0558
+20-03-20 02:35-INFO-training batch accuracy: 0.9766; avg_accuracy: 0.9755
+20-03-20 02:35-INFO-
+20-03-20 02:37-INFO-Epoch 12, Batch 592, Global step 25600:
+20-03-20 02:37-INFO-training batch loss: 0.0407; avg_loss: 0.0550
+20-03-20 02:37-INFO-training batch accuracy: 0.9766; avg_accuracy: 0.9763
+20-03-20 02:37-INFO-
+20-03-20 02:40-INFO-Epoch 12, Batch 692, Global step 25700:
+20-03-20 02:40-INFO-training batch loss: 0.0975; avg_loss: 0.0549
+20-03-20 02:40-INFO-training batch accuracy: 0.9453; avg_accuracy: 0.9765
+20-03-20 02:40-INFO-
+20-03-20 02:42-INFO-Epoch 12, Batch 792, Global step 25800:
+20-03-20 02:42-INFO-training batch loss: 0.0340; avg_loss: 0.0539
+20-03-20 02:42-INFO-training batch accuracy: 0.9922; avg_accuracy: 0.9767
+20-03-20 02:42-INFO-
+20-03-20 02:44-INFO-Epoch 12, Batch 892, Global step 25900:
+20-03-20 02:44-INFO-training batch loss: 0.0434; avg_loss: 0.0541
+20-03-20 02:44-INFO-training batch accuracy: 0.9844; avg_accuracy: 0.9767
+20-03-20 02:44-INFO-
+20-03-20 02:46-INFO-Epoch 12, Batch 992, Global step 26000:
+20-03-20 02:46-INFO-training batch loss: 0.0405; avg_loss: 0.0542
+20-03-20 02:46-INFO-training batch accuracy: 0.9844; avg_accuracy: 0.9769
+20-03-20 02:46-INFO-
+20-03-20 02:48-INFO-Epoch 12, Batch 1092, Global step 26100:
+20-03-20 02:48-INFO-training batch loss: 0.0991; avg_loss: 0.0542
+20-03-20 02:48-INFO-training batch accuracy: 0.9609; avg_accuracy: 0.9770
+20-03-20 02:48-INFO-
+20-03-20 02:50-INFO-Epoch 12, Batch 1192, Global step 26200:
+20-03-20 02:50-INFO-training batch loss: 0.0475; avg_loss: 0.0538
+20-03-20 02:50-INFO-training batch accuracy: 0.9609; avg_accuracy: 0.9772
+20-03-20 02:50-INFO-
+20-03-20 02:52-INFO-Epoch 12, Batch 1292, Global step 26300:
+20-03-20 02:52-INFO-training batch loss: 0.0434; avg_loss: 0.0535
+20-03-20 02:52-INFO-training batch accuracy: 0.9844; avg_accuracy: 0.9773
+20-03-20 02:52-INFO-
+20-03-20 02:55-INFO-Epoch 12, Batch 1392, Global step 26400:
+20-03-20 02:55-INFO-training batch loss: 0.0812; avg_loss: 0.0535
+20-03-20 02:55-INFO-training batch accuracy: 0.9688; avg_accuracy: 0.9774
+20-03-20 02:55-INFO-
+20-03-20 02:57-INFO-Epoch 12, Batch 1492, Global step 26500:
+20-03-20 02:57-INFO-training batch loss: 0.0441; avg_loss: 0.0531
+20-03-20 02:57-INFO-training batch accuracy: 0.9844; avg_accuracy: 0.9777
+20-03-20 02:57-INFO-
+20-03-20 02:59-INFO-Epoch 12, Batch 1592, Global step 26600:
+20-03-20 02:59-INFO-training batch loss: 0.0162; avg_loss: 0.0526
+20-03-20 02:59-INFO-training batch accuracy: 1.0000; avg_accuracy: 0.9779
+20-03-20 02:59-INFO-
+20-03-20 03:01-INFO-Epoch 12, Batch 1692, Global step 26700:
+20-03-20 03:01-INFO-training batch loss: 0.0961; avg_loss: 0.0524
+20-03-20 03:01-INFO-training batch accuracy: 0.9766; avg_accuracy: 0.9781
+20-03-20 03:01-INFO-
+20-03-20 03:03-INFO-Epoch 12, Batch 1792, Global step 26800:
+20-03-20 03:03-INFO-training batch loss: 0.0035; avg_loss: 0.0520
+20-03-20 03:03-INFO-training batch accuracy: 1.0000; avg_accuracy: 0.9782
+20-03-20 03:03-INFO-
+20-03-20 03:06-INFO-Epoch 12, Batch 1892, Global step 26900:
+20-03-20 03:06-INFO-training batch loss: 0.0311; avg_loss: 0.0515
+20-03-20 03:06-INFO-training batch accuracy: 0.9844; avg_accuracy: 0.9784
+20-03-20 03:06-INFO-
+20-03-20 03:08-INFO-Epoch 12, Batch 1992, Global step 27000:
+20-03-20 03:08-INFO-training batch loss: 0.0108; avg_loss: 0.0514
+20-03-20 03:08-INFO-training batch accuracy: 1.0000; avg_accuracy: 0.9786
+20-03-20 03:08-INFO-
+20-03-20 03:10-INFO-training batch accuracy: 0.9524; avg_accuracy: 0.9791
+20-03-20 03:10-INFO-
+20-03-20 03:12-INFO-Epoch 12, evaluating batch loss: 0.1031; avg_loss: 0.1026
+20-03-20 03:12-INFO-evaluating batch accuracy: 0.9615; avg_accuracy: 0.9582
+
+20-03-20 03:12-INFO-
+20-03-20 03:12-INFO-Epoch 13, Batch 8, Global step 27100:
+20-03-20 03:12-INFO-training batch loss: 0.0087; avg_loss: 0.0385
+20-03-20 03:12-INFO-training batch accuracy: 1.0000; avg_accuracy: 0.8584
+20-03-20 03:12-INFO-
+20-03-20 03:14-INFO-Epoch 13, Batch 108, Global step 27200:
+20-03-20 03:14-INFO-training batch loss: 0.0197; avg_loss: 0.0437
+20-03-20 03:14-INFO-training batch accuracy: 0.9922; avg_accuracy: 0.9722
+20-03-20 03:14-INFO-
+20-03-20 03:16-INFO-Epoch 13, Batch 208, Global step 27300:
+20-03-20 03:16-INFO-training batch loss: 0.1349; avg_loss: 0.0467
+20-03-20 03:16-INFO-training batch accuracy: 0.9609; avg_accuracy: 0.9761
+20-03-20 03:16-INFO-
+20-03-20 03:19-INFO-Epoch 13, Batch 308, Global step 27400:
+20-03-20 03:19-INFO-training batch loss: 0.0250; avg_loss: 0.0467
+20-03-20 03:19-INFO-training batch accuracy: 0.9922; avg_accuracy: 0.9774
+20-03-20 03:19-INFO-
+20-03-20 03:21-INFO-Epoch 13, Batch 408, Global step 27500:
+20-03-20 03:21-INFO-training batch loss: 0.0307; avg_loss: 0.0466
+20-03-20 03:21-INFO-training batch accuracy: 0.9844; avg_accuracy: 0.9784
+20-03-20 03:21-INFO-
+20-03-20 03:23-INFO-Epoch 13, Batch 508, Global step 27600:
+20-03-20 03:23-INFO-training batch loss: 0.2154; avg_loss: 0.0466
+20-03-20 03:23-INFO-training batch accuracy: 0.9453; avg_accuracy: 0.9793
+20-03-20 03:23-INFO-
+20-03-20 03:25-INFO-Epoch 13, Batch 608, Global step 27700:
+20-03-20 03:25-INFO-training batch loss: 0.0352; avg_loss: 0.0459
+20-03-20 03:25-INFO-training batch accuracy: 0.9844; avg_accuracy: 0.9798
+20-03-20 03:25-INFO-
+20-03-20 03:27-INFO-Epoch 13, Batch 708, Global step 27800:
+20-03-20 03:27-INFO-training batch loss: 0.0276; avg_loss: 0.0458
+20-03-20 03:27-INFO-training batch accuracy: 0.9922; avg_accuracy: 0.9800
+20-03-20 03:27-INFO-
+20-03-20 03:29-INFO-Epoch 13, Batch 808, Global step 27900:
+20-03-20 03:29-INFO-training batch loss: 0.0802; avg_loss: 0.0458
+20-03-20 03:29-INFO-training batch accuracy: 0.9766; avg_accuracy: 0.9802
+20-03-20 03:29-INFO-
+20-03-20 03:32-INFO-Epoch 13, Batch 908, Global step 28000:
+20-03-20 03:32-INFO-training batch loss: 0.0520; avg_loss: 0.0460
+20-03-20 03:32-INFO-training batch accuracy: 0.9688; avg_accuracy: 0.9802
+20-03-20 03:32-INFO-
+20-03-20 03:34-INFO-Epoch 13, Batch 1008, Global step 28100:
+20-03-20 03:34-INFO-training batch loss: 0.0191; avg_loss: 0.0463
+20-03-20 03:34-INFO-training batch accuracy: 0.9922; avg_accuracy: 0.9803
+20-03-20 03:34-INFO-
+20-03-20 03:36-INFO-Epoch 13, Batch 1108, Global step 28200:
+20-03-20 03:36-INFO-training batch loss: 0.0351; avg_loss: 0.0460
+20-03-20 03:36-INFO-training batch accuracy: 0.9766; avg_accuracy: 0.9806
+20-03-20 03:36-INFO-
+20-03-20 03:38-INFO-Epoch 13, Batch 1208, Global step 28300:
+20-03-20 03:38-INFO-training batch loss: 0.0342; avg_loss: 0.0457
+20-03-20 03:38-INFO-training batch accuracy: 0.9922; avg_accuracy: 0.9807
+20-03-20 03:38-INFO-
+20-03-20 03:40-INFO-Epoch 13, Batch 1308, Global step 28400:
+20-03-20 03:40-INFO-training batch loss: 0.0361; avg_loss: 0.0464
+20-03-20 03:40-INFO-training batch accuracy: 0.9766; avg_accuracy: 0.9806
+20-03-20 03:40-INFO-
+20-03-20 03:42-INFO-Epoch 13, Batch 1408, Global step 28500:
+20-03-20 03:42-INFO-training batch loss: 0.0221; avg_loss: 0.0463
+20-03-20 03:42-INFO-training batch accuracy: 1.0000; avg_accuracy: 0.9808
+20-03-20 03:42-INFO-
+20-03-20 03:45-INFO-Epoch 13, Batch 1508, Global step 28600:
+20-03-20 03:45-INFO-training batch loss: 0.0288; avg_loss: 0.0461
+20-03-20 03:45-INFO-training batch accuracy: 0.9844; avg_accuracy: 0.9809
+20-03-20 03:45-INFO-
+20-03-20 03:47-INFO-Epoch 13, Batch 1608, Global step 28700:
+20-03-20 03:47-INFO-training batch loss: 0.0138; avg_loss: 0.0459
+20-03-20 03:47-INFO-training batch accuracy: 0.9922; avg_accuracy: 0.9810
+20-03-20 03:47-INFO-
+20-03-20 03:49-INFO-Epoch 13, Batch 1708, Global step 28800:
+20-03-20 03:49-INFO-training batch loss: 0.0210; avg_loss: 0.0457
+20-03-20 03:49-INFO-training batch accuracy: 0.9844; avg_accuracy: 0.9812
+20-03-20 03:49-INFO-
+20-03-20 03:51-INFO-Epoch 13, Batch 1808, Global step 28900:
+20-03-20 03:51-INFO-training batch loss: 0.0409; avg_loss: 0.0453
+20-03-20 03:51-INFO-training batch accuracy: 0.9922; avg_accuracy: 0.9814
+20-03-20 03:51-INFO-
+20-03-20 03:53-INFO-Epoch 13, Batch 1908, Global step 29000:
+20-03-20 03:53-INFO-training batch loss: 0.0797; avg_loss: 0.0449
+20-03-20 03:53-INFO-training batch accuracy: 0.9609; avg_accuracy: 0.9816
+20-03-20 03:53-INFO-
+20-03-20 03:55-INFO-Epoch 13, Batch 2008, Global step 29100:
+20-03-20 03:55-INFO-training batch loss: 0.0754; avg_loss: 0.0448
+20-03-20 03:55-INFO-training batch accuracy: 0.9844; avg_accuracy: 0.9818
+20-03-20 03:55-INFO-
+20-03-20 03:57-INFO-training batch accuracy: 0.9762; avg_accuracy: 0.9822
+20-03-20 03:57-INFO-
+20-03-20 03:59-INFO-Epoch 13, evaluating batch loss: 0.0660; avg_loss: 0.0890
+20-03-20 03:59-INFO-evaluating batch accuracy: 0.9712; avg_accuracy: 0.9670
+
+20-03-20 03:59-INFO-
+20-03-20 04:00-INFO-Epoch 14, Batch 24, Global step 29200:
+20-03-20 04:00-INFO-training batch loss: 0.0182; avg_loss: 0.0356
+20-03-20 04:00-INFO-training batch accuracy: 0.9922; avg_accuracy: 0.9424
+20-03-20 04:00-INFO-
+20-03-20 04:02-INFO-Epoch 14, Batch 124, Global step 29300:
+20-03-20 04:02-INFO-training batch loss: 0.0199; avg_loss: 0.0379
+20-03-20 04:02-INFO-training batch accuracy: 0.9844; avg_accuracy: 0.9761
+20-03-20 04:02-INFO-
+20-03-20 04:04-INFO-Epoch 14, Batch 224, Global step 29400:
+20-03-20 04:04-INFO-training batch loss: 0.0188; avg_loss: 0.0436
+20-03-20 04:04-INFO-training batch accuracy: 1.0000; avg_accuracy: 0.9783
+20-03-20 04:04-INFO-
+20-03-20 04:06-INFO-Epoch 14, Batch 324, Global step 29500:
+20-03-20 04:06-INFO-training batch loss: 0.0622; avg_loss: 0.0444
+20-03-20 04:06-INFO-training batch accuracy: 0.9766; avg_accuracy: 0.9793
+20-03-20 04:06-INFO-
+20-03-20 04:08-INFO-Epoch 14, Batch 424, Global step 29600:
+20-03-20 04:08-INFO-training batch loss: 0.0277; avg_loss: 0.0436
+20-03-20 04:08-INFO-training batch accuracy: 0.9922; avg_accuracy: 0.9804
+20-03-20 04:08-INFO-
+20-03-20 04:10-INFO-Epoch 14, Batch 524, Global step 29700:
+20-03-20 04:10-INFO-training batch loss: 0.0496; avg_loss: 0.0428
+20-03-20 04:10-INFO-training batch accuracy: 0.9688; avg_accuracy: 0.9813
+20-03-20 04:10-INFO-
+20-03-20 04:13-INFO-Epoch 14, Batch 624, Global step 29800:
+20-03-20 04:13-INFO-training batch loss: 0.0395; avg_loss: 0.0426
+20-03-20 04:13-INFO-training batch accuracy: 0.9922; avg_accuracy: 0.9817
+20-03-20 04:13-INFO-
+20-03-20 04:15-INFO-Epoch 14, Batch 724, Global step 29900:
+20-03-20 04:15-INFO-training batch loss: 0.0529; avg_loss: 0.0429
+20-03-20 04:15-INFO-training batch accuracy: 0.9766; avg_accuracy: 0.9818
+20-03-20 04:15-INFO-
+20-03-20 04:17-INFO-Epoch 14, Batch 824, Global step 30000:
+20-03-20 04:17-INFO-training batch loss: 0.0620; avg_loss: 0.0431
+20-03-20 04:17-INFO-training batch accuracy: 0.9609; avg_accuracy: 0.9817
+20-03-20 04:17-INFO-
+20-03-20 04:19-INFO-Epoch 14, Batch 924, Global step 30100:
+20-03-20 04:19-INFO-training batch loss: 0.0111; avg_loss: 0.0429
+20-03-20 04:19-INFO-training batch accuracy: 1.0000; avg_accuracy: 0.9818
+20-03-20 04:19-INFO-
+20-03-20 04:21-INFO-Epoch 14, Batch 1024, Global step 30200:
+20-03-20 04:21-INFO-training batch loss: 0.0689; avg_loss: 0.0431
+20-03-20 04:21-INFO-training batch accuracy: 0.9688; avg_accuracy: 0.9819
+20-03-20 04:21-INFO-
+20-03-20 04:24-INFO-Epoch 14, Batch 1124, Global step 30300:
+20-03-20 04:24-INFO-training batch loss: 0.0178; avg_loss: 0.0431
+20-03-20 04:24-INFO-training batch accuracy: 0.9922; avg_accuracy: 0.9820
+20-03-20 04:24-INFO-
+20-03-20 04:26-INFO-Epoch 14, Batch 1224, Global step 30400:
+20-03-20 04:26-INFO-training batch loss: 0.0268; avg_loss: 0.0429
+20-03-20 04:26-INFO-training batch accuracy: 0.9922; avg_accuracy: 0.9821
+20-03-20 04:26-INFO-
+20-03-20 04:28-INFO-Epoch 14, Batch 1324, Global step 30500:
+20-03-20 04:28-INFO-training batch loss: 0.0189; avg_loss: 0.0433
+20-03-20 04:28-INFO-training batch accuracy: 0.9922; avg_accuracy: 0.9821
+20-03-20 04:28-INFO-
+20-03-20 04:30-INFO-Epoch 14, Batch 1424, Global step 30600:
+20-03-20 04:30-INFO-training batch loss: 0.0523; avg_loss: 0.0433
+20-03-20 04:30-INFO-training batch accuracy: 0.9688; avg_accuracy: 0.9822
+20-03-20 04:30-INFO-
+20-03-20 04:32-INFO-Epoch 14, Batch 1524, Global step 30700:
+20-03-20 04:32-INFO-training batch loss: 0.0324; avg_loss: 0.0431
+20-03-20 04:32-INFO-training batch accuracy: 0.9922; avg_accuracy: 0.9824
+20-03-20 04:32-INFO-
+20-03-20 04:35-INFO-Epoch 14, Batch 1624, Global step 30800:
+20-03-20 04:35-INFO-training batch loss: 0.0156; avg_loss: 0.0428
+20-03-20 04:35-INFO-training batch accuracy: 1.0000; avg_accuracy: 0.9826
+20-03-20 04:35-INFO-
+20-03-20 04:37-INFO-Epoch 14, Batch 1724, Global step 30900:
+20-03-20 04:37-INFO-training batch loss: 0.0363; avg_loss: 0.0428
+20-03-20 04:37-INFO-training batch accuracy: 0.9688; avg_accuracy: 0.9827
+20-03-20 04:37-INFO-
+20-03-20 04:39-INFO-Epoch 14, Batch 1824, Global step 31000:
+20-03-20 04:39-INFO-training batch loss: 0.0087; avg_loss: 0.0424
+20-03-20 04:39-INFO-training batch accuracy: 1.0000; avg_accuracy: 0.9828
+20-03-20 04:39-INFO-
+20-03-20 04:41-INFO-Epoch 14, Batch 1924, Global step 31100:
+20-03-20 04:41-INFO-training batch loss: 0.0193; avg_loss: 0.0422
+20-03-20 04:41-INFO-training batch accuracy: 0.9922; avg_accuracy: 0.9830
+20-03-20 04:41-INFO-
+20-03-20 04:43-INFO-Epoch 14, Batch 2024, Global step 31200:
+20-03-20 04:43-INFO-training batch loss: 0.0313; avg_loss: 0.0419
+20-03-20 04:43-INFO-training batch accuracy: 0.9922; avg_accuracy: 0.9832
+20-03-20 04:43-INFO-
+20-03-20 04:44-INFO-training batch accuracy: 0.9524; avg_accuracy: 0.9836
+20-03-20 04:44-INFO-
+20-03-20 04:47-INFO-Epoch 14, evaluating batch loss: 0.0593; avg_loss: 0.0880
+20-03-20 04:47-INFO-evaluating batch accuracy: 0.9712; avg_accuracy: 0.9654
+
+20-03-20 04:47-INFO-

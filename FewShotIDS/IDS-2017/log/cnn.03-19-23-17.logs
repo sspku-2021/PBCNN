@@ -1,0 +1,795 @@
+20-03-19 23:17-INFO-{'session_length': 24, 'height': 32, 'width': 32, 'learning_rate': 5e-05, 'num_output': 128, 'num_labels': 13, 'is_train': True, 'early_stop': False, 'is_pretrain': False, 'is_time': False, 'is_size': False, 'uncertainty': False}
+20-03-19 23:17-WARNING-From ../utils.py:123: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+20-03-19 23:17-WARNING-From ../model/train.py:79: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+20-03-19 23:17-WARNING-From ../model/base_model.py:46: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+20-03-19 23:17-WARNING-From ../model/cnn_model.py:41: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+20-03-19 23:17-WARNING-From ../model/cnn_model.py:41: The name tf.AUTO_REUSE is deprecated. Please use tf.compat.v1.AUTO_REUSE instead.
+
+20-03-19 23:17-WARNING-Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f05c3b6b690>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f05c3b6b690>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-19 23:17-WARNING-From ../model/utils/modules.py:115: batch_normalization (from tensorflow.python.layers.normalization) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.BatchNormalization instead.  In particular, `tf.control_dependencies(tf.GraphKeys.UPDATE_OPS)` should not be used (consult the `tf.keras.layers.batch_normalization` documentation).
+20-03-19 23:17-WARNING-Entity <bound method BatchNormalization.call of <tensorflow.python.layers.normalization.BatchNormalization object at 0x7f05d01f7090>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method BatchNormalization.call of <tensorflow.python.layers.normalization.BatchNormalization object at 0x7f05d01f7090>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-19 23:17-WARNING-Entity <bound method Pooling2D.call of <tensorflow.python.layers.pooling.MaxPooling2D object at 0x7f05c3b6bad0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Pooling2D.call of <tensorflow.python.layers.pooling.MaxPooling2D object at 0x7f05c3b6bad0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-19 23:17-WARNING-Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f05c2f15c90>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f05c2f15c90>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-19 23:17-WARNING-Entity <bound method BatchNormalization.call of <tensorflow.python.layers.normalization.BatchNormalization object at 0x7f05c3b7ca90>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method BatchNormalization.call of <tensorflow.python.layers.normalization.BatchNormalization object at 0x7f05c3b7ca90>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-19 23:17-WARNING-Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f05d01f4ed0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f05d01f4ed0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-19 23:17-WARNING-Entity <bound method BatchNormalization.call of <tensorflow.python.layers.normalization.BatchNormalization object at 0x7f05d01f4ed0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method BatchNormalization.call of <tensorflow.python.layers.normalization.BatchNormalization object at 0x7f05d01f4ed0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-19 23:17-WARNING-Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f05c2f15f10>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f05c2f15f10>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-19 23:17-WARNING-Entity <bound method BatchNormalization.call of <tensorflow.python.layers.normalization.BatchNormalization object at 0x7f05d01f4ed0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method BatchNormalization.call of <tensorflow.python.layers.normalization.BatchNormalization object at 0x7f05d01f4ed0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-19 23:17-WARNING-Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f05c2e97350>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f05c2e97350>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-19 23:17-WARNING-Entity <bound method BatchNormalization.call of <tensorflow.python.layers.normalization.BatchNormalization object at 0x7f05c2f50090>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method BatchNormalization.call of <tensorflow.python.layers.normalization.BatchNormalization object at 0x7f05c2f50090>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-19 23:17-WARNING-Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f05c2f07a90>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f05c2f07a90>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-19 23:17-WARNING-Entity <bound method BatchNormalization.call of <tensorflow.python.layers.normalization.BatchNormalization object at 0x7f05c2f7c1d0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method BatchNormalization.call of <tensorflow.python.layers.normalization.BatchNormalization object at 0x7f05c2f7c1d0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-19 23:17-WARNING-Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f05c3b35210>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f05c3b35210>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-19 23:17-WARNING-Entity <bound method BatchNormalization.call of <tensorflow.python.layers.normalization.BatchNormalization object at 0x7f05c2f50090>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method BatchNormalization.call of <tensorflow.python.layers.normalization.BatchNormalization object at 0x7f05c2f50090>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-19 23:17-WARNING-Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f05c2ddf710>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f05c2ddf710>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-19 23:17-WARNING-Entity <bound method BatchNormalization.call of <tensorflow.python.layers.normalization.BatchNormalization object at 0x7f05c2f7c1d0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method BatchNormalization.call of <tensorflow.python.layers.normalization.BatchNormalization object at 0x7f05c2f7c1d0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-19 23:17-WARNING-Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f05c2f72790>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f05c2f72790>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-19 23:17-WARNING-Entity <bound method BatchNormalization.call of <tensorflow.python.layers.normalization.BatchNormalization object at 0x7f05c2edbf90>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method BatchNormalization.call of <tensorflow.python.layers.normalization.BatchNormalization object at 0x7f05c2edbf90>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-19 23:17-WARNING-Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f05c2d33bd0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f05c2d33bd0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-19 23:17-WARNING-Entity <bound method BatchNormalization.call of <tensorflow.python.layers.normalization.BatchNormalization object at 0x7f05c2d50f90>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method BatchNormalization.call of <tensorflow.python.layers.normalization.BatchNormalization object at 0x7f05c2d50f90>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-19 23:17-WARNING-Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f05c2f50390>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f05c2f50390>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-19 23:17-WARNING-Entity <bound method BatchNormalization.call of <tensorflow.python.layers.normalization.BatchNormalization object at 0x7f05c2da4110>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method BatchNormalization.call of <tensorflow.python.layers.normalization.BatchNormalization object at 0x7f05c2da4110>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-19 23:17-WARNING-Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f05c2f50a90>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f05c2f50a90>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-19 23:17-WARNING-Entity <bound method BatchNormalization.call of <tensorflow.python.layers.normalization.BatchNormalization object at 0x7f05c2f0d510>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method BatchNormalization.call of <tensorflow.python.layers.normalization.BatchNormalization object at 0x7f05c2f0d510>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-19 23:17-WARNING-Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f05c2d50e90>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f05c2d50e90>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-19 23:17-WARNING-Entity <bound method BatchNormalization.call of <tensorflow.python.layers.normalization.BatchNormalization object at 0x7f05c2f0d510>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method BatchNormalization.call of <tensorflow.python.layers.normalization.BatchNormalization object at 0x7f05c2f0d510>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-19 23:17-WARNING-Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f05c2ca1f10>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f05c2ca1f10>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-19 23:17-WARNING-Entity <bound method BatchNormalization.call of <tensorflow.python.layers.normalization.BatchNormalization object at 0x7f05c2be8950>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method BatchNormalization.call of <tensorflow.python.layers.normalization.BatchNormalization object at 0x7f05c2be8950>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-19 23:17-WARNING-Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f05c2b5a7d0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f05c2b5a7d0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-19 23:17-WARNING-Entity <bound method BatchNormalization.call of <tensorflow.python.layers.normalization.BatchNormalization object at 0x7f05c2f17b90>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method BatchNormalization.call of <tensorflow.python.layers.normalization.BatchNormalization object at 0x7f05c2f17b90>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-19 23:17-WARNING-Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f05c2b316d0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f05c2b316d0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-19 23:17-WARNING-Entity <bound method BatchNormalization.call of <tensorflow.python.layers.normalization.BatchNormalization object at 0x7f05c2f17b90>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method BatchNormalization.call of <tensorflow.python.layers.normalization.BatchNormalization object at 0x7f05c2f17b90>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-19 23:17-WARNING-Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f05c2b41b10>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f05c2b41b10>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-19 23:17-WARNING-Entity <bound method BatchNormalization.call of <tensorflow.python.layers.normalization.BatchNormalization object at 0x7f05c2ca1f10>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method BatchNormalization.call of <tensorflow.python.layers.normalization.BatchNormalization object at 0x7f05c2ca1f10>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-19 23:17-WARNING-Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f05c29bf8d0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f05c29bf8d0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-19 23:17-WARNING-Entity <bound method BatchNormalization.call of <tensorflow.python.layers.normalization.BatchNormalization object at 0x7f05c2d1a150>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method BatchNormalization.call of <tensorflow.python.layers.normalization.BatchNormalization object at 0x7f05c2d1a150>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-19 23:17-WARNING-Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f05c2aa0710>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f05c2aa0710>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-19 23:17-WARNING-Entity <bound method BatchNormalization.call of <tensorflow.python.layers.normalization.BatchNormalization object at 0x7f05c2d1a150>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method BatchNormalization.call of <tensorflow.python.layers.normalization.BatchNormalization object at 0x7f05c2d1a150>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-19 23:17-WARNING-Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f05c2ab0d90>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f05c2ab0d90>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-19 23:17-WARNING-Entity <bound method BatchNormalization.call of <tensorflow.python.layers.normalization.BatchNormalization object at 0x7f05c29d3a90>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method BatchNormalization.call of <tensorflow.python.layers.normalization.BatchNormalization object at 0x7f05c29d3a90>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-19 23:17-WARNING-Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f05c28d8b50>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f05c28d8b50>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-19 23:17-WARNING-Entity <bound method BatchNormalization.call of <tensorflow.python.layers.normalization.BatchNormalization object at 0x7f05c2a13e90>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method BatchNormalization.call of <tensorflow.python.layers.normalization.BatchNormalization object at 0x7f05c2a13e90>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-19 23:17-WARNING-Entity <bound method Pooling2D.call of <tensorflow.python.layers.pooling.AveragePooling2D object at 0x7f05c3b6bdd0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Pooling2D.call of <tensorflow.python.layers.pooling.AveragePooling2D object at 0x7f05c3b6bdd0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-19 23:17-WARNING-Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f05c3b6b750>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f05c3b6b750>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-19 23:17-WARNING-From ../model/utils/modules.py:151: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.flatten instead.
+20-03-19 23:17-WARNING-Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f05c28d8b50>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f05c28d8b50>>: AttributeError: module 'gast' has no attribute 'Num'
+20-03-19 23:17-WARNING-From ../model/utils/modules.py:242: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.dense instead.
+20-03-19 23:17-WARNING-Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f05c29bf4d0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f05c29bf4d0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-19 23:17-WARNING-Entity <bound method BatchNormalization.call of <tensorflow.python.layers.normalization.BatchNormalization object at 0x7f05c28cbd50>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method BatchNormalization.call of <tensorflow.python.layers.normalization.BatchNormalization object at 0x7f05c28cbd50>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-19 23:17-WARNING-From ../model/utils/modules.py:247: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+20-03-19 23:17-WARNING-Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f05c2ca1850>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f05c2ca1850>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-19 23:17-WARNING-Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f05c2ca1ad0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f05c2ca1ad0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-19 23:17-WARNING-From ../model/base_model.py:132: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+20-03-19 23:17-WARNING-From /root/anaconda3/lib/python3.7/site-packages/tensorflow/python/ops/clip_ops.py:286: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+20-03-19 23:17-WARNING-From ../model/train.py:90: The name tf.train.Saver is deprecated. Please use tf.compat.v1.train.Saver instead.
+
+20-03-19 23:19-INFO-Epoch 0, Batch 100, Global step 100:
+20-03-19 23:19-INFO-training batch loss: 0.2689; avg_loss: 0.4271
+20-03-19 23:19-INFO-training batch accuracy: 0.9062; avg_accuracy: 0.8623
+20-03-19 23:19-INFO-
+20-03-19 23:21-INFO-Epoch 0, Batch 200, Global step 200:
+20-03-19 23:21-INFO-training batch loss: 0.2238; avg_loss: 0.3270
+20-03-19 23:21-INFO-training batch accuracy: 0.9453; avg_accuracy: 0.8975
+20-03-19 23:21-INFO-
+20-03-19 23:23-INFO-Epoch 0, Batch 300, Global step 300:
+20-03-19 23:23-INFO-training batch loss: 0.1205; avg_loss: 0.2815
+20-03-19 23:23-INFO-training batch accuracy: 0.9609; avg_accuracy: 0.9121
+20-03-19 23:23-INFO-
+20-03-19 23:25-INFO-Epoch 0, Batch 400, Global step 400:
+20-03-19 23:25-INFO-training batch loss: 0.1260; avg_loss: 0.2540
+20-03-19 23:25-INFO-training batch accuracy: 0.9609; avg_accuracy: 0.9210
+20-03-19 23:25-INFO-
+20-03-19 23:27-INFO-Epoch 0, Batch 500, Global step 500:
+20-03-19 23:27-INFO-training batch loss: 0.0954; avg_loss: 0.2369
+20-03-19 23:27-INFO-training batch accuracy: 0.9688; avg_accuracy: 0.9258
+20-03-19 23:27-INFO-
+20-03-19 23:29-INFO-Epoch 0, Batch 600, Global step 600:
+20-03-19 23:29-INFO-training batch loss: 0.1573; avg_loss: 0.2240
+20-03-19 23:29-INFO-training batch accuracy: 0.9453; avg_accuracy: 0.9291
+20-03-19 23:29-INFO-
+20-03-19 23:31-INFO-Epoch 0, Batch 700, Global step 700:
+20-03-19 23:31-INFO-training batch loss: 0.1394; avg_loss: 0.2137
+20-03-19 23:31-INFO-training batch accuracy: 0.9453; avg_accuracy: 0.9317
+20-03-19 23:31-INFO-
+20-03-19 23:33-INFO-Epoch 0, Batch 800, Global step 800:
+20-03-19 23:33-INFO-training batch loss: 0.2198; avg_loss: 0.2052
+20-03-19 23:33-INFO-training batch accuracy: 0.9453; avg_accuracy: 0.9339
+20-03-19 23:33-INFO-
+20-03-19 23:35-INFO-Epoch 0, Batch 900, Global step 900:
+20-03-19 23:35-INFO-training batch loss: 0.2290; avg_loss: 0.1989
+20-03-19 23:35-INFO-training batch accuracy: 0.9297; avg_accuracy: 0.9353
+20-03-19 23:35-INFO-
+20-03-19 23:37-INFO-Epoch 0, Batch 1000, Global step 1000:
+20-03-19 23:37-INFO-training batch loss: 0.0693; avg_loss: 0.1931
+20-03-19 23:37-INFO-training batch accuracy: 0.9766; avg_accuracy: 0.9367
+20-03-19 23:37-INFO-
+20-03-19 23:39-INFO-Epoch 0, Batch 1100, Global step 1100:
+20-03-19 23:39-INFO-training batch loss: 0.1767; avg_loss: 0.1878
+20-03-19 23:39-INFO-training batch accuracy: 0.9453; avg_accuracy: 0.9382
+20-03-19 23:39-INFO-
+20-03-19 23:41-INFO-Epoch 0, Batch 1200, Global step 1200:
+20-03-19 23:41-INFO-training batch loss: 0.1547; avg_loss: 0.1825
+20-03-19 23:41-INFO-training batch accuracy: 0.9375; avg_accuracy: 0.9397
+20-03-19 23:41-INFO-
+20-03-19 23:43-INFO-Epoch 0, Batch 1300, Global step 1300:
+20-03-19 23:43-INFO-training batch loss: 0.1772; avg_loss: 0.1784
+20-03-19 23:43-INFO-training batch accuracy: 0.9453; avg_accuracy: 0.9404
+20-03-19 23:43-INFO-
+20-03-19 23:45-INFO-Epoch 0, Batch 1400, Global step 1400:
+20-03-19 23:45-INFO-training batch loss: 0.1340; avg_loss: 0.1746
+20-03-19 23:45-INFO-training batch accuracy: 0.9531; avg_accuracy: 0.9413
+20-03-19 23:45-INFO-
+20-03-19 23:47-INFO-Epoch 0, Batch 1500, Global step 1500:
+20-03-19 23:47-INFO-training batch loss: 0.0977; avg_loss: 0.1713
+20-03-19 23:47-INFO-training batch accuracy: 0.9531; avg_accuracy: 0.9421
+20-03-19 23:47-INFO-
+20-03-19 23:49-INFO-Epoch 0, Batch 1600, Global step 1600:
+20-03-19 23:49-INFO-training batch loss: 0.1398; avg_loss: 0.1680
+20-03-19 23:49-INFO-training batch accuracy: 0.9219; avg_accuracy: 0.9426
+20-03-19 23:49-INFO-
+20-03-19 23:51-INFO-Epoch 0, Batch 1700, Global step 1700:
+20-03-19 23:51-INFO-training batch loss: 0.0614; avg_loss: 0.1652
+20-03-19 23:51-INFO-training batch accuracy: 0.9766; avg_accuracy: 0.9431
+20-03-19 23:51-INFO-
+20-03-19 23:53-INFO-Epoch 0, Batch 1800, Global step 1800:
+20-03-19 23:53-INFO-training batch loss: 0.1208; avg_loss: 0.1625
+20-03-19 23:53-INFO-training batch accuracy: 0.9531; avg_accuracy: 0.9438
+20-03-19 23:53-INFO-
+20-03-19 23:55-INFO-Epoch 0, Batch 1900, Global step 1900:
+20-03-19 23:55-INFO-training batch loss: 0.0785; avg_loss: 0.1604
+20-03-19 23:55-INFO-training batch accuracy: 0.9766; avg_accuracy: 0.9442
+20-03-19 23:55-INFO-
+20-03-19 23:57-INFO-Epoch 0, Batch 2000, Global step 2000:
+20-03-19 23:57-INFO-training batch loss: 0.1947; avg_loss: 0.1579
+20-03-19 23:57-INFO-training batch accuracy: 0.9141; avg_accuracy: 0.9447
+20-03-19 23:57-INFO-
+20-03-19 23:58-INFO-training batch accuracy: 0.9048; avg_accuracy: 0.9456
+20-03-19 23:58-INFO-
+20-03-20 00:00-INFO-Epoch 0, evaluating batch loss: 0.1123; avg_loss: 0.1711
+20-03-20 00:00-INFO-evaluating batch accuracy: 0.9615; avg_accuracy: 0.9254
+
+20-03-20 00:00-INFO-
+20-03-20 00:01-INFO-Epoch 1, Batch 16, Global step 2100:
+20-03-20 00:01-INFO-training batch loss: 0.1116; avg_loss: 0.1014
+20-03-20 00:01-INFO-training batch accuracy: 0.9453; avg_accuracy: 0.9014
+20-03-20 00:01-INFO-
+20-03-20 00:03-INFO-Epoch 1, Batch 116, Global step 2200:
+20-03-20 00:03-INFO-training batch loss: 0.0829; avg_loss: 0.1071
+20-03-20 00:03-INFO-training batch accuracy: 0.9609; avg_accuracy: 0.9479
+20-03-20 00:03-INFO-
+20-03-20 00:05-INFO-Epoch 1, Batch 216, Global step 2300:
+20-03-20 00:05-INFO-training batch loss: 0.0715; avg_loss: 0.1105
+20-03-20 00:05-INFO-training batch accuracy: 0.9766; avg_accuracy: 0.9506
+20-03-20 00:05-INFO-
+20-03-20 00:07-INFO-Epoch 1, Batch 316, Global step 2400:
+20-03-20 00:07-INFO-training batch loss: 0.1545; avg_loss: 0.1092
+20-03-20 00:07-INFO-training batch accuracy: 0.9531; avg_accuracy: 0.9519
+20-03-20 00:07-INFO-
+20-03-20 00:09-INFO-Epoch 1, Batch 416, Global step 2500:
+20-03-20 00:09-INFO-training batch loss: 0.1231; avg_loss: 0.1071
+20-03-20 00:09-INFO-training batch accuracy: 0.9375; avg_accuracy: 0.9527
+20-03-20 00:09-INFO-
+20-03-20 00:11-INFO-Epoch 1, Batch 516, Global step 2600:
+20-03-20 00:11-INFO-training batch loss: 0.0801; avg_loss: 0.1077
+20-03-20 00:11-INFO-training batch accuracy: 0.9531; avg_accuracy: 0.9530
+20-03-20 00:11-INFO-
+20-03-20 00:13-INFO-Epoch 1, Batch 616, Global step 2700:
+20-03-20 00:13-INFO-training batch loss: 0.0955; avg_loss: 0.1070
+20-03-20 00:13-INFO-training batch accuracy: 0.9609; avg_accuracy: 0.9539
+20-03-20 00:13-INFO-
+20-03-20 00:15-INFO-Epoch 1, Batch 716, Global step 2800:
+20-03-20 00:15-INFO-training batch loss: 0.0842; avg_loss: 0.1060
+20-03-20 00:15-INFO-training batch accuracy: 0.9609; avg_accuracy: 0.9546
+20-03-20 00:15-INFO-
+20-03-20 00:17-INFO-Epoch 1, Batch 816, Global step 2900:
+20-03-20 00:17-INFO-training batch loss: 0.0608; avg_loss: 0.1062
+20-03-20 00:17-INFO-training batch accuracy: 0.9844; avg_accuracy: 0.9548
+20-03-20 00:17-INFO-
+20-03-20 00:19-INFO-Epoch 1, Batch 916, Global step 3000:
+20-03-20 00:19-INFO-training batch loss: 0.0539; avg_loss: 0.1061
+20-03-20 00:19-INFO-training batch accuracy: 0.9844; avg_accuracy: 0.9550
+20-03-20 00:19-INFO-
+20-03-20 00:21-INFO-Epoch 1, Batch 1016, Global step 3100:
+20-03-20 00:21-INFO-training batch loss: 0.0805; avg_loss: 0.1052
+20-03-20 00:21-INFO-training batch accuracy: 0.9688; avg_accuracy: 0.9554
+20-03-20 00:21-INFO-
+20-03-20 00:23-INFO-Epoch 1, Batch 1116, Global step 3200:
+20-03-20 00:23-INFO-training batch loss: 0.1063; avg_loss: 0.1045
+20-03-20 00:23-INFO-training batch accuracy: 0.9609; avg_accuracy: 0.9557
+20-03-20 00:23-INFO-
+20-03-20 00:25-INFO-Epoch 1, Batch 1216, Global step 3300:
+20-03-20 00:25-INFO-training batch loss: 0.0736; avg_loss: 0.1037
+20-03-20 00:25-INFO-training batch accuracy: 0.9766; avg_accuracy: 0.9561
+20-03-20 00:25-INFO-
+20-03-20 00:27-INFO-Epoch 1, Batch 1316, Global step 3400:
+20-03-20 00:27-INFO-training batch loss: 0.0967; avg_loss: 0.1031
+20-03-20 00:27-INFO-training batch accuracy: 0.9375; avg_accuracy: 0.9564
+20-03-20 00:27-INFO-
+20-03-20 00:29-INFO-Epoch 1, Batch 1416, Global step 3500:
+20-03-20 00:29-INFO-training batch loss: 0.1237; avg_loss: 0.1026
+20-03-20 00:29-INFO-training batch accuracy: 0.9531; avg_accuracy: 0.9567
+20-03-20 00:29-INFO-
+20-03-20 00:31-INFO-Epoch 1, Batch 1516, Global step 3600:
+20-03-20 00:31-INFO-training batch loss: 0.1142; avg_loss: 0.1023
+20-03-20 00:31-INFO-training batch accuracy: 0.9531; avg_accuracy: 0.9568
+20-03-20 00:31-INFO-
+20-03-20 00:33-INFO-Epoch 1, Batch 1616, Global step 3700:
+20-03-20 00:33-INFO-training batch loss: 0.1227; avg_loss: 0.1012
+20-03-20 00:33-INFO-training batch accuracy: 0.9219; avg_accuracy: 0.9573
+20-03-20 00:33-INFO-
+20-03-20 00:35-INFO-Epoch 1, Batch 1716, Global step 3800:
+20-03-20 00:35-INFO-training batch loss: 0.0691; avg_loss: 0.1006
+20-03-20 00:35-INFO-training batch accuracy: 0.9766; avg_accuracy: 0.9573
+20-03-20 00:35-INFO-
+20-03-20 00:37-INFO-Epoch 1, Batch 1816, Global step 3900:
+20-03-20 00:37-INFO-training batch loss: 0.0574; avg_loss: 0.1002
+20-03-20 00:37-INFO-training batch accuracy: 0.9766; avg_accuracy: 0.9574
+20-03-20 00:37-INFO-
+20-03-20 00:39-INFO-Epoch 1, Batch 1916, Global step 4000:
+20-03-20 00:39-INFO-training batch loss: 0.0396; avg_loss: 0.0998
+20-03-20 00:39-INFO-training batch accuracy: 0.9844; avg_accuracy: 0.9577
+20-03-20 00:39-INFO-
+20-03-20 00:41-INFO-Epoch 1, Batch 2016, Global step 4100:
+20-03-20 00:41-INFO-training batch loss: 0.0737; avg_loss: 0.0990
+20-03-20 00:41-INFO-training batch accuracy: 0.9766; avg_accuracy: 0.9581
+20-03-20 00:41-INFO-
+20-03-20 00:43-INFO-training batch accuracy: 0.9048; avg_accuracy: 0.9587
+20-03-20 00:43-INFO-
+20-03-20 00:45-INFO-Epoch 1, evaluating batch loss: 0.1300; avg_loss: 0.1445
+20-03-20 00:45-INFO-evaluating batch accuracy: 0.9519; avg_accuracy: 0.9368
+
+20-03-20 00:45-INFO-
+20-03-20 00:45-INFO-Epoch 2, Batch 32, Global step 4200:
+20-03-20 00:45-INFO-training batch loss: 0.0751; avg_loss: 0.0853
+20-03-20 00:45-INFO-training batch accuracy: 0.9531; avg_accuracy: 0.9319
+20-03-20 00:45-INFO-
+20-03-20 00:47-INFO-Epoch 2, Batch 132, Global step 4300:
+20-03-20 00:47-INFO-training batch loss: 0.1047; avg_loss: 0.0883
+20-03-20 00:47-INFO-training batch accuracy: 0.9453; avg_accuracy: 0.9544
+20-03-20 00:47-INFO-
+20-03-20 00:49-INFO-Epoch 2, Batch 232, Global step 4400:
+20-03-20 00:49-INFO-training batch loss: 0.0367; avg_loss: 0.0898
+20-03-20 00:49-INFO-training batch accuracy: 0.9922; avg_accuracy: 0.9578
+20-03-20 00:49-INFO-
+20-03-20 00:51-INFO-Epoch 2, Batch 332, Global step 4500:
+20-03-20 00:51-INFO-training batch loss: 0.0518; avg_loss: 0.0884
+20-03-20 00:51-INFO-training batch accuracy: 0.9766; avg_accuracy: 0.9596
+20-03-20 00:51-INFO-
+20-03-20 00:53-INFO-Epoch 2, Batch 432, Global step 4600:
+20-03-20 00:53-INFO-training batch loss: 0.1315; avg_loss: 0.0881
+20-03-20 00:53-INFO-training batch accuracy: 0.9141; avg_accuracy: 0.9603
+20-03-20 00:53-INFO-
+20-03-20 00:55-INFO-Epoch 2, Batch 532, Global step 4700:
+20-03-20 00:55-INFO-training batch loss: 0.1069; avg_loss: 0.0878
+20-03-20 00:55-INFO-training batch accuracy: 0.9609; avg_accuracy: 0.9612
+20-03-20 00:55-INFO-
+20-03-20 00:57-INFO-Epoch 2, Batch 632, Global step 4800:
+20-03-20 00:57-INFO-training batch loss: 0.1726; avg_loss: 0.0880
+20-03-20 00:57-INFO-training batch accuracy: 0.9297; avg_accuracy: 0.9617
+20-03-20 00:57-INFO-
+20-03-20 00:59-INFO-Epoch 2, Batch 732, Global step 4900:
+20-03-20 00:59-INFO-training batch loss: 0.0795; avg_loss: 0.0875
+20-03-20 00:59-INFO-training batch accuracy: 0.9453; avg_accuracy: 0.9621
+20-03-20 00:59-INFO-
+20-03-20 01:01-INFO-Epoch 2, Batch 832, Global step 5000:
+20-03-20 01:01-INFO-training batch loss: 0.0443; avg_loss: 0.0880
+20-03-20 01:01-INFO-training batch accuracy: 0.9844; avg_accuracy: 0.9622
+20-03-20 01:01-INFO-
+20-03-20 01:04-INFO-Epoch 2, Batch 932, Global step 5100:
+20-03-20 01:04-INFO-training batch loss: 0.0816; avg_loss: 0.0877
+20-03-20 01:04-INFO-training batch accuracy: 0.9766; avg_accuracy: 0.9622
+20-03-20 01:04-INFO-
+20-03-20 01:06-INFO-Epoch 2, Batch 1032, Global step 5200:
+20-03-20 01:06-INFO-training batch loss: 0.0881; avg_loss: 0.0873
+20-03-20 01:06-INFO-training batch accuracy: 0.9688; avg_accuracy: 0.9625
+20-03-20 01:06-INFO-
+20-03-20 01:08-INFO-Epoch 2, Batch 1132, Global step 5300:
+20-03-20 01:08-INFO-training batch loss: 0.0986; avg_loss: 0.0866
+20-03-20 01:08-INFO-training batch accuracy: 0.9531; avg_accuracy: 0.9628
+20-03-20 01:08-INFO-
+20-03-20 01:10-INFO-Epoch 2, Batch 1232, Global step 5400:
+20-03-20 01:10-INFO-training batch loss: 0.0682; avg_loss: 0.0860
+20-03-20 01:10-INFO-training batch accuracy: 0.9688; avg_accuracy: 0.9631
+20-03-20 01:10-INFO-
+20-03-20 01:12-INFO-Epoch 2, Batch 1332, Global step 5500:
+20-03-20 01:12-INFO-training batch loss: 0.0730; avg_loss: 0.0857
+20-03-20 01:12-INFO-training batch accuracy: 0.9531; avg_accuracy: 0.9632
+20-03-20 01:12-INFO-
+20-03-20 01:14-INFO-Epoch 2, Batch 1432, Global step 5600:
+20-03-20 01:14-INFO-training batch loss: 0.1413; avg_loss: 0.0856
+20-03-20 01:14-INFO-training batch accuracy: 0.9531; avg_accuracy: 0.9634
+20-03-20 01:14-INFO-
+20-03-20 01:16-INFO-Epoch 2, Batch 1532, Global step 5700:
+20-03-20 01:16-INFO-training batch loss: 0.1048; avg_loss: 0.0854
+20-03-20 01:16-INFO-training batch accuracy: 0.9688; avg_accuracy: 0.9635
+20-03-20 01:16-INFO-
+20-03-20 01:18-INFO-Epoch 2, Batch 1632, Global step 5800:
+20-03-20 01:18-INFO-training batch loss: 0.0688; avg_loss: 0.0846
+20-03-20 01:18-INFO-training batch accuracy: 0.9688; avg_accuracy: 0.9638
+20-03-20 01:18-INFO-
+20-03-20 01:20-INFO-Epoch 2, Batch 1732, Global step 5900:
+20-03-20 01:20-INFO-training batch loss: 0.0505; avg_loss: 0.0843
+20-03-20 01:20-INFO-training batch accuracy: 0.9766; avg_accuracy: 0.9639
+20-03-20 01:20-INFO-
+20-03-20 01:22-INFO-Epoch 2, Batch 1832, Global step 6000:
+20-03-20 01:22-INFO-training batch loss: 0.0669; avg_loss: 0.0841
+20-03-20 01:22-INFO-training batch accuracy: 0.9766; avg_accuracy: 0.9640
+20-03-20 01:22-INFO-
+20-03-20 01:24-INFO-Epoch 2, Batch 1932, Global step 6100:
+20-03-20 01:24-INFO-training batch loss: 0.0982; avg_loss: 0.0839
+20-03-20 01:24-INFO-training batch accuracy: 0.9609; avg_accuracy: 0.9642
+20-03-20 01:24-INFO-
+20-03-20 01:26-INFO-Epoch 2, Batch 2032, Global step 6200:
+20-03-20 01:26-INFO-training batch loss: 0.0792; avg_loss: 0.0833
+20-03-20 01:26-INFO-training batch accuracy: 0.9531; avg_accuracy: 0.9646
+20-03-20 01:26-INFO-
+20-03-20 01:27-INFO-training batch accuracy: 0.9286; avg_accuracy: 0.9649
+20-03-20 01:27-INFO-
+20-03-20 01:29-INFO-Epoch 2, evaluating batch loss: 0.1169; avg_loss: 0.1374
+20-03-20 01:29-INFO-evaluating batch accuracy: 0.9519; avg_accuracy: 0.9364
+
+20-03-20 01:29-INFO-
+20-03-20 01:30-INFO-Epoch 3, Batch 48, Global step 6300:
+20-03-20 01:30-INFO-training batch loss: 0.0894; avg_loss: 0.0807
+20-03-20 01:30-INFO-training batch accuracy: 0.9688; avg_accuracy: 0.9442
+20-03-20 01:30-INFO-
+20-03-20 01:32-INFO-Epoch 3, Batch 148, Global step 6400:
+20-03-20 01:32-INFO-training batch loss: 0.0961; avg_loss: 0.0804
+20-03-20 01:32-INFO-training batch accuracy: 0.9609; avg_accuracy: 0.9590
+20-03-20 01:32-INFO-
+20-03-20 01:34-INFO-Epoch 3, Batch 248, Global step 6500:
+20-03-20 01:34-INFO-training batch loss: 0.1516; avg_loss: 0.0800
+20-03-20 01:34-INFO-training batch accuracy: 0.9453; avg_accuracy: 0.9622
+20-03-20 01:34-INFO-
+20-03-20 01:36-INFO-Epoch 3, Batch 348, Global step 6600:
+20-03-20 01:36-INFO-training batch loss: 0.1089; avg_loss: 0.0784
+20-03-20 01:36-INFO-training batch accuracy: 0.9531; avg_accuracy: 0.9642
+20-03-20 01:36-INFO-
+20-03-20 01:38-INFO-Epoch 3, Batch 448, Global step 6700:
+20-03-20 01:38-INFO-training batch loss: 0.0886; avg_loss: 0.0786
+20-03-20 01:38-INFO-training batch accuracy: 0.9609; avg_accuracy: 0.9646
+20-03-20 01:38-INFO-
+20-03-20 01:40-INFO-Epoch 3, Batch 548, Global step 6800:
+20-03-20 01:40-INFO-training batch loss: 0.0659; avg_loss: 0.0780
+20-03-20 01:40-INFO-training batch accuracy: 0.9688; avg_accuracy: 0.9658
+20-03-20 01:40-INFO-
+20-03-20 01:42-INFO-Epoch 3, Batch 648, Global step 6900:
+20-03-20 01:42-INFO-training batch loss: 0.0958; avg_loss: 0.0790
+20-03-20 01:42-INFO-training batch accuracy: 0.9531; avg_accuracy: 0.9659
+20-03-20 01:42-INFO-
+20-03-20 01:44-INFO-Epoch 3, Batch 748, Global step 7000:
+20-03-20 01:44-INFO-training batch loss: 0.1032; avg_loss: 0.0787
+20-03-20 01:44-INFO-training batch accuracy: 0.9375; avg_accuracy: 0.9660
+20-03-20 01:44-INFO-
+20-03-20 01:46-INFO-Epoch 3, Batch 848, Global step 7100:
+20-03-20 01:46-INFO-training batch loss: 0.0565; avg_loss: 0.0788
+20-03-20 01:46-INFO-training batch accuracy: 0.9766; avg_accuracy: 0.9659
+20-03-20 01:46-INFO-
+20-03-20 01:48-INFO-Epoch 3, Batch 948, Global step 7200:
+20-03-20 01:48-INFO-training batch loss: 0.1393; avg_loss: 0.0786
+20-03-20 01:48-INFO-training batch accuracy: 0.9453; avg_accuracy: 0.9661
+20-03-20 01:48-INFO-
+20-03-20 01:50-INFO-Epoch 3, Batch 1048, Global step 7300:
+20-03-20 01:50-INFO-training batch loss: 0.0410; avg_loss: 0.0783
+20-03-20 01:50-INFO-training batch accuracy: 0.9766; avg_accuracy: 0.9662
+20-03-20 01:50-INFO-
+20-03-20 01:52-INFO-Epoch 3, Batch 1148, Global step 7400:
+20-03-20 01:52-INFO-training batch loss: 0.0855; avg_loss: 0.0777
+20-03-20 01:52-INFO-training batch accuracy: 0.9609; avg_accuracy: 0.9665
+20-03-20 01:52-INFO-
+20-03-20 01:54-INFO-Epoch 3, Batch 1248, Global step 7500:
+20-03-20 01:54-INFO-training batch loss: 0.0971; avg_loss: 0.0772
+20-03-20 01:54-INFO-training batch accuracy: 0.9531; avg_accuracy: 0.9668
+20-03-20 01:54-INFO-
+20-03-20 01:56-INFO-Epoch 3, Batch 1348, Global step 7600:
+20-03-20 01:56-INFO-training batch loss: 0.0687; avg_loss: 0.0771
+20-03-20 01:56-INFO-training batch accuracy: 0.9688; avg_accuracy: 0.9669
+20-03-20 01:56-INFO-
+20-03-20 01:58-INFO-Epoch 3, Batch 1448, Global step 7700:
+20-03-20 01:58-INFO-training batch loss: 0.0608; avg_loss: 0.0770
+20-03-20 01:58-INFO-training batch accuracy: 0.9844; avg_accuracy: 0.9670
+20-03-20 01:58-INFO-
+20-03-20 02:00-INFO-Epoch 3, Batch 1548, Global step 7800:
+20-03-20 02:00-INFO-training batch loss: 0.0767; avg_loss: 0.0769
+20-03-20 02:00-INFO-training batch accuracy: 0.9531; avg_accuracy: 0.9670
+20-03-20 02:00-INFO-
+20-03-20 02:02-INFO-Epoch 3, Batch 1648, Global step 7900:
+20-03-20 02:02-INFO-training batch loss: 0.0759; avg_loss: 0.0762
+20-03-20 02:02-INFO-training batch accuracy: 0.9766; avg_accuracy: 0.9672
+20-03-20 02:02-INFO-
+20-03-20 02:04-INFO-Epoch 3, Batch 1748, Global step 8000:
+20-03-20 02:04-INFO-training batch loss: 0.0965; avg_loss: 0.0761
+20-03-20 02:04-INFO-training batch accuracy: 0.9609; avg_accuracy: 0.9671
+20-03-20 02:04-INFO-
+20-03-20 02:06-INFO-Epoch 3, Batch 1848, Global step 8100:
+20-03-20 02:06-INFO-training batch loss: 0.1815; avg_loss: 0.0760
+20-03-20 02:06-INFO-training batch accuracy: 0.9062; avg_accuracy: 0.9673
+20-03-20 02:06-INFO-
+20-03-20 02:09-INFO-Epoch 3, Batch 1948, Global step 8200:
+20-03-20 02:09-INFO-training batch loss: 0.0662; avg_loss: 0.0758
+20-03-20 02:09-INFO-training batch accuracy: 0.9766; avg_accuracy: 0.9674
+20-03-20 02:09-INFO-
+20-03-20 02:11-INFO-Epoch 3, Batch 2048, Global step 8300:
+20-03-20 02:11-INFO-training batch loss: 0.0839; avg_loss: 0.0753
+20-03-20 02:11-INFO-training batch accuracy: 0.9609; avg_accuracy: 0.9676
+20-03-20 02:11-INFO-
+20-03-20 02:11-INFO-training batch accuracy: 0.9048; avg_accuracy: 0.9681
+20-03-20 02:11-INFO-
+20-03-20 02:13-INFO-Epoch 3, evaluating batch loss: 0.1587; avg_loss: 0.1338
+20-03-20 02:13-INFO-evaluating batch accuracy: 0.9423; avg_accuracy: 0.9429
+
+20-03-20 02:13-INFO-
+20-03-20 02:15-INFO-Epoch 4, Batch 64, Global step 8400:
+20-03-20 02:15-INFO-training batch loss: 0.0795; avg_loss: 0.0704
+20-03-20 02:15-INFO-training batch accuracy: 0.9688; avg_accuracy: 0.9523
+20-03-20 02:15-INFO-
+20-03-20 02:17-INFO-Epoch 4, Batch 164, Global step 8500:
+20-03-20 02:17-INFO-training batch loss: 0.0566; avg_loss: 0.0719
+20-03-20 02:17-INFO-training batch accuracy: 0.9688; avg_accuracy: 0.9622
+20-03-20 02:17-INFO-
+20-03-20 02:19-INFO-Epoch 4, Batch 264, Global step 8600:
+20-03-20 02:19-INFO-training batch loss: 0.1091; avg_loss: 0.0722
+20-03-20 02:19-INFO-training batch accuracy: 0.9531; avg_accuracy: 0.9651
+20-03-20 02:19-INFO-
+20-03-20 02:21-INFO-Epoch 4, Batch 364, Global step 8700:
+20-03-20 02:21-INFO-training batch loss: 0.0834; avg_loss: 0.0712
+20-03-20 02:21-INFO-training batch accuracy: 0.9531; avg_accuracy: 0.9669
+20-03-20 02:21-INFO-
+20-03-20 02:23-INFO-Epoch 4, Batch 464, Global step 8800:
+20-03-20 02:23-INFO-training batch loss: 0.0266; avg_loss: 0.0720
+20-03-20 02:23-INFO-training batch accuracy: 0.9844; avg_accuracy: 0.9670
+20-03-20 02:23-INFO-
+20-03-20 02:25-INFO-Epoch 4, Batch 564, Global step 8900:
+20-03-20 02:25-INFO-training batch loss: 0.0428; avg_loss: 0.0715
+20-03-20 02:25-INFO-training batch accuracy: 0.9922; avg_accuracy: 0.9676
+20-03-20 02:25-INFO-
+20-03-20 02:27-INFO-Epoch 4, Batch 664, Global step 9000:
+20-03-20 02:27-INFO-training batch loss: 0.0612; avg_loss: 0.0717
+20-03-20 02:27-INFO-training batch accuracy: 0.9609; avg_accuracy: 0.9681
+20-03-20 02:27-INFO-
+20-03-20 02:29-INFO-Epoch 4, Batch 764, Global step 9100:
+20-03-20 02:29-INFO-training batch loss: 0.0611; avg_loss: 0.0723
+20-03-20 02:29-INFO-training batch accuracy: 0.9766; avg_accuracy: 0.9678
+20-03-20 02:29-INFO-
+20-03-20 02:31-INFO-Epoch 4, Batch 864, Global step 9200:
+20-03-20 02:31-INFO-training batch loss: 0.0574; avg_loss: 0.0725
+20-03-20 02:31-INFO-training batch accuracy: 0.9766; avg_accuracy: 0.9678
+20-03-20 02:31-INFO-
+20-03-20 02:33-INFO-Epoch 4, Batch 964, Global step 9300:
+20-03-20 02:33-INFO-training batch loss: 0.0922; avg_loss: 0.0724
+20-03-20 02:33-INFO-training batch accuracy: 0.9609; avg_accuracy: 0.9680
+20-03-20 02:33-INFO-
+20-03-20 02:35-INFO-Epoch 4, Batch 1064, Global step 9400:
+20-03-20 02:35-INFO-training batch loss: 0.0862; avg_loss: 0.0721
+20-03-20 02:35-INFO-training batch accuracy: 0.9688; avg_accuracy: 0.9681
+20-03-20 02:35-INFO-
+20-03-20 02:37-INFO-Epoch 4, Batch 1164, Global step 9500:
+20-03-20 02:37-INFO-training batch loss: 0.0684; avg_loss: 0.0715
+20-03-20 02:37-INFO-training batch accuracy: 0.9688; avg_accuracy: 0.9684
+20-03-20 02:37-INFO-
+20-03-20 02:39-INFO-Epoch 4, Batch 1264, Global step 9600:
+20-03-20 02:39-INFO-training batch loss: 0.0429; avg_loss: 0.0713
+20-03-20 02:39-INFO-training batch accuracy: 0.9922; avg_accuracy: 0.9686
+20-03-20 02:39-INFO-
+20-03-20 02:41-INFO-Epoch 4, Batch 1364, Global step 9700:
+20-03-20 02:41-INFO-training batch loss: 0.0660; avg_loss: 0.0713
+20-03-20 02:41-INFO-training batch accuracy: 0.9766; avg_accuracy: 0.9688
+20-03-20 02:41-INFO-
+20-03-20 02:43-INFO-Epoch 4, Batch 1464, Global step 9800:
+20-03-20 02:43-INFO-training batch loss: 0.0743; avg_loss: 0.0712
+20-03-20 02:43-INFO-training batch accuracy: 0.9844; avg_accuracy: 0.9689
+20-03-20 02:43-INFO-
+20-03-20 02:45-INFO-Epoch 4, Batch 1564, Global step 9900:
+20-03-20 02:45-INFO-training batch loss: 0.0417; avg_loss: 0.0710
+20-03-20 02:45-INFO-training batch accuracy: 0.9922; avg_accuracy: 0.9690
+20-03-20 02:45-INFO-
+20-03-20 02:47-INFO-Epoch 4, Batch 1664, Global step 10000:
+20-03-20 02:47-INFO-training batch loss: 0.0674; avg_loss: 0.0705
+20-03-20 02:47-INFO-training batch accuracy: 0.9609; avg_accuracy: 0.9692
+20-03-20 02:47-INFO-
+20-03-20 02:49-INFO-Epoch 4, Batch 1764, Global step 10100:
+20-03-20 02:49-INFO-training batch loss: 0.0722; avg_loss: 0.0704
+20-03-20 02:49-INFO-training batch accuracy: 0.9688; avg_accuracy: 0.9691
+20-03-20 02:49-INFO-
+20-03-20 02:51-INFO-Epoch 4, Batch 1864, Global step 10200:
+20-03-20 02:51-INFO-training batch loss: 0.0636; avg_loss: 0.0703
+20-03-20 02:51-INFO-training batch accuracy: 0.9609; avg_accuracy: 0.9692
+20-03-20 02:51-INFO-
+20-03-20 02:53-INFO-Epoch 4, Batch 1964, Global step 10300:
+20-03-20 02:53-INFO-training batch loss: 0.0583; avg_loss: 0.0702
+20-03-20 02:53-INFO-training batch accuracy: 0.9688; avg_accuracy: 0.9693
+20-03-20 02:53-INFO-
+20-03-20 02:55-INFO-Epoch 4, Batch 2064, Global step 10400:
+20-03-20 02:55-INFO-training batch loss: 0.0636; avg_loss: 0.0699
+20-03-20 02:55-INFO-training batch accuracy: 0.9531; avg_accuracy: 0.9695
+20-03-20 02:55-INFO-
+20-03-20 02:56-INFO-training batch accuracy: 0.9048; avg_accuracy: 0.9699
+20-03-20 02:56-INFO-
+20-03-20 02:58-INFO-Epoch 4, evaluating batch loss: 0.0824; avg_loss: 0.1398
+20-03-20 02:58-INFO-evaluating batch accuracy: 0.9519; avg_accuracy: 0.9398
+
+20-03-20 02:58-INFO-
+20-03-20 02:59-INFO-Epoch 5, Batch 80, Global step 10500:
+20-03-20 02:59-INFO-training batch loss: 0.0213; avg_loss: 0.0661
+20-03-20 02:59-INFO-training batch accuracy: 0.9922; avg_accuracy: 0.9579
+20-03-20 02:59-INFO-
+20-03-20 03:01-INFO-Epoch 5, Batch 180, Global step 10600:
+20-03-20 03:01-INFO-training batch loss: 0.0564; avg_loss: 0.0680
+20-03-20 03:01-INFO-training batch accuracy: 0.9922; avg_accuracy: 0.9648
+20-03-20 03:01-INFO-
+20-03-20 03:03-INFO-Epoch 5, Batch 280, Global step 10700:
+20-03-20 03:03-INFO-training batch loss: 0.0844; avg_loss: 0.0667
+20-03-20 03:03-INFO-training batch accuracy: 0.9688; avg_accuracy: 0.9670
+20-03-20 03:03-INFO-
+20-03-20 03:05-INFO-Epoch 5, Batch 380, Global step 10800:
+20-03-20 03:05-INFO-training batch loss: 0.0722; avg_loss: 0.0660
+20-03-20 03:05-INFO-training batch accuracy: 0.9766; avg_accuracy: 0.9686
+20-03-20 03:05-INFO-
+20-03-20 03:07-INFO-Epoch 5, Batch 480, Global step 10900:
+20-03-20 03:07-INFO-training batch loss: 0.1139; avg_loss: 0.0667
+20-03-20 03:07-INFO-training batch accuracy: 0.9531; avg_accuracy: 0.9690
+20-03-20 03:07-INFO-
+20-03-20 03:09-INFO-Epoch 5, Batch 580, Global step 11000:
+20-03-20 03:09-INFO-training batch loss: 0.0512; avg_loss: 0.0661
+20-03-20 03:09-INFO-training batch accuracy: 0.9766; avg_accuracy: 0.9695
+20-03-20 03:09-INFO-
+20-03-20 03:11-INFO-Epoch 5, Batch 680, Global step 11100:
+20-03-20 03:11-INFO-training batch loss: 0.0971; avg_loss: 0.0659
+20-03-20 03:11-INFO-training batch accuracy: 0.9531; avg_accuracy: 0.9702
+20-03-20 03:11-INFO-
+20-03-20 03:13-INFO-Epoch 5, Batch 780, Global step 11200:
+20-03-20 03:13-INFO-training batch loss: 0.0888; avg_loss: 0.0666
+20-03-20 03:13-INFO-training batch accuracy: 0.9688; avg_accuracy: 0.9699
+20-03-20 03:13-INFO-
+20-03-20 03:16-INFO-Epoch 5, Batch 880, Global step 11300:
+20-03-20 03:16-INFO-training batch loss: 0.0701; avg_loss: 0.0666
+20-03-20 03:16-INFO-training batch accuracy: 0.9609; avg_accuracy: 0.9700
+20-03-20 03:16-INFO-
+20-03-20 03:18-INFO-Epoch 5, Batch 980, Global step 11400:
+20-03-20 03:18-INFO-training batch loss: 0.0550; avg_loss: 0.0665
+20-03-20 03:18-INFO-training batch accuracy: 0.9766; avg_accuracy: 0.9703
+20-03-20 03:18-INFO-
+20-03-20 03:20-INFO-Epoch 5, Batch 1080, Global step 11500:
+20-03-20 03:20-INFO-training batch loss: 0.0517; avg_loss: 0.0663
+20-03-20 03:20-INFO-training batch accuracy: 0.9766; avg_accuracy: 0.9704
+20-03-20 03:20-INFO-
+20-03-20 03:22-INFO-Epoch 5, Batch 1180, Global step 11600:
+20-03-20 03:22-INFO-training batch loss: 0.0864; avg_loss: 0.0656
+20-03-20 03:22-INFO-training batch accuracy: 0.9609; avg_accuracy: 0.9708
+20-03-20 03:22-INFO-
+20-03-20 03:24-INFO-Epoch 5, Batch 1280, Global step 11700:
+20-03-20 03:24-INFO-training batch loss: 0.0526; avg_loss: 0.0655
+20-03-20 03:24-INFO-training batch accuracy: 0.9766; avg_accuracy: 0.9708
+20-03-20 03:24-INFO-
+20-03-20 03:26-INFO-Epoch 5, Batch 1380, Global step 11800:
+20-03-20 03:26-INFO-training batch loss: 0.0764; avg_loss: 0.0655
+20-03-20 03:26-INFO-training batch accuracy: 0.9609; avg_accuracy: 0.9710
+20-03-20 03:26-INFO-
+20-03-20 03:28-INFO-Epoch 5, Batch 1480, Global step 11900:
+20-03-20 03:28-INFO-training batch loss: 0.0648; avg_loss: 0.0654
+20-03-20 03:28-INFO-training batch accuracy: 0.9688; avg_accuracy: 0.9710
+20-03-20 03:28-INFO-
+20-03-20 03:30-INFO-Epoch 5, Batch 1580, Global step 12000:
+20-03-20 03:30-INFO-training batch loss: 0.0779; avg_loss: 0.0652
+20-03-20 03:30-INFO-training batch accuracy: 0.9844; avg_accuracy: 0.9713
+20-03-20 03:30-INFO-
+20-03-20 03:32-INFO-Epoch 5, Batch 1680, Global step 12100:
+20-03-20 03:32-INFO-training batch loss: 0.0510; avg_loss: 0.0650
+20-03-20 03:32-INFO-training batch accuracy: 0.9766; avg_accuracy: 0.9713
+20-03-20 03:32-INFO-
+20-03-20 03:34-INFO-Epoch 5, Batch 1780, Global step 12200:
+20-03-20 03:34-INFO-training batch loss: 0.0993; avg_loss: 0.0650
+20-03-20 03:34-INFO-training batch accuracy: 0.9609; avg_accuracy: 0.9713
+20-03-20 03:34-INFO-
+20-03-20 03:36-INFO-Epoch 5, Batch 1880, Global step 12300:
+20-03-20 03:36-INFO-training batch loss: 0.0631; avg_loss: 0.0648
+20-03-20 03:36-INFO-training batch accuracy: 0.9688; avg_accuracy: 0.9714
+20-03-20 03:36-INFO-
+20-03-20 03:38-INFO-Epoch 5, Batch 1980, Global step 12400:
+20-03-20 03:38-INFO-training batch loss: 0.0219; avg_loss: 0.0647
+20-03-20 03:38-INFO-training batch accuracy: 0.9922; avg_accuracy: 0.9715
+20-03-20 03:38-INFO-
+20-03-20 03:40-INFO-Epoch 5, Batch 2080, Global step 12500:
+20-03-20 03:40-INFO-training batch loss: 0.0587; avg_loss: 0.0648
+20-03-20 03:40-INFO-training batch accuracy: 0.9766; avg_accuracy: 0.9716
+20-03-20 03:40-INFO-
+20-03-20 03:40-INFO-training batch accuracy: 0.9286; avg_accuracy: 0.9720
+20-03-20 03:40-INFO-
+20-03-20 03:42-INFO-Epoch 5, evaluating batch loss: 0.0856; avg_loss: 0.1167
+20-03-20 03:42-INFO-evaluating batch accuracy: 0.9519; avg_accuracy: 0.9499
+
+20-03-20 03:42-INFO-
+20-03-20 03:42-WARNING-From /root/anaconda3/lib/python3.7/site-packages/tensorflow/python/training/saver.py:960: remove_checkpoint (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to delete files with this prefix.
+20-03-20 03:44-INFO-Epoch 6, Batch 96, Global step 12600:
+20-03-20 03:44-INFO-training batch loss: 0.0174; avg_loss: 0.0605
+20-03-20 03:44-INFO-training batch accuracy: 1.0000; avg_accuracy: 0.9624
+20-03-20 03:44-INFO-
+20-03-20 03:46-INFO-Epoch 6, Batch 196, Global step 12700:
+20-03-20 03:46-INFO-training batch loss: 0.0514; avg_loss: 0.0627
+20-03-20 03:46-INFO-training batch accuracy: 0.9766; avg_accuracy: 0.9675
+20-03-20 03:46-INFO-
+20-03-20 03:48-INFO-Epoch 6, Batch 296, Global step 12800:
+20-03-20 03:48-INFO-training batch loss: 0.0395; avg_loss: 0.0621
+20-03-20 03:48-INFO-training batch accuracy: 0.9688; avg_accuracy: 0.9695
+20-03-20 03:48-INFO-
+20-03-20 03:50-INFO-Epoch 6, Batch 396, Global step 12900:
+20-03-20 03:50-INFO-training batch loss: 0.0970; avg_loss: 0.0618
+20-03-20 03:50-INFO-training batch accuracy: 0.9219; avg_accuracy: 0.9704
+20-03-20 03:50-INFO-
+20-03-20 03:52-INFO-Epoch 6, Batch 496, Global step 13000:
+20-03-20 03:52-INFO-training batch loss: 0.0224; avg_loss: 0.0619
+20-03-20 03:52-INFO-training batch accuracy: 1.0000; avg_accuracy: 0.9710
+20-03-20 03:52-INFO-
+20-03-20 03:54-INFO-Epoch 6, Batch 596, Global step 13100:
+20-03-20 03:54-INFO-training batch loss: 0.0896; avg_loss: 0.0613
+20-03-20 03:54-INFO-training batch accuracy: 0.9688; avg_accuracy: 0.9717
+20-03-20 03:54-INFO-
+20-03-20 03:56-INFO-Epoch 6, Batch 696, Global step 13200:
+20-03-20 03:56-INFO-training batch loss: 0.0217; avg_loss: 0.0617
+20-03-20 03:56-INFO-training batch accuracy: 0.9922; avg_accuracy: 0.9718
+20-03-20 03:56-INFO-
+20-03-20 03:58-INFO-Epoch 6, Batch 796, Global step 13300:
+20-03-20 03:58-INFO-training batch loss: 0.0593; avg_loss: 0.0620
+20-03-20 03:58-INFO-training batch accuracy: 0.9688; avg_accuracy: 0.9717
+20-03-20 03:58-INFO-
+20-03-20 04:00-INFO-Epoch 6, Batch 896, Global step 13400:
+20-03-20 04:00-INFO-training batch loss: 0.0399; avg_loss: 0.0620
+20-03-20 04:00-INFO-training batch accuracy: 0.9844; avg_accuracy: 0.9718
+20-03-20 04:00-INFO-
+20-03-20 04:02-INFO-Epoch 6, Batch 996, Global step 13500:
+20-03-20 04:02-INFO-training batch loss: 0.0375; avg_loss: 0.0614
+20-03-20 04:02-INFO-training batch accuracy: 0.9766; avg_accuracy: 0.9723
+20-03-20 04:02-INFO-
+20-03-20 04:04-INFO-Epoch 6, Batch 1096, Global step 13600:
+20-03-20 04:04-INFO-training batch loss: 0.0638; avg_loss: 0.0614
+20-03-20 04:04-INFO-training batch accuracy: 0.9688; avg_accuracy: 0.9724
+20-03-20 04:04-INFO-
+20-03-20 04:06-INFO-Epoch 6, Batch 1196, Global step 13700:
+20-03-20 04:06-INFO-training batch loss: 0.0806; avg_loss: 0.0609
+20-03-20 04:06-INFO-training batch accuracy: 0.9766; avg_accuracy: 0.9727
+20-03-20 04:06-INFO-
+20-03-20 04:08-INFO-Epoch 6, Batch 1296, Global step 13800:
+20-03-20 04:08-INFO-training batch loss: 0.0450; avg_loss: 0.0606
+20-03-20 04:08-INFO-training batch accuracy: 0.9844; avg_accuracy: 0.9728
+20-03-20 04:08-INFO-
+20-03-20 04:10-INFO-Epoch 6, Batch 1396, Global step 13900:
+20-03-20 04:10-INFO-training batch loss: 0.0593; avg_loss: 0.0607
+20-03-20 04:10-INFO-training batch accuracy: 0.9688; avg_accuracy: 0.9729
+20-03-20 04:10-INFO-
+20-03-20 04:12-INFO-Epoch 6, Batch 1496, Global step 14000:
+20-03-20 04:12-INFO-training batch loss: 0.0605; avg_loss: 0.0607
+20-03-20 04:12-INFO-training batch accuracy: 0.9766; avg_accuracy: 0.9729
+20-03-20 04:12-INFO-
+20-03-20 04:14-INFO-Epoch 6, Batch 1596, Global step 14100:
+20-03-20 04:14-INFO-training batch loss: 0.0398; avg_loss: 0.0605
+20-03-20 04:14-INFO-training batch accuracy: 0.9844; avg_accuracy: 0.9731
+20-03-20 04:14-INFO-
+20-03-20 04:16-INFO-Epoch 6, Batch 1696, Global step 14200:
+20-03-20 04:16-INFO-training batch loss: 0.0949; avg_loss: 0.0604
+20-03-20 04:16-INFO-training batch accuracy: 0.9375; avg_accuracy: 0.9733
+20-03-20 04:16-INFO-
+20-03-20 04:18-INFO-Epoch 6, Batch 1796, Global step 14300:
+20-03-20 04:18-INFO-training batch loss: 0.0685; avg_loss: 0.0602
+20-03-20 04:18-INFO-training batch accuracy: 0.9688; avg_accuracy: 0.9734
+20-03-20 04:18-INFO-
+20-03-20 04:21-INFO-Epoch 6, Batch 1896, Global step 14400:
+20-03-20 04:21-INFO-training batch loss: 0.0381; avg_loss: 0.0600
+20-03-20 04:21-INFO-training batch accuracy: 0.9766; avg_accuracy: 0.9736
+20-03-20 04:21-INFO-
+20-03-20 04:23-INFO-Epoch 6, Batch 1996, Global step 14500:
+20-03-20 04:23-INFO-training batch loss: 0.0283; avg_loss: 0.0596
+20-03-20 04:23-INFO-training batch accuracy: 0.9922; avg_accuracy: 0.9738
+20-03-20 04:23-INFO-
+20-03-20 04:24-INFO-training batch accuracy: 0.9286; avg_accuracy: 0.9743
+20-03-20 04:24-INFO-
+20-03-20 04:26-INFO-Epoch 6, evaluating batch loss: 0.0699; avg_loss: 0.1214
+20-03-20 04:26-INFO-evaluating batch accuracy: 0.9615; avg_accuracy: 0.9515
+
+20-03-20 04:26-INFO-
+20-03-20 04:27-INFO-Epoch 7, Batch 12, Global step 14600:
+20-03-20 04:27-INFO-training batch loss: 0.0559; avg_loss: 0.0449
+20-03-20 04:27-INFO-training batch accuracy: 0.9766; avg_accuracy: 0.8984
+20-03-20 04:27-INFO-
+20-03-20 04:29-INFO-Epoch 7, Batch 112, Global step 14700:
+20-03-20 04:29-INFO-training batch loss: 0.0527; avg_loss: 0.0548
+20-03-20 04:29-INFO-training batch accuracy: 0.9844; avg_accuracy: 0.9658
+20-03-20 04:29-INFO-
+20-03-20 04:31-INFO-Epoch 7, Batch 212, Global step 14800:
+20-03-20 04:31-INFO-training batch loss: 0.1158; avg_loss: 0.0549
+20-03-20 04:31-INFO-training batch accuracy: 0.9453; avg_accuracy: 0.9713
+20-03-20 04:31-INFO-
+20-03-20 04:33-INFO-Epoch 7, Batch 312, Global step 14900:
+20-03-20 04:33-INFO-training batch loss: 0.1183; avg_loss: 0.0548
+20-03-20 04:33-INFO-training batch accuracy: 0.9531; avg_accuracy: 0.9730
+20-03-20 04:33-INFO-
+20-03-20 04:35-INFO-Epoch 7, Batch 412, Global step 15000:
+20-03-20 04:35-INFO-training batch loss: 0.0280; avg_loss: 0.0546
+20-03-20 04:35-INFO-training batch accuracy: 0.9844; avg_accuracy: 0.9737
+20-03-20 04:35-INFO-
+20-03-20 04:37-INFO-Epoch 7, Batch 512, Global step 15100:
+20-03-20 04:37-INFO-training batch loss: 0.0521; avg_loss: 0.0549
+20-03-20 04:37-INFO-training batch accuracy: 0.9688; avg_accuracy: 0.9746
+20-03-20 04:37-INFO-
+20-03-20 04:39-INFO-Epoch 7, Batch 612, Global step 15200:
+20-03-20 04:39-INFO-training batch loss: 0.0406; avg_loss: 0.0544
+20-03-20 04:39-INFO-training batch accuracy: 0.9766; avg_accuracy: 0.9750
+20-03-20 04:39-INFO-
+20-03-20 04:41-INFO-Epoch 7, Batch 712, Global step 15300:
+20-03-20 04:41-INFO-training batch loss: 0.0480; avg_loss: 0.0546
+20-03-20 04:41-INFO-training batch accuracy: 0.9844; avg_accuracy: 0.9753
+20-03-20 04:41-INFO-
+20-03-20 04:43-INFO-Epoch 7, Batch 812, Global step 15400:
+20-03-20 04:43-INFO-training batch loss: 0.0475; avg_loss: 0.0547
+20-03-20 04:43-INFO-training batch accuracy: 0.9844; avg_accuracy: 0.9753
+20-03-20 04:43-INFO-
+20-03-20 04:45-INFO-Epoch 7, Batch 912, Global step 15500:
+20-03-20 04:45-INFO-training batch loss: 0.0398; avg_loss: 0.0547
+20-03-20 04:45-INFO-training batch accuracy: 0.9844; avg_accuracy: 0.9754
+20-03-20 04:45-INFO-
+20-03-20 04:47-INFO-Epoch 7, Batch 1012, Global step 15600:
+20-03-20 04:47-INFO-training batch loss: 0.0812; avg_loss: 0.0546
+20-03-20 04:47-INFO-training batch accuracy: 0.9766; avg_accuracy: 0.9757
+20-03-20 04:47-INFO-
+20-03-20 04:49-INFO-Epoch 7, Batch 1112, Global step 15700:
+20-03-20 04:49-INFO-training batch loss: 0.0454; avg_loss: 0.0543
+20-03-20 04:49-INFO-training batch accuracy: 0.9922; avg_accuracy: 0.9759
+20-03-20 04:49-INFO-
+20-03-20 04:51-INFO-Epoch 7, Batch 1212, Global step 15800:
+20-03-20 04:51-INFO-training batch loss: 0.0325; avg_loss: 0.0537
+20-03-20 04:51-INFO-training batch accuracy: 0.9844; avg_accuracy: 0.9762
+20-03-20 04:51-INFO-
+20-03-20 04:53-INFO-Epoch 7, Batch 1312, Global step 15900:
+20-03-20 04:53-INFO-training batch loss: 0.0924; avg_loss: 0.0535
+20-03-20 04:53-INFO-training batch accuracy: 0.9453; avg_accuracy: 0.9763
+20-03-20 04:53-INFO-
+20-03-20 04:55-INFO-Epoch 7, Batch 1412, Global step 16000:
+20-03-20 04:55-INFO-training batch loss: 0.0381; avg_loss: 0.0535
+20-03-20 04:55-INFO-training batch accuracy: 0.9922; avg_accuracy: 0.9764
+20-03-20 04:55-INFO-
+20-03-20 04:57-INFO-Epoch 7, Batch 1512, Global step 16100:
+20-03-20 04:57-INFO-training batch loss: 0.0324; avg_loss: 0.0534
+20-03-20 04:57-INFO-training batch accuracy: 0.9922; avg_accuracy: 0.9766
+20-03-20 04:57-INFO-
+20-03-20 04:59-INFO-Epoch 7, Batch 1612, Global step 16200:
+20-03-20 04:59-INFO-training batch loss: 0.0698; avg_loss: 0.0530
+20-03-20 04:59-INFO-training batch accuracy: 0.9531; avg_accuracy: 0.9768
+20-03-20 04:59-INFO-
+20-03-20 05:01-INFO-Epoch 7, Batch 1712, Global step 16300:
+20-03-20 05:01-INFO-training batch loss: 0.0412; avg_loss: 0.0528
+20-03-20 05:01-INFO-training batch accuracy: 0.9766; avg_accuracy: 0.9770
+20-03-20 05:01-INFO-
+20-03-20 05:03-INFO-Epoch 7, Batch 1812, Global step 16400:
+20-03-20 05:03-INFO-training batch loss: 0.0156; avg_loss: 0.0524
+20-03-20 05:03-INFO-training batch accuracy: 1.0000; avg_accuracy: 0.9771
+20-03-20 05:03-INFO-
+20-03-20 05:05-INFO-Epoch 7, Batch 1912, Global step 16500:
+20-03-20 05:05-INFO-training batch loss: 0.0615; avg_loss: 0.0522
+20-03-20 05:05-INFO-training batch accuracy: 0.9766; avg_accuracy: 0.9774
+20-03-20 05:05-INFO-
+20-03-20 05:07-INFO-Epoch 7, Batch 2012, Global step 16600:
+20-03-20 05:07-INFO-training batch loss: 0.0360; avg_loss: 0.0519
+20-03-20 05:07-INFO-training batch accuracy: 0.9844; avg_accuracy: 0.9775
+20-03-20 05:07-INFO-
+20-03-20 05:08-INFO-training batch accuracy: 0.9524; avg_accuracy: 0.9780
+20-03-20 05:08-INFO-
+20-03-20 05:10-INFO-Epoch 7, evaluating batch loss: 0.0825; avg_loss: 0.1218
+20-03-20 05:10-INFO-evaluating batch accuracy: 0.9712; avg_accuracy: 0.9597
+
+20-03-20 05:10-INFO-

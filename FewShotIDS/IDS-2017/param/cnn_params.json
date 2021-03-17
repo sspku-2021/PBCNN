@@ -1,0 +1,7 @@
+{
+  "session_length": 24,
+  "height": 32,
+  "width": 32,
+  "learning_rate": 5e-5,
+  "num_output": 128,
+}

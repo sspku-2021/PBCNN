@@ -1,0 +1,9 @@
+python3 main.py \
+--batch_size 128 \
+--model_name hierarchical_cnn \
+--is_tuning True \
+--restore_ckpt /root/data/mentali/IDS/ckpt/hierarchical_cnn_pretrain/hierarchical_cnn-6252 \
+--train_file_path /root/data/mentali/IDS/data/cnn/train_file_compress_all.txt \
+--dev_file_path /root/data/mentali/IDS/data/cnn/test_file_compress_all.txt \
+--label_mapping_path /root/data/mentali/IDS/cache/label_mapping_all.pkl \
+--params_path /root/data/mentali/IDS/param/hierachical_cnn_params.json \

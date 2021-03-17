@@ -1,0 +1,11 @@
+python main.py \
+--batch_size 128 \
+--model_name hierarchical_cnn \
+--mode test \
+--is_pretrain True \
+--is_time True \
+--is_size True \
+--test_file_path /root/data/mentali/IDS/data/cnn/test_file_compress_all.txt \
+--params_path /root/data/mentali/IDS/param/hierachical_cnn_params.json \
+--restore_ckpt /root/data/mentali/IDS/ckpt/hierarchical_cnn_pretrain/hierarchical_cnn-6252 \
+--file_output /root/data/mentali/IDS/output/hierarchical_cnn_pretrain.txt \

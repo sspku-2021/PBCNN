@@ -1,0 +1,743 @@
+20-03-23 11:42-INFO-{'session_length': 24, 'height': 32, 'width': 32, 'num_labels': 8, 'learning_rate': 0.005, 'filter_sizes': [3, 4, 5, 6], 'num_filters': 64, 'filter_sizes_hierarchical': [3, 4, 5], 'num_fitlers_hierarchical': 64, 'is_train': True, 'early_stop': True, 'is_tuning': True}
+20-03-23 11:42-WARNING-From ../utils.py:127: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+20-03-23 11:42-WARNING-From ../model/train.py:105: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+20-03-23 11:42-WARNING-From ../model/siamese_network.py:33: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+20-03-23 11:42-WARNING-From ../model/siamese_network.py:41: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+20-03-23 11:42-WARNING-From ../model/siamese_network.py:41: The name tf.AUTO_REUSE is deprecated. Please use tf.compat.v1.AUTO_REUSE instead.
+
+20-03-23 11:42-WARNING-From ../model/utils/utils.py:26: conv1d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv1D` instead.
+20-03-23 11:42-WARNING-Entity <bound method Conv1D.call of <tensorflow.python.layers.convolutional.Conv1D object at 0x7f5d8257b210>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv1D.call of <tensorflow.python.layers.convolutional.Conv1D object at 0x7f5d8257b210>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-23 11:42-WARNING-From ../model/utils/utils.py:45: max_pooling1d (from tensorflow.python.layers.pooling) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.MaxPooling1D instead.
+20-03-23 11:42-WARNING-Entity <bound method Pooling1D.call of <tensorflow.python.layers.pooling.MaxPooling1D object at 0x7f5d825a3c90>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Pooling1D.call of <tensorflow.python.layers.pooling.MaxPooling1D object at 0x7f5d825a3c90>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-23 11:42-WARNING-Entity <bound method Conv1D.call of <tensorflow.python.layers.convolutional.Conv1D object at 0x7f5d8257b2d0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv1D.call of <tensorflow.python.layers.convolutional.Conv1D object at 0x7f5d8257b2d0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-23 11:42-WARNING-Entity <bound method Pooling1D.call of <tensorflow.python.layers.pooling.MaxPooling1D object at 0x7f5d8257bf50>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Pooling1D.call of <tensorflow.python.layers.pooling.MaxPooling1D object at 0x7f5d8257bf50>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-23 11:42-WARNING-Entity <bound method Conv1D.call of <tensorflow.python.layers.convolutional.Conv1D object at 0x7f5d8257b2d0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv1D.call of <tensorflow.python.layers.convolutional.Conv1D object at 0x7f5d8257b2d0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-23 11:42-WARNING-Entity <bound method Pooling1D.call of <tensorflow.python.layers.pooling.MaxPooling1D object at 0x7f5d81965f90>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Pooling1D.call of <tensorflow.python.layers.pooling.MaxPooling1D object at 0x7f5d81965f90>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-23 11:42-WARNING-Entity <bound method Conv1D.call of <tensorflow.python.layers.convolutional.Conv1D object at 0x7f5d8257bc10>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv1D.call of <tensorflow.python.layers.convolutional.Conv1D object at 0x7f5d8257bc10>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-23 11:42-WARNING-Entity <bound method Pooling1D.call of <tensorflow.python.layers.pooling.MaxPooling1D object at 0x7f5d8257b190>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Pooling1D.call of <tensorflow.python.layers.pooling.MaxPooling1D object at 0x7f5d8257b190>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-23 11:42-WARNING-From ../model/utils/modules.py:205: dropout (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.dropout instead.
+20-03-23 11:42-WARNING-Entity <bound method Dropout.call of <tensorflow.python.layers.core.Dropout object at 0x7f5d825768d0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dropout.call of <tensorflow.python.layers.core.Dropout object at 0x7f5d825768d0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-23 11:42-WARNING-Variable *= will be deprecated. Use `var.assign(var * other)` if you want assignment to the variable value or `x = x * y` if you want a new python Tensor object.
+20-03-23 11:42-WARNING-Entity <bound method Conv1D.call of <tensorflow.python.layers.convolutional.Conv1D object at 0x7f5d824e7050>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv1D.call of <tensorflow.python.layers.convolutional.Conv1D object at 0x7f5d824e7050>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-23 11:42-WARNING-Entity <bound method Pooling1D.call of <tensorflow.python.layers.pooling.MaxPooling1D object at 0x7f5d818a8590>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Pooling1D.call of <tensorflow.python.layers.pooling.MaxPooling1D object at 0x7f5d818a8590>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-23 11:42-WARNING-Entity <bound method Conv1D.call of <tensorflow.python.layers.convolutional.Conv1D object at 0x7f5d819834d0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv1D.call of <tensorflow.python.layers.convolutional.Conv1D object at 0x7f5d819834d0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-23 11:42-WARNING-Entity <bound method Pooling1D.call of <tensorflow.python.layers.pooling.MaxPooling1D object at 0x7f5d819834d0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Pooling1D.call of <tensorflow.python.layers.pooling.MaxPooling1D object at 0x7f5d819834d0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-23 11:42-WARNING-Entity <bound method Conv1D.call of <tensorflow.python.layers.convolutional.Conv1D object at 0x7f5d81863ed0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv1D.call of <tensorflow.python.layers.convolutional.Conv1D object at 0x7f5d81863ed0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-23 11:42-WARNING-Entity <bound method Pooling1D.call of <tensorflow.python.layers.pooling.MaxPooling1D object at 0x7f5d81863e10>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Pooling1D.call of <tensorflow.python.layers.pooling.MaxPooling1D object at 0x7f5d81863e10>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-23 11:42-WARNING-From ../model/utils/modules.py:240: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.dense instead.
+20-03-23 11:42-WARNING-Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f5d8195f490>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f5d8195f490>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-23 11:42-WARNING-From ../model/utils/modules.py:242: batch_normalization (from tensorflow.python.layers.normalization) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.BatchNormalization instead.  In particular, `tf.control_dependencies(tf.GraphKeys.UPDATE_OPS)` should not be used (consult the `tf.keras.layers.batch_normalization` documentation).
+20-03-23 11:42-WARNING-Entity <bound method BatchNormalization.call of <tensorflow.python.layers.normalization.BatchNormalization object at 0x7f5d8ebfdd10>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method BatchNormalization.call of <tensorflow.python.layers.normalization.BatchNormalization object at 0x7f5d8ebfdd10>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-23 11:42-WARNING-From ../model/utils/modules.py:245: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+20-03-23 11:42-WARNING-Entity <bound method Conv1D.call of <tensorflow.python.layers.convolutional.Conv1D object at 0x7f5d817cbc10>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv1D.call of <tensorflow.python.layers.convolutional.Conv1D object at 0x7f5d817cbc10>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-23 11:42-WARNING-Entity <bound method Pooling1D.call of <tensorflow.python.layers.pooling.MaxPooling1D object at 0x7f5d825405d0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Pooling1D.call of <tensorflow.python.layers.pooling.MaxPooling1D object at 0x7f5d825405d0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-23 11:42-WARNING-Entity <bound method Conv1D.call of <tensorflow.python.layers.convolutional.Conv1D object at 0x7f5d82540250>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv1D.call of <tensorflow.python.layers.convolutional.Conv1D object at 0x7f5d82540250>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-23 11:42-WARNING-Entity <bound method Pooling1D.call of <tensorflow.python.layers.pooling.MaxPooling1D object at 0x7f5d825405d0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Pooling1D.call of <tensorflow.python.layers.pooling.MaxPooling1D object at 0x7f5d825405d0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-23 11:42-WARNING-Entity <bound method Conv1D.call of <tensorflow.python.layers.convolutional.Conv1D object at 0x7f5d82559350>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv1D.call of <tensorflow.python.layers.convolutional.Conv1D object at 0x7f5d82559350>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-23 11:42-WARNING-Entity <bound method Pooling1D.call of <tensorflow.python.layers.pooling.MaxPooling1D object at 0x7f5d82540250>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Pooling1D.call of <tensorflow.python.layers.pooling.MaxPooling1D object at 0x7f5d82540250>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-23 11:42-WARNING-Entity <bound method Conv1D.call of <tensorflow.python.layers.convolutional.Conv1D object at 0x7f5d8180e790>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv1D.call of <tensorflow.python.layers.convolutional.Conv1D object at 0x7f5d8180e790>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-23 11:42-WARNING-Entity <bound method Pooling1D.call of <tensorflow.python.layers.pooling.MaxPooling1D object at 0x7f5d8180ecd0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Pooling1D.call of <tensorflow.python.layers.pooling.MaxPooling1D object at 0x7f5d8180ecd0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-23 11:42-WARNING-Entity <bound method Dropout.call of <tensorflow.python.layers.core.Dropout object at 0x7f5d8192ded0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dropout.call of <tensorflow.python.layers.core.Dropout object at 0x7f5d8192ded0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-23 11:42-WARNING-Entity <bound method Conv1D.call of <tensorflow.python.layers.convolutional.Conv1D object at 0x7f5d81800f50>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv1D.call of <tensorflow.python.layers.convolutional.Conv1D object at 0x7f5d81800f50>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-23 11:42-WARNING-Entity <bound method Pooling1D.call of <tensorflow.python.layers.pooling.MaxPooling1D object at 0x7f5d81768a90>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Pooling1D.call of <tensorflow.python.layers.pooling.MaxPooling1D object at 0x7f5d81768a90>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-23 11:42-WARNING-Entity <bound method Conv1D.call of <tensorflow.python.layers.convolutional.Conv1D object at 0x7f5d81800410>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv1D.call of <tensorflow.python.layers.convolutional.Conv1D object at 0x7f5d81800410>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-23 11:42-WARNING-Entity <bound method Pooling1D.call of <tensorflow.python.layers.pooling.MaxPooling1D object at 0x7f5d81960a10>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Pooling1D.call of <tensorflow.python.layers.pooling.MaxPooling1D object at 0x7f5d81960a10>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-23 11:42-WARNING-Entity <bound method Conv1D.call of <tensorflow.python.layers.convolutional.Conv1D object at 0x7f5d8175b890>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv1D.call of <tensorflow.python.layers.convolutional.Conv1D object at 0x7f5d8175b890>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-23 11:42-WARNING-Entity <bound method Pooling1D.call of <tensorflow.python.layers.pooling.MaxPooling1D object at 0x7f5d8175b310>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Pooling1D.call of <tensorflow.python.layers.pooling.MaxPooling1D object at 0x7f5d8175b310>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-23 11:42-WARNING-Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f5d818595d0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f5d818595d0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-23 11:42-WARNING-Entity <bound method BatchNormalization.call of <tensorflow.python.layers.normalization.BatchNormalization object at 0x7f5d82540d50>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method BatchNormalization.call of <tensorflow.python.layers.normalization.BatchNormalization object at 0x7f5d82540d50>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-23 11:42-WARNING-Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f5d8167ff50>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f5d8167ff50>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-23 11:42-WARNING-Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f5d8191a3d0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f5d8191a3d0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-23 11:42-WARNING-From ../model/base_model.py:132: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+20-03-23 11:42-WARNING-From /root/anaconda3/lib/python3.7/site-packages/tensorflow/python/ops/clip_ops.py:286: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+20-03-23 11:42-WARNING-From ../model/train.py:111: The name tf.train.Saver is deprecated. Please use tf.compat.v1.train.Saver instead.
+
+20-03-23 11:42-WARNING-From /root/anaconda3/lib/python3.7/site-packages/tensorflow/python/training/saver.py:1276: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+20-03-23 11:42-INFO-Restoring parameters from /root/data/mentali/IDS/ckpt/hierarchical_cnn/hierarchical_cnn_17
+20-03-23 11:42-INFO-Epoch 0, Batch 1, Global step 1:
+20-03-23 11:42-INFO-training batch loss: 12.4600; avg_loss: 12.4600
+20-03-23 11:42-INFO-training batch acc: 0.5703; avg_acc: 0.5703
+20-03-23 11:42-INFO-
+20-03-23 11:42-INFO-Epoch 0, Batch 2, Global step 2:
+20-03-23 11:42-INFO-training batch loss: 4.3697; avg_loss: 8.4148
+20-03-23 11:42-INFO-training batch acc: 0.5938; avg_acc: 0.5820
+20-03-23 11:42-INFO-
+20-03-23 11:42-INFO-Epoch 0, Batch 3, Global step 3:
+20-03-23 11:42-INFO-training batch loss: 3.3643; avg_loss: 6.7313
+20-03-23 11:42-INFO-training batch acc: 0.5312; avg_acc: 0.5651
+20-03-23 11:42-INFO-
+20-03-23 11:42-INFO-Epoch 0, Batch 4, Global step 4:
+20-03-23 11:42-INFO-training batch loss: 1.5555; avg_loss: 5.4374
+20-03-23 11:42-INFO-training batch acc: 0.6172; avg_acc: 0.5781
+20-03-23 11:42-INFO-
+20-03-23 11:42-INFO-Epoch 0, Batch 5, Global step 5:
+20-03-23 11:42-INFO-training batch loss: 1.1141; avg_loss: 4.5727
+20-03-23 11:42-INFO-training batch acc: 0.5859; avg_acc: 0.5797
+20-03-23 11:42-INFO-
+20-03-23 11:42-INFO-Epoch 0, Batch 6, Global step 6:
+20-03-23 11:42-INFO-training batch loss: 0.8025; avg_loss: 3.9443
+20-03-23 11:42-INFO-training batch acc: 0.6406; avg_acc: 0.5898
+20-03-23 11:42-INFO-
+20-03-23 11:43-INFO-Epoch 0, Batch 7, Global step 7:
+20-03-23 11:43-INFO-training batch loss: 0.6939; avg_loss: 3.4800
+20-03-23 11:43-INFO-training batch acc: 0.6133; avg_acc: 0.5932
+20-03-23 11:43-INFO-
+20-03-23 11:43-INFO-Epoch 0, Batch 8, Global step 8:
+20-03-23 11:43-INFO-training batch loss: 0.6501; avg_loss: 3.1263
+20-03-23 11:43-INFO-training batch acc: 0.5781; avg_acc: 0.5913
+20-03-23 11:43-INFO-
+20-03-23 11:43-INFO-Epoch 0, Batch 9, Global step 9:
+20-03-23 11:43-INFO-training batch loss: 0.6621; avg_loss: 2.8525
+20-03-23 11:43-INFO-training batch acc: 0.6172; avg_acc: 0.5942
+20-03-23 11:43-INFO-
+20-03-23 11:43-INFO-Epoch 0, Batch 10, Global step 10:
+20-03-23 11:43-INFO-training batch loss: 0.6727; avg_loss: 2.6345
+20-03-23 11:43-INFO-training batch acc: 0.5977; avg_acc: 0.5945
+20-03-23 11:43-INFO-
+20-03-23 11:43-INFO-Epoch 0, Batch 11, Global step 11:
+20-03-23 11:43-INFO-training batch loss: 0.6731; avg_loss: 2.4562
+20-03-23 11:43-INFO-training batch acc: 0.6016; avg_acc: 0.5952
+20-03-23 11:43-INFO-
+20-03-23 11:43-INFO-Epoch 0, Batch 12, Global step 12:
+20-03-23 11:43-INFO-training batch loss: 0.6312; avg_loss: 2.3041
+20-03-23 11:43-INFO-training batch acc: 0.6133; avg_acc: 0.5967
+20-03-23 11:43-INFO-
+20-03-23 11:43-INFO-Epoch 0, Batch 13, Global step 13:
+20-03-23 11:43-INFO-training batch loss: 0.6496; avg_loss: 2.1768
+20-03-23 11:43-INFO-training batch acc: 0.6211; avg_acc: 0.5986
+20-03-23 11:43-INFO-
+20-03-23 11:43-INFO-Epoch 0, Batch 14, Global step 14:
+20-03-23 11:43-INFO-training batch loss: 0.6884; avg_loss: 2.0705
+20-03-23 11:43-INFO-training batch acc: 0.5781; avg_acc: 0.5971
+20-03-23 11:43-INFO-
+20-03-23 11:43-INFO-Epoch 0, Batch 15, Global step 15:
+20-03-23 11:43-INFO-training batch loss: 0.6997; avg_loss: 1.9791
+20-03-23 11:43-INFO-training batch acc: 0.5469; avg_acc: 0.5938
+20-03-23 11:43-INFO-
+20-03-23 11:43-INFO-Epoch 0, Batch 16, Global step 16:
+20-03-23 11:43-INFO-training batch loss: 0.6625; avg_loss: 1.8968
+20-03-23 11:43-INFO-training batch acc: 0.6211; avg_acc: 0.5955
+20-03-23 11:43-INFO-
+20-03-23 11:43-INFO-Epoch 0, Batch 17, Global step 17:
+20-03-23 11:43-INFO-training batch loss: 0.6372; avg_loss: 1.8227
+20-03-23 11:43-INFO-training batch acc: 0.6562; avg_acc: 0.5990
+20-03-23 11:43-INFO-
+20-03-23 11:43-INFO-Epoch 0, Batch 18, Global step 18:
+20-03-23 11:43-INFO-training batch loss: 0.7028; avg_loss: 1.7605
+20-03-23 11:43-INFO-training batch acc: 0.6172; avg_acc: 0.6000
+20-03-23 11:43-INFO-
+20-03-23 11:43-INFO-Epoch 0, Batch 19, Global step 19:
+20-03-23 11:43-INFO-training batch loss: 0.6423; avg_loss: 1.7017
+20-03-23 11:43-INFO-training batch acc: 0.6094; avg_acc: 0.6005
+20-03-23 11:43-INFO-
+20-03-23 11:43-INFO-Epoch 0, Batch 20, Global step 20:
+20-03-23 11:43-INFO-training batch loss: 0.6569; avg_loss: 1.6494
+20-03-23 11:43-INFO-training batch acc: 0.6016; avg_acc: 0.6006
+20-03-23 11:43-INFO-
+20-03-23 11:44-INFO-Epoch 0, Batch 21, Global step 21:
+20-03-23 11:44-INFO-training batch loss: 0.6423; avg_loss: 1.6015
+20-03-23 11:44-INFO-training batch acc: 0.5781; avg_acc: 0.5995
+20-03-23 11:44-INFO-
+20-03-23 11:44-INFO-Epoch 0, Batch 22, Global step 22:
+20-03-23 11:44-INFO-training batch loss: 0.6270; avg_loss: 1.5572
+20-03-23 11:44-INFO-training batch acc: 0.6094; avg_acc: 0.6000
+20-03-23 11:44-INFO-
+20-03-23 11:44-INFO-Epoch 0, Batch 23, Global step 23:
+20-03-23 11:44-INFO-training batch loss: 0.6202; avg_loss: 1.5164
+20-03-23 11:44-INFO-training batch acc: 0.6602; avg_acc: 0.6026
+20-03-23 11:44-INFO-
+20-03-23 11:44-INFO-Epoch 0, Batch 24, Global step 24:
+20-03-23 11:44-INFO-training batch loss: 0.6731; avg_loss: 1.4813
+20-03-23 11:44-INFO-training batch acc: 0.6328; avg_acc: 0.6038
+20-03-23 11:44-INFO-
+20-03-23 11:44-INFO-Epoch 0, Batch 25, Global step 25:
+20-03-23 11:44-INFO-training batch loss: 0.6627; avg_loss: 1.4486
+20-03-23 11:44-INFO-training batch acc: 0.5547; avg_acc: 0.6019
+20-03-23 11:44-INFO-
+20-03-23 11:44-INFO-Epoch 0, Batch 26, Global step 26:
+20-03-23 11:44-INFO-training batch loss: 0.6661; avg_loss: 1.4185
+20-03-23 11:44-INFO-training batch acc: 0.5625; avg_acc: 0.6004
+20-03-23 11:44-INFO-
+20-03-23 11:44-INFO-Epoch 0, Batch 27, Global step 27:
+20-03-23 11:44-INFO-training batch loss: 0.6745; avg_loss: 1.3909
+20-03-23 11:44-INFO-training batch acc: 0.5703; avg_acc: 0.5992
+20-03-23 11:44-INFO-
+20-03-23 11:44-INFO-Epoch 0, Batch 28, Global step 28:
+20-03-23 11:44-INFO-training batch loss: 0.6553; avg_loss: 1.3646
+20-03-23 11:44-INFO-training batch acc: 0.6250; avg_acc: 0.6002
+20-03-23 11:44-INFO-
+20-03-23 11:44-INFO-Epoch 0, Batch 29, Global step 29:
+20-03-23 11:44-INFO-training batch loss: 0.6461; avg_loss: 1.3399
+20-03-23 11:44-INFO-training batch acc: 0.6133; avg_acc: 0.6006
+20-03-23 11:44-INFO-
+20-03-23 11:44-INFO-Epoch 0, Batch 30, Global step 30:
+20-03-23 11:44-INFO-training batch loss: 0.6360; avg_loss: 1.3164
+20-03-23 11:44-INFO-training batch acc: 0.6445; avg_acc: 0.6021
+20-03-23 11:44-INFO-
+20-03-23 11:44-INFO-Epoch 0, Batch 31, Global step 31:
+20-03-23 11:44-INFO-training batch loss: 0.6759; avg_loss: 1.2957
+20-03-23 11:44-INFO-training batch acc: 0.5703; avg_acc: 0.6011
+20-03-23 11:44-INFO-
+20-03-23 11:44-INFO-Epoch 0, Batch 32, Global step 32:
+20-03-23 11:44-INFO-training batch loss: 0.6610; avg_loss: 1.2759
+20-03-23 11:44-INFO-training batch acc: 0.5664; avg_acc: 0.6000
+20-03-23 11:44-INFO-
+20-03-23 11:44-INFO-Epoch 0, Batch 33, Global step 33:
+20-03-23 11:44-INFO-training batch loss: 0.6915; avg_loss: 1.2582
+20-03-23 11:44-INFO-training batch acc: 0.6172; avg_acc: 0.6005
+20-03-23 11:44-INFO-
+20-03-23 11:45-INFO-Epoch 0, Batch 34, Global step 34:
+20-03-23 11:45-INFO-training batch loss: 0.6529; avg_loss: 1.2404
+20-03-23 11:45-INFO-training batch acc: 0.6289; avg_acc: 0.6013
+20-03-23 11:45-INFO-
+20-03-23 11:45-INFO-Epoch 0, Batch 35, Global step 35:
+20-03-23 11:45-INFO-training batch loss: 0.6432; avg_loss: 1.2233
+20-03-23 11:45-INFO-training batch acc: 0.6641; avg_acc: 0.6031
+20-03-23 11:45-INFO-
+20-03-23 11:45-INFO-Epoch 0, Batch 36, Global step 36:
+20-03-23 11:45-INFO-training batch loss: 0.6857; avg_loss: 1.2084
+20-03-23 11:45-INFO-training batch acc: 0.5703; avg_acc: 0.6022
+20-03-23 11:45-INFO-
+20-03-23 11:45-INFO-Epoch 0, Batch 37, Global step 37:
+20-03-23 11:45-INFO-training batch loss: 0.6702; avg_loss: 1.1938
+20-03-23 11:45-INFO-training batch acc: 0.5430; avg_acc: 0.6006
+20-03-23 11:45-INFO-
+20-03-23 11:45-INFO-Epoch 0, Batch 38, Global step 38:
+20-03-23 11:45-INFO-training batch loss: 0.6394; avg_loss: 1.1793
+20-03-23 11:45-INFO-training batch acc: 0.6289; avg_acc: 0.6014
+20-03-23 11:45-INFO-
+20-03-23 11:45-INFO-Epoch 0, Batch 39, Global step 39:
+20-03-23 11:45-INFO-training batch loss: 0.6691; avg_loss: 1.1662
+20-03-23 11:45-INFO-training batch acc: 0.5547; avg_acc: 0.6002
+20-03-23 11:45-INFO-
+20-03-23 11:45-INFO-Epoch 0, Batch 40, Global step 40:
+20-03-23 11:45-INFO-training batch loss: 0.6803; avg_loss: 1.1540
+20-03-23 11:45-INFO-training batch acc: 0.5703; avg_acc: 0.5994
+20-03-23 11:45-INFO-
+20-03-23 11:45-INFO-Epoch 0, Batch 41, Global step 41:
+20-03-23 11:45-INFO-training batch loss: 0.6537; avg_loss: 1.1418
+20-03-23 11:45-INFO-training batch acc: 0.6094; avg_acc: 0.5997
+20-03-23 11:45-INFO-
+20-03-23 11:45-INFO-Epoch 0, Batch 42, Global step 42:
+20-03-23 11:45-INFO-training batch loss: 0.6590; avg_loss: 1.1303
+20-03-23 11:45-INFO-training batch acc: 0.5820; avg_acc: 0.5992
+20-03-23 11:45-INFO-
+20-03-23 11:45-INFO-Epoch 0, Batch 43, Global step 43:
+20-03-23 11:45-INFO-training batch loss: 0.6721; avg_loss: 1.1197
+20-03-23 11:45-INFO-training batch acc: 0.5898; avg_acc: 0.5990
+20-03-23 11:45-INFO-
+20-03-23 11:45-INFO-Epoch 0, Batch 44, Global step 44:
+20-03-23 11:45-INFO-training batch loss: 0.6766; avg_loss: 1.1096
+20-03-23 11:45-INFO-training batch acc: 0.5781; avg_acc: 0.5985
+20-03-23 11:45-INFO-
+20-03-23 11:45-INFO-Epoch 0, Batch 45, Global step 45:
+20-03-23 11:45-INFO-training batch loss: 0.6633; avg_loss: 1.0997
+20-03-23 11:45-INFO-training batch acc: 0.5586; avg_acc: 0.5977
+20-03-23 11:45-INFO-
+20-03-23 11:45-INFO-Epoch 0, Batch 46, Global step 46:
+20-03-23 11:45-INFO-training batch loss: 0.6519; avg_loss: 1.0899
+20-03-23 11:45-INFO-training batch acc: 0.5664; avg_acc: 0.5970
+20-03-23 11:45-INFO-
+20-03-23 11:46-INFO-Epoch 0, Batch 47, Global step 47:
+20-03-23 11:46-INFO-training batch loss: 0.6476; avg_loss: 1.0805
+20-03-23 11:46-INFO-training batch acc: 0.6016; avg_acc: 0.5971
+20-03-23 11:46-INFO-
+20-03-23 11:46-INFO-Epoch 0, Batch 48, Global step 48:
+20-03-23 11:46-INFO-training batch loss: 0.6687; avg_loss: 1.0720
+20-03-23 11:46-INFO-training batch acc: 0.6211; avg_acc: 0.5976
+20-03-23 11:46-INFO-
+20-03-23 11:46-INFO-Epoch 0, Batch 49, Global step 49:
+20-03-23 11:46-INFO-training batch loss: 0.6518; avg_loss: 1.0634
+20-03-23 11:46-INFO-training batch acc: 0.6250; avg_acc: 0.5981
+20-03-23 11:46-INFO-
+20-03-23 11:46-INFO-Epoch 0, Batch 50, Global step 50:
+20-03-23 11:46-INFO-training batch loss: 0.6769; avg_loss: 1.0557
+20-03-23 11:46-INFO-training batch acc: 0.5820; avg_acc: 0.5978
+20-03-23 11:46-INFO-
+20-03-23 11:46-INFO-Epoch 0, Batch 51, Global step 51:
+20-03-23 11:46-INFO-training batch loss: 0.6637; avg_loss: 1.0480
+20-03-23 11:46-INFO-training batch acc: 0.5859; avg_acc: 0.5976
+20-03-23 11:46-INFO-
+20-03-23 11:46-INFO-Epoch 0, Batch 52, Global step 52:
+20-03-23 11:46-INFO-training batch loss: 0.6391; avg_loss: 1.0401
+20-03-23 11:46-INFO-training batch acc: 0.6328; avg_acc: 0.5983
+20-03-23 11:46-INFO-
+20-03-23 11:46-INFO-Epoch 0, Batch 53, Global step 53:
+20-03-23 11:46-INFO-training batch loss: 0.6755; avg_loss: 1.0332
+20-03-23 11:46-INFO-training batch acc: 0.5586; avg_acc: 0.5975
+20-03-23 11:46-INFO-
+20-03-23 11:46-INFO-Epoch 0, Batch 54, Global step 54:
+20-03-23 11:46-INFO-training batch loss: 0.6723; avg_loss: 1.0265
+20-03-23 11:46-INFO-training batch acc: 0.6211; avg_acc: 0.5979
+20-03-23 11:46-INFO-
+20-03-23 11:46-INFO-Epoch 0, Batch 55, Global step 55:
+20-03-23 11:46-INFO-training batch loss: 0.6779; avg_loss: 1.0202
+20-03-23 11:46-INFO-training batch acc: 0.5859; avg_acc: 0.5977
+20-03-23 11:46-INFO-
+20-03-23 11:46-INFO-Epoch 0, Batch 56, Global step 56:
+20-03-23 11:46-INFO-training batch loss: 0.6447; avg_loss: 1.0135
+20-03-23 11:46-INFO-training batch acc: 0.6250; avg_acc: 0.5982
+20-03-23 11:46-INFO-
+20-03-23 11:46-INFO-Epoch 0, Batch 57, Global step 57:
+20-03-23 11:46-INFO-training batch loss: 0.6704; avg_loss: 1.0075
+20-03-23 11:46-INFO-training batch acc: 0.5742; avg_acc: 0.5978
+20-03-23 11:46-INFO-
+20-03-23 11:46-INFO-Epoch 0, Batch 58, Global step 58:
+20-03-23 11:46-INFO-training batch loss: 0.6530; avg_loss: 1.0014
+20-03-23 11:46-INFO-training batch acc: 0.6367; avg_acc: 0.5985
+20-03-23 11:46-INFO-
+20-03-23 11:46-INFO-Epoch 0, Batch 59, Global step 59:
+20-03-23 11:46-INFO-training batch loss: 0.6566; avg_loss: 0.9955
+20-03-23 11:46-INFO-training batch acc: 0.5586; avg_acc: 0.5978
+20-03-23 11:46-INFO-
+20-03-23 11:47-INFO-Epoch 0, Batch 60, Global step 60:
+20-03-23 11:47-INFO-training batch loss: 0.6307; avg_loss: 0.9894
+20-03-23 11:47-INFO-training batch acc: 0.6250; avg_acc: 0.5982
+20-03-23 11:47-INFO-
+20-03-23 11:47-INFO-Epoch 0, Batch 61, Global step 61:
+20-03-23 11:47-INFO-training batch loss: 0.7027; avg_loss: 0.9847
+20-03-23 11:47-INFO-training batch acc: 0.5430; avg_acc: 0.5973
+20-03-23 11:47-INFO-
+20-03-23 11:47-INFO-Epoch 0, Batch 62, Global step 62:
+20-03-23 11:47-INFO-training batch loss: 0.6103; avg_loss: 0.9787
+20-03-23 11:47-INFO-training batch acc: 0.6719; avg_acc: 0.5985
+20-03-23 11:47-INFO-
+20-03-23 11:47-INFO-Epoch 0, Batch 63, Global step 63:
+20-03-23 11:47-INFO-training batch loss: 0.6151; avg_loss: 0.9729
+20-03-23 11:47-INFO-training batch acc: 0.6328; avg_acc: 0.5991
+20-03-23 11:47-INFO-
+20-03-23 11:47-INFO-Epoch 0, Batch 64, Global step 64:
+20-03-23 11:47-INFO-training batch loss: 0.6034; avg_loss: 0.9672
+20-03-23 11:47-INFO-training batch acc: 0.6602; avg_acc: 0.6000
+20-03-23 11:47-INFO-
+20-03-23 11:47-INFO-Epoch 0, Batch 65, Global step 65:
+20-03-23 11:47-INFO-training batch loss: 0.6073; avg_loss: 0.9616
+20-03-23 11:47-INFO-training batch acc: 0.6250; avg_acc: 0.6004
+20-03-23 11:47-INFO-
+20-03-23 11:47-INFO-Epoch 0, Batch 66, Global step 66:
+20-03-23 11:47-INFO-training batch loss: 0.6204; avg_loss: 0.9565
+20-03-23 11:47-INFO-training batch acc: 0.6172; avg_acc: 0.6007
+20-03-23 11:47-INFO-
+20-03-23 11:47-INFO-Epoch 0, Batch 67, Global step 67:
+20-03-23 11:47-INFO-training batch loss: 0.5883; avg_loss: 0.9510
+20-03-23 11:47-INFO-training batch acc: 0.6406; avg_acc: 0.6013
+20-03-23 11:47-INFO-
+20-03-23 11:47-INFO-Epoch 0, Batch 68, Global step 68:
+20-03-23 11:47-INFO-training batch loss: 0.5703; avg_loss: 0.9454
+20-03-23 11:47-INFO-training batch acc: 0.7070; avg_acc: 0.6028
+20-03-23 11:47-INFO-
+20-03-23 11:47-INFO-Epoch 0, Batch 69, Global step 69:
+20-03-23 11:47-INFO-training batch loss: 0.6248; avg_loss: 0.9407
+20-03-23 11:47-INFO-training batch acc: 0.6328; avg_acc: 0.6033
+20-03-23 11:47-INFO-
+20-03-23 11:47-INFO-Epoch 0, Batch 70, Global step 70:
+20-03-23 11:47-INFO-training batch loss: 0.6068; avg_loss: 0.9359
+20-03-23 11:47-INFO-training batch acc: 0.6445; avg_acc: 0.6039
+20-03-23 11:47-INFO-
+20-03-23 11:47-INFO-Epoch 0, Batch 71, Global step 71:
+20-03-23 11:47-INFO-training batch loss: 0.5638; avg_loss: 0.9307
+20-03-23 11:47-INFO-training batch acc: 0.6523; avg_acc: 0.6045
+20-03-23 11:47-INFO-
+20-03-23 11:47-INFO-Epoch 0, Batch 72, Global step 72:
+20-03-23 11:47-INFO-training batch loss: 0.6879; avg_loss: 0.9273
+20-03-23 11:47-INFO-training batch acc: 0.5938; avg_acc: 0.6044
+20-03-23 11:47-INFO-
+20-03-23 11:48-INFO-Epoch 0, Batch 73, Global step 73:
+20-03-23 11:48-INFO-training batch loss: 0.6037; avg_loss: 0.9229
+20-03-23 11:48-INFO-training batch acc: 0.6406; avg_acc: 0.6049
+20-03-23 11:48-INFO-
+20-03-23 11:48-INFO-Epoch 0, Batch 74, Global step 74:
+20-03-23 11:48-INFO-training batch loss: 0.5598; avg_loss: 0.9180
+20-03-23 11:48-INFO-training batch acc: 0.6719; avg_acc: 0.6058
+20-03-23 11:48-INFO-
+20-03-23 11:48-INFO-Epoch 0, Batch 75, Global step 75:
+20-03-23 11:48-INFO-training batch loss: 0.5765; avg_loss: 0.9134
+20-03-23 11:48-INFO-training batch acc: 0.6914; avg_acc: 0.6069
+20-03-23 11:48-INFO-
+20-03-23 11:48-INFO-Epoch 0, Batch 76, Global step 76:
+20-03-23 11:48-INFO-training batch loss: 0.5410; avg_loss: 0.9085
+20-03-23 11:48-INFO-training batch acc: 0.7383; avg_acc: 0.6087
+20-03-23 11:48-INFO-
+20-03-23 11:48-INFO-Epoch 0, Batch 77, Global step 77:
+20-03-23 11:48-INFO-training batch loss: 0.6227; avg_loss: 0.9048
+20-03-23 11:48-INFO-training batch acc: 0.6445; avg_acc: 0.6091
+20-03-23 11:48-INFO-
+20-03-23 11:48-INFO-Epoch 0, Batch 78, Global step 78:
+20-03-23 11:48-INFO-training batch loss: 0.5081; avg_loss: 0.8997
+20-03-23 11:48-INFO-training batch acc: 0.6914; avg_acc: 0.6102
+20-03-23 11:48-INFO-
+20-03-23 11:48-INFO-Epoch 0, Batch 79, Global step 79:
+20-03-23 11:48-INFO-training batch loss: 0.5305; avg_loss: 0.8951
+20-03-23 11:48-INFO-training batch acc: 0.6836; avg_acc: 0.6111
+20-03-23 11:48-INFO-
+20-03-23 11:48-INFO-Epoch 0, Batch 80, Global step 80:
+20-03-23 11:48-INFO-training batch loss: 0.5385; avg_loss: 0.8906
+20-03-23 11:48-INFO-training batch acc: 0.7070; avg_acc: 0.6123
+20-03-23 11:48-INFO-
+20-03-23 11:48-INFO-Epoch 0, Batch 81, Global step 81:
+20-03-23 11:48-INFO-training batch loss: 0.5149; avg_loss: 0.8860
+20-03-23 11:48-INFO-training batch acc: 0.7539; avg_acc: 0.6141
+20-03-23 11:48-INFO-
+20-03-23 11:48-INFO-Epoch 0, Batch 82, Global step 82:
+20-03-23 11:48-INFO-training batch loss: 0.5315; avg_loss: 0.8816
+20-03-23 11:48-INFO-training batch acc: 0.7070; avg_acc: 0.6152
+20-03-23 11:48-INFO-
+20-03-23 11:48-INFO-Epoch 0, Batch 83, Global step 83:
+20-03-23 11:48-INFO-training batch loss: 0.4729; avg_loss: 0.8767
+20-03-23 11:48-INFO-training batch acc: 0.7461; avg_acc: 0.6168
+20-03-23 11:48-INFO-
+20-03-23 11:48-INFO-Epoch 0, Batch 84, Global step 84:
+20-03-23 11:48-INFO-training batch loss: 0.5502; avg_loss: 0.8728
+20-03-23 11:48-INFO-training batch acc: 0.7188; avg_acc: 0.6180
+20-03-23 11:48-INFO-
+20-03-23 11:48-INFO-Epoch 0, Batch 85, Global step 85:
+20-03-23 11:48-INFO-training batch loss: 0.5405; avg_loss: 0.8689
+20-03-23 11:48-INFO-training batch acc: 0.6719; avg_acc: 0.6186
+20-03-23 11:48-INFO-
+20-03-23 11:49-INFO-Epoch 0, Batch 86, Global step 86:
+20-03-23 11:49-INFO-training batch loss: 0.5161; avg_loss: 0.8648
+20-03-23 11:49-INFO-training batch acc: 0.7266; avg_acc: 0.6199
+20-03-23 11:49-INFO-
+20-03-23 11:49-INFO-Epoch 0, Batch 87, Global step 87:
+20-03-23 11:49-INFO-training batch loss: 0.5591; avg_loss: 0.8613
+20-03-23 11:49-INFO-training batch acc: 0.6914; avg_acc: 0.6207
+20-03-23 11:49-INFO-
+20-03-23 11:49-INFO-Epoch 0, Batch 88, Global step 88:
+20-03-23 11:49-INFO-training batch loss: 0.5286; avg_loss: 0.8575
+20-03-23 11:49-INFO-training batch acc: 0.7070; avg_acc: 0.6217
+20-03-23 11:49-INFO-
+20-03-23 11:49-INFO-Epoch 0, Batch 89, Global step 89:
+20-03-23 11:49-INFO-training batch loss: 0.5264; avg_loss: 0.8538
+20-03-23 11:49-INFO-training batch acc: 0.7266; avg_acc: 0.6228
+20-03-23 11:49-INFO-
+20-03-23 11:49-INFO-Epoch 0, Batch 90, Global step 90:
+20-03-23 11:49-INFO-training batch loss: 0.5626; avg_loss: 0.8506
+20-03-23 11:49-INFO-training batch acc: 0.7344; avg_acc: 0.6241
+20-03-23 11:49-INFO-
+20-03-23 11:49-INFO-Epoch 0, Batch 91, Global step 91:
+20-03-23 11:49-INFO-training batch loss: 0.5109; avg_loss: 0.8468
+20-03-23 11:49-INFO-training batch acc: 0.7109; avg_acc: 0.6250
+20-03-23 11:49-INFO-
+20-03-23 11:49-INFO-Epoch 0, Batch 92, Global step 92:
+20-03-23 11:49-INFO-training batch loss: 0.5842; avg_loss: 0.8440
+20-03-23 11:49-INFO-training batch acc: 0.6953; avg_acc: 0.6258
+20-03-23 11:49-INFO-
+20-03-23 11:49-INFO-Epoch 0, Batch 93, Global step 93:
+20-03-23 11:49-INFO-training batch loss: 0.4505; avg_loss: 0.8398
+20-03-23 11:49-INFO-training batch acc: 0.7500; avg_acc: 0.6271
+20-03-23 11:49-INFO-
+20-03-23 11:49-INFO-Epoch 0, Batch 94, Global step 94:
+20-03-23 11:49-INFO-training batch loss: 0.4761; avg_loss: 0.8359
+20-03-23 11:49-INFO-training batch acc: 0.7148; avg_acc: 0.6281
+20-03-23 11:49-INFO-
+20-03-23 11:49-INFO-Epoch 0, Batch 95, Global step 95:
+20-03-23 11:49-INFO-training batch loss: 0.5139; avg_loss: 0.8325
+20-03-23 11:49-INFO-training batch acc: 0.7188; avg_acc: 0.6290
+20-03-23 11:49-INFO-
+20-03-23 11:49-INFO-Epoch 0, Batch 96, Global step 96:
+20-03-23 11:49-INFO-training batch loss: 0.4641; avg_loss: 0.8287
+20-03-23 11:49-INFO-training batch acc: 0.7227; avg_acc: 0.6300
+20-03-23 11:49-INFO-
+20-03-23 11:49-INFO-Epoch 0, Batch 97, Global step 97:
+20-03-23 11:49-INFO-training batch loss: 0.5493; avg_loss: 0.8258
+20-03-23 11:49-INFO-training batch acc: 0.6953; avg_acc: 0.6307
+20-03-23 11:49-INFO-
+20-03-23 11:49-INFO-Epoch 0, Batch 98, Global step 98:
+20-03-23 11:49-INFO-training batch loss: 0.4996; avg_loss: 0.8224
+20-03-23 11:49-INFO-training batch acc: 0.6836; avg_acc: 0.6312
+20-03-23 11:49-INFO-
+20-03-23 11:50-INFO-Epoch 0, Batch 99, Global step 99:
+20-03-23 11:50-INFO-training batch loss: 0.5197; avg_loss: 0.8194
+20-03-23 11:50-INFO-training batch acc: 0.7539; avg_acc: 0.6325
+20-03-23 11:50-INFO-
+20-03-23 11:50-INFO-Epoch 0, Batch 100, Global step 100:
+20-03-23 11:50-INFO-training batch loss: 0.5620; avg_loss: 0.8168
+20-03-23 11:50-INFO-training batch acc: 0.6953; avg_acc: 0.6331
+20-03-23 11:50-INFO-
+20-03-23 11:50-INFO-Epoch 0, Batch 101, Global step 101:
+20-03-23 11:50-INFO-training batch loss: 0.4770; avg_loss: 0.8135
+20-03-23 11:50-INFO-training batch acc: 0.6914; avg_acc: 0.6337
+20-03-23 11:50-INFO-
+20-03-23 11:50-INFO-Epoch 0, Batch 102, Global step 102:
+20-03-23 11:50-INFO-training batch loss: 0.5002; avg_loss: 0.8104
+20-03-23 11:50-INFO-training batch acc: 0.7344; avg_acc: 0.6347
+20-03-23 11:50-INFO-
+20-03-23 11:50-INFO-Epoch 0, Batch 103, Global step 103:
+20-03-23 11:50-INFO-training batch loss: 0.4739; avg_loss: 0.8071
+20-03-23 11:50-INFO-training batch acc: 0.7305; avg_acc: 0.6356
+20-03-23 11:50-INFO-
+20-03-23 11:50-INFO-Epoch 0, Batch 104, Global step 104:
+20-03-23 11:50-INFO-training batch loss: 0.4918; avg_loss: 0.8041
+20-03-23 11:50-INFO-training batch acc: 0.7070; avg_acc: 0.6363
+20-03-23 11:50-INFO-
+20-03-23 11:50-INFO-Epoch 0, Batch 105, Global step 105:
+20-03-23 11:50-INFO-training batch loss: 0.4734; avg_loss: 0.8009
+20-03-23 11:50-INFO-training batch acc: 0.7422; avg_acc: 0.6373
+20-03-23 11:50-INFO-
+20-03-23 11:50-INFO-Epoch 0, Batch 106, Global step 106:
+20-03-23 11:50-INFO-training batch loss: 0.5352; avg_loss: 0.7984
+20-03-23 11:50-INFO-training batch acc: 0.6914; avg_acc: 0.6378
+20-03-23 11:50-INFO-
+20-03-23 11:50-INFO-Epoch 0, Batch 107, Global step 107:
+20-03-23 11:50-INFO-training batch loss: 0.5596; avg_loss: 0.7962
+20-03-23 11:50-INFO-training batch acc: 0.6562; avg_acc: 0.6380
+20-03-23 11:50-INFO-
+20-03-23 11:50-INFO-Epoch 0, Batch 108, Global step 108:
+20-03-23 11:50-INFO-training batch loss: 0.5153; avg_loss: 0.7936
+20-03-23 11:50-INFO-training batch acc: 0.7383; avg_acc: 0.6389
+20-03-23 11:50-INFO-
+20-03-23 11:50-INFO-Epoch 0, Batch 109, Global step 109:
+20-03-23 11:50-INFO-training batch loss: 0.5220; avg_loss: 0.7911
+20-03-23 11:50-INFO-training batch acc: 0.7500; avg_acc: 0.6399
+20-03-23 11:50-INFO-
+20-03-23 11:50-INFO-Epoch 0, Batch 110, Global step 110:
+20-03-23 11:50-INFO-training batch loss: 0.5413; avg_loss: 0.7888
+20-03-23 11:50-INFO-training batch acc: 0.6914; avg_acc: 0.6404
+20-03-23 11:50-INFO-
+20-03-23 11:50-INFO-Epoch 0, Batch 111, Global step 111:
+20-03-23 11:50-INFO-training batch loss: 0.4600; avg_loss: 0.7859
+20-03-23 11:50-INFO-training batch acc: 0.7695; avg_acc: 0.6415
+20-03-23 11:50-INFO-
+20-03-23 11:51-INFO-Epoch 0, Batch 112, Global step 112:
+20-03-23 11:51-INFO-training batch loss: 0.4827; avg_loss: 0.7832
+20-03-23 11:51-INFO-training batch acc: 0.7148; avg_acc: 0.6422
+20-03-23 11:51-INFO-
+20-03-23 11:51-INFO-Epoch 0, Batch 113, Global step 113:
+20-03-23 11:51-INFO-training batch loss: 0.4882; avg_loss: 0.7806
+20-03-23 11:51-INFO-training batch acc: 0.7305; avg_acc: 0.6430
+20-03-23 11:51-INFO-
+20-03-23 11:51-INFO-Epoch 0, Batch 114, Global step 114:
+20-03-23 11:51-INFO-training batch loss: 0.4960; avg_loss: 0.7781
+20-03-23 11:51-INFO-training batch acc: 0.7266; avg_acc: 0.6437
+20-03-23 11:51-INFO-
+20-03-23 11:51-INFO-Epoch 0, Batch 115, Global step 115:
+20-03-23 11:51-INFO-training batch loss: 0.4853; avg_loss: 0.7755
+20-03-23 11:51-INFO-training batch acc: 0.7422; avg_acc: 0.6446
+20-03-23 11:51-INFO-
+20-03-23 11:51-INFO-Epoch 0, Batch 116, Global step 116:
+20-03-23 11:51-INFO-training batch loss: 0.4558; avg_loss: 0.7728
+20-03-23 11:51-INFO-training batch acc: 0.7578; avg_acc: 0.6455
+20-03-23 11:51-INFO-
+20-03-23 11:51-INFO-Epoch 0, Batch 117, Global step 117:
+20-03-23 11:51-INFO-training batch loss: 0.4422; avg_loss: 0.7699
+20-03-23 11:51-INFO-training batch acc: 0.7734; avg_acc: 0.6466
+20-03-23 11:51-INFO-
+20-03-23 11:51-INFO-Epoch 0, Batch 118, Global step 118:
+20-03-23 11:51-INFO-training batch loss: 0.4488; avg_loss: 0.7672
+20-03-23 11:51-INFO-training batch acc: 0.7656; avg_acc: 0.6476
+20-03-23 11:51-INFO-
+20-03-23 11:51-INFO-Epoch 0, Batch 119, Global step 119:
+20-03-23 11:51-INFO-training batch loss: 0.4981; avg_loss: 0.7649
+20-03-23 11:51-INFO-training batch acc: 0.6836; avg_acc: 0.6479
+20-03-23 11:51-INFO-
+20-03-23 11:51-INFO-Epoch 0, Batch 120, Global step 120:
+20-03-23 11:51-INFO-training batch loss: 0.5012; avg_loss: 0.7627
+20-03-23 11:51-INFO-training batch acc: 0.7422; avg_acc: 0.6487
+20-03-23 11:51-INFO-
+20-03-23 11:51-INFO-Epoch 0, Batch 121, Global step 121:
+20-03-23 11:51-INFO-training batch loss: 0.5288; avg_loss: 0.7608
+20-03-23 11:51-INFO-training batch acc: 0.7109; avg_acc: 0.6492
+20-03-23 11:51-INFO-
+20-03-23 11:51-INFO-Epoch 0, Batch 122, Global step 122:
+20-03-23 11:51-INFO-training batch loss: 0.5220; avg_loss: 0.7589
+20-03-23 11:51-INFO-training batch acc: 0.7148; avg_acc: 0.6498
+20-03-23 11:51-INFO-
+20-03-23 11:51-INFO-Epoch 0, Batch 123, Global step 123:
+20-03-23 11:51-INFO-training batch loss: 0.4682; avg_loss: 0.7565
+20-03-23 11:51-INFO-training batch acc: 0.7344; avg_acc: 0.6505
+20-03-23 11:51-INFO-
+20-03-23 11:51-INFO-Epoch 0, Batch 124, Global step 124:
+20-03-23 11:51-INFO-training batch loss: 0.4928; avg_loss: 0.7544
+20-03-23 11:51-INFO-training batch acc: 0.7578; avg_acc: 0.6513
+20-03-23 11:51-INFO-
+20-03-23 11:52-INFO-Epoch 0, Batch 125, Global step 125:
+20-03-23 11:52-INFO-training batch loss: 0.4925; avg_loss: 0.7523
+20-03-23 11:52-INFO-training batch acc: 0.7617; avg_acc: 0.6522
+20-03-23 11:52-INFO-
+20-03-23 11:52-INFO-Epoch 0, Batch 126, Global step 126:
+20-03-23 11:52-INFO-training batch loss: 0.5810; avg_loss: 0.7509
+20-03-23 11:52-INFO-training batch acc: 0.6992; avg_acc: 0.6526
+20-03-23 11:52-INFO-
+20-03-23 11:52-INFO-Epoch 0, Batch 127, Global step 127:
+20-03-23 11:52-INFO-training batch loss: 0.5214; avg_loss: 0.7491
+20-03-23 11:52-INFO-training batch acc: 0.7070; avg_acc: 0.6530
+20-03-23 11:52-INFO-
+20-03-23 11:52-INFO-Epoch 0, Batch 128, Global step 128:
+20-03-23 11:52-INFO-training batch loss: 0.5645; avg_loss: 0.7477
+20-03-23 11:52-INFO-training batch acc: 0.7305; avg_acc: 0.6536
+20-03-23 11:52-INFO-
+20-03-23 11:52-INFO-Epoch 0, Batch 129, Global step 129:
+20-03-23 11:52-INFO-training batch loss: 0.5816; avg_loss: 0.7464
+20-03-23 11:52-INFO-training batch acc: 0.6602; avg_acc: 0.6537
+20-03-23 11:52-INFO-
+20-03-23 11:52-INFO-Epoch 0, Batch 130, Global step 130:
+20-03-23 11:52-INFO-training batch loss: 0.5122; avg_loss: 0.7446
+20-03-23 11:52-INFO-training batch acc: 0.7422; avg_acc: 0.6544
+20-03-23 11:52-INFO-
+20-03-23 11:52-INFO-Epoch 0, Batch 131, Global step 131:
+20-03-23 11:52-INFO-training batch loss: 0.5322; avg_loss: 0.7430
+20-03-23 11:52-INFO-training batch acc: 0.6758; avg_acc: 0.6545
+20-03-23 11:52-INFO-
+20-03-23 11:52-INFO-Epoch 0, Batch 132, Global step 132:
+20-03-23 11:52-INFO-training batch loss: 0.5218; avg_loss: 0.7413
+20-03-23 11:52-INFO-training batch acc: 0.7305; avg_acc: 0.6551
+20-03-23 11:52-INFO-
+20-03-23 11:52-INFO-Epoch 0, Batch 133, Global step 133:
+20-03-23 11:52-INFO-training batch loss: 0.4725; avg_loss: 0.7393
+20-03-23 11:52-INFO-training batch acc: 0.7656; avg_acc: 0.6559
+20-03-23 11:52-INFO-
+20-03-23 11:52-INFO-Epoch 0, Batch 134, Global step 134:
+20-03-23 11:52-INFO-training batch loss: 0.4850; avg_loss: 0.7374
+20-03-23 11:52-INFO-training batch acc: 0.7461; avg_acc: 0.6566
+20-03-23 11:52-INFO-
+20-03-23 11:52-INFO-Epoch 0, Batch 135, Global step 135:
+20-03-23 11:52-INFO-training batch loss: 0.5080; avg_loss: 0.7357
+20-03-23 11:52-INFO-training batch acc: 0.7109; avg_acc: 0.6570
+20-03-23 11:52-INFO-
+20-03-23 11:52-INFO-Epoch 0, Batch 136, Global step 136:
+20-03-23 11:52-INFO-training batch loss: 0.4783; avg_loss: 0.7338
+20-03-23 11:52-INFO-training batch acc: 0.7500; avg_acc: 0.6577
+20-03-23 11:52-INFO-
+20-03-23 11:52-INFO-Epoch 0, Batch 137, Global step 137:
+20-03-23 11:52-INFO-training batch loss: 0.4800; avg_loss: 0.7319
+20-03-23 11:52-INFO-training batch acc: 0.7500; avg_acc: 0.6584
+20-03-23 11:52-INFO-
+20-03-23 11:53-INFO-Epoch 0, Batch 138, Global step 138:
+20-03-23 11:53-INFO-training batch loss: 0.4663; avg_loss: 0.7300
+20-03-23 11:53-INFO-training batch acc: 0.6914; avg_acc: 0.6586
+20-03-23 11:53-INFO-
+20-03-23 11:53-INFO-Epoch 0, Batch 139, Global step 139:
+20-03-23 11:53-INFO-training batch loss: 0.4841; avg_loss: 0.7282
+20-03-23 11:53-INFO-training batch acc: 0.7500; avg_acc: 0.6593
+20-03-23 11:53-INFO-
+20-03-23 11:53-INFO-Epoch 0, Batch 140, Global step 140:
+20-03-23 11:53-INFO-training batch loss: 0.4809; avg_loss: 0.7265
+20-03-23 11:53-INFO-training batch acc: 0.7266; avg_acc: 0.6597
+20-03-23 11:53-INFO-
+20-03-23 11:53-INFO-Epoch 0, Batch 141, Global step 141:
+20-03-23 11:53-INFO-training batch loss: 0.4752; avg_loss: 0.7247
+20-03-23 11:53-INFO-training batch acc: 0.7266; avg_acc: 0.6602
+20-03-23 11:53-INFO-
+20-03-23 11:53-INFO-Epoch 0, Batch 142, Global step 142:
+20-03-23 11:53-INFO-training batch loss: 0.5123; avg_loss: 0.7232
+20-03-23 11:53-INFO-training batch acc: 0.6811; avg_acc: 0.6604
+20-03-23 11:53-INFO-
+20-03-23 11:53-INFO-Epoch 0, training batch loss: 0.5123; avg_loss: 0.7232
+20-03-23 11:53-INFO-Epoch 0, training batch accuracy: 0.6811; avg_accuracy: 0.6604
+20-03-23 11:53-INFO-
+20-03-23 11:53-INFO-Epoch 0, evaluating batch loss: 0.4971; avg_loss: 0.4978
+20-03-23 11:53-INFO-Epoch 0, evaluating batch accuracy: 0.7273; avg_accuracy: 0.7073
+20-03-23 11:53-INFO-
+20-03-23 11:53-INFO-Epoch 1, Batch 1, Global step 143:
+20-03-23 11:53-INFO-training batch loss: 0.5374; avg_loss: 0.5374
+20-03-23 11:53-INFO-training batch acc: 0.6953; avg_acc: 0.6953
+20-03-23 11:53-INFO-
+20-03-23 11:53-INFO-Epoch 1, Batch 2, Global step 144:
+20-03-23 11:53-INFO-training batch loss: 0.5062; avg_loss: 0.5218
+20-03-23 11:53-INFO-training batch acc: 0.7344; avg_acc: 0.7148
+20-03-23 11:53-INFO-
+20-03-23 11:53-INFO-Epoch 1, Batch 3, Global step 145:
+20-03-23 11:53-INFO-training batch loss: 0.4469; avg_loss: 0.4968
+20-03-23 11:53-INFO-training batch acc: 0.7461; avg_acc: 0.7253
+20-03-23 11:53-INFO-
+20-03-23 11:53-INFO-Epoch 1, Batch 4, Global step 146:
+20-03-23 11:53-INFO-training batch loss: 0.4149; avg_loss: 0.4763
+20-03-23 11:53-INFO-training batch acc: 0.7656; avg_acc: 0.7354
+20-03-23 11:53-INFO-
+20-03-23 11:53-INFO-Epoch 1, Batch 5, Global step 147:
+20-03-23 11:53-INFO-training batch loss: 0.4626; avg_loss: 0.4736
+20-03-23 11:53-INFO-training batch acc: 0.7617; avg_acc: 0.7406
+20-03-23 11:53-INFO-
+20-03-23 11:54-INFO-Epoch 1, Batch 6, Global step 148:
+20-03-23 11:54-INFO-training batch loss: 0.4970; avg_loss: 0.4775
+20-03-23 11:54-INFO-training batch acc: 0.7695; avg_acc: 0.7454
+20-03-23 11:54-INFO-
+20-03-23 11:54-INFO-Epoch 1, Batch 7, Global step 149:
+20-03-23 11:54-INFO-training batch loss: 0.4262; avg_loss: 0.4702
+20-03-23 11:54-INFO-training batch acc: 0.7773; avg_acc: 0.7500
+20-03-23 11:54-INFO-
+20-03-23 11:54-INFO-Epoch 1, Batch 8, Global step 150:
+20-03-23 11:54-INFO-training batch loss: 0.4446; avg_loss: 0.4670
+20-03-23 11:54-INFO-training batch acc: 0.7344; avg_acc: 0.7480
+20-03-23 11:54-INFO-
+20-03-23 11:54-INFO-Epoch 1, Batch 9, Global step 151:
+20-03-23 11:54-INFO-training batch loss: 0.4887; avg_loss: 0.4694
+20-03-23 11:54-INFO-training batch acc: 0.7383; avg_acc: 0.7470
+20-03-23 11:54-INFO-
+20-03-23 11:54-INFO-Epoch 1, Batch 10, Global step 152:
+20-03-23 11:54-INFO-training batch loss: 0.4961; avg_loss: 0.4721
+20-03-23 11:54-INFO-training batch acc: 0.7344; avg_acc: 0.7457
+20-03-23 11:54-INFO-
+20-03-23 11:54-INFO-Epoch 1, Batch 11, Global step 153:
+20-03-23 11:54-INFO-training batch loss: 0.4967; avg_loss: 0.4743
+20-03-23 11:54-INFO-training batch acc: 0.7070; avg_acc: 0.7422
+20-03-23 11:54-INFO-
+20-03-23 11:54-INFO-Epoch 1, Batch 12, Global step 154:
+20-03-23 11:54-INFO-training batch loss: 0.4236; avg_loss: 0.4701
+20-03-23 11:54-INFO-training batch acc: 0.7617; avg_acc: 0.7438
+20-03-23 11:54-INFO-
+20-03-23 11:54-INFO-Epoch 1, Batch 13, Global step 155:
+20-03-23 11:54-INFO-training batch loss: 0.4924; avg_loss: 0.4718
+20-03-23 11:54-INFO-training batch acc: 0.7148; avg_acc: 0.7416
+20-03-23 11:54-INFO-
+20-03-23 11:54-INFO-Epoch 1, Batch 14, Global step 156:
+20-03-23 11:54-INFO-training batch loss: 0.4320; avg_loss: 0.4689
+20-03-23 11:54-INFO-training batch acc: 0.7773; avg_acc: 0.7441
+20-03-23 11:54-INFO-
+20-03-23 11:54-INFO-Epoch 1, Batch 15, Global step 157:
+20-03-23 11:54-INFO-training batch loss: 0.5003; avg_loss: 0.4710
+20-03-23 11:54-INFO-training batch acc: 0.7148; avg_acc: 0.7422
+20-03-23 11:54-INFO-
+20-03-23 11:54-INFO-Epoch 1, Batch 16, Global step 158:
+20-03-23 11:54-INFO-training batch loss: 0.4505; avg_loss: 0.4697
+20-03-23 11:54-INFO-training batch acc: 0.7344; avg_acc: 0.7417
+20-03-23 11:54-INFO-
+20-03-23 11:54-INFO-Epoch 1, Batch 17, Global step 159:
+20-03-23 11:54-INFO-training batch loss: 0.5064; avg_loss: 0.4719
+20-03-23 11:54-INFO-training batch acc: 0.7031; avg_acc: 0.7394
+20-03-23 11:54-INFO-
+20-03-23 11:54-INFO-Epoch 1, Batch 18, Global step 160:
+20-03-23 11:54-INFO-training batch loss: 0.5418; avg_loss: 0.4758
+20-03-23 11:54-INFO-training batch acc: 0.6641; avg_acc: 0.7352
+20-03-23 11:54-INFO-
+20-03-23 11:55-INFO-Epoch 1, Batch 19, Global step 161:
+20-03-23 11:55-INFO-training batch loss: 0.5051; avg_loss: 0.4773
+20-03-23 11:55-INFO-training batch acc: 0.6836; avg_acc: 0.7325
+20-03-23 11:55-INFO-
+20-03-23 11:55-INFO-Epoch 1, Batch 20, Global step 162:
+20-03-23 11:55-INFO-training batch loss: 0.4400; avg_loss: 0.4755
+20-03-23 11:55-INFO-training batch acc: 0.7852; avg_acc: 0.7352
+20-03-23 11:55-INFO-
+20-03-23 11:55-INFO-Epoch 1, Batch 21, Global step 163:
+20-03-23 11:55-INFO-training batch loss: 0.4917; avg_loss: 0.4762
+20-03-23 11:55-INFO-training batch acc: 0.7305; avg_acc: 0.7349
+20-03-23 11:55-INFO-
+20-03-23 11:55-INFO-Epoch 1, Batch 22, Global step 164:
+20-03-23 11:55-INFO-training batch loss: 0.4576; avg_loss: 0.4754
+20-03-23 11:55-INFO-training batch acc: 0.7500; avg_acc: 0.7356
+20-03-23 11:55-INFO-
+20-03-23 11:55-INFO-Epoch 1, Batch 23, Global step 165:
+20-03-23 11:55-INFO-training batch loss: 0.4797; avg_loss: 0.4756
+20-03-23 11:55-INFO-training batch acc: 0.7500; avg_acc: 0.7362
+20-03-23 11:55-INFO-

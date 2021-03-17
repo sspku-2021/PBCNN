@@ -1,0 +1,250 @@
+20-03-20 19:27-INFO-{'session_length': 24, 'height': 32, 'width': 32, 'num_labels': 8, 'learning_rate': 0.0005, 'filter_sizes': [3, 4, 5, 6], 'num_filters': 64, 'filter_sizes_hierarchical': [3, 4, 5], 'num_fitlers_hierarchical': 64, 'is_train': True, 'early_stop': True, 'is_pretrain': True, 'is_time': True, 'is_size': True, 'uncertainty': False}
+20-03-20 19:27-WARNING-From ../utils.py:123: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+20-03-20 19:27-WARNING-From ../model/train.py:79: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+20-03-20 19:27-WARNING-From ../model/base_model.py:46: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+20-03-20 19:27-WARNING-From ../model/hierarchical_model.py:45: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+20-03-20 19:27-WARNING-From ../model/hierarchical_model.py:45: The name tf.AUTO_REUSE is deprecated. Please use tf.compat.v1.AUTO_REUSE instead.
+
+20-03-20 19:27-WARNING-From ../model/utils/utils.py:25: conv1d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv1D` instead.
+20-03-20 19:27-WARNING-Entity <bound method Conv1D.call of <tensorflow.python.layers.convolutional.Conv1D object at 0x7fbd0878f590>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv1D.call of <tensorflow.python.layers.convolutional.Conv1D object at 0x7fbd0878f590>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-20 19:27-WARNING-From ../model/utils/utils.py:44: max_pooling1d (from tensorflow.python.layers.pooling) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.MaxPooling1D instead.
+20-03-20 19:27-WARNING-Entity <bound method Pooling1D.call of <tensorflow.python.layers.pooling.MaxPooling1D object at 0x7fbd08796450>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Pooling1D.call of <tensorflow.python.layers.pooling.MaxPooling1D object at 0x7fbd08796450>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-20 19:27-WARNING-Entity <bound method Conv1D.call of <tensorflow.python.layers.convolutional.Conv1D object at 0x7fbd0878fa10>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv1D.call of <tensorflow.python.layers.convolutional.Conv1D object at 0x7fbd0878fa10>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-20 19:27-WARNING-Entity <bound method Pooling1D.call of <tensorflow.python.layers.pooling.MaxPooling1D object at 0x7fbd08750ad0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Pooling1D.call of <tensorflow.python.layers.pooling.MaxPooling1D object at 0x7fbd08750ad0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-20 19:27-WARNING-Entity <bound method Conv1D.call of <tensorflow.python.layers.convolutional.Conv1D object at 0x7fbd08750e90>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv1D.call of <tensorflow.python.layers.convolutional.Conv1D object at 0x7fbd08750e90>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-20 19:27-WARNING-Entity <bound method Pooling1D.call of <tensorflow.python.layers.pooling.MaxPooling1D object at 0x7fbd07b88ad0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Pooling1D.call of <tensorflow.python.layers.pooling.MaxPooling1D object at 0x7fbd07b88ad0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-20 19:27-WARNING-Entity <bound method Conv1D.call of <tensorflow.python.layers.convolutional.Conv1D object at 0x7fbd07b84310>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv1D.call of <tensorflow.python.layers.convolutional.Conv1D object at 0x7fbd07b84310>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-20 19:27-WARNING-Entity <bound method Pooling1D.call of <tensorflow.python.layers.pooling.MaxPooling1D object at 0x7fbd07b84ed0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Pooling1D.call of <tensorflow.python.layers.pooling.MaxPooling1D object at 0x7fbd07b84ed0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-20 19:27-WARNING-From ../model/utils/modules.py:207: dropout (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.dropout instead.
+20-03-20 19:27-WARNING-Entity <bound method Dropout.call of <tensorflow.python.layers.core.Dropout object at 0x7fbd0878f690>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dropout.call of <tensorflow.python.layers.core.Dropout object at 0x7fbd0878f690>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-20 19:27-WARNING-Variable *= will be deprecated. Use `var.assign(var * other)` if you want assignment to the variable value or `x = x * y` if you want a new python Tensor object.
+20-03-20 19:27-WARNING-Entity <bound method Conv1D.call of <tensorflow.python.layers.convolutional.Conv1D object at 0x7fbd07b2fd10>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv1D.call of <tensorflow.python.layers.convolutional.Conv1D object at 0x7fbd07b2fd10>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-20 19:27-WARNING-Entity <bound method Pooling1D.call of <tensorflow.python.layers.pooling.MaxPooling1D object at 0x7fbd07b2d890>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Pooling1D.call of <tensorflow.python.layers.pooling.MaxPooling1D object at 0x7fbd07b2d890>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-20 19:27-WARNING-Entity <bound method Conv1D.call of <tensorflow.python.layers.convolutional.Conv1D object at 0x7fbd07abc910>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv1D.call of <tensorflow.python.layers.convolutional.Conv1D object at 0x7fbd07abc910>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-20 19:27-WARNING-Entity <bound method Pooling1D.call of <tensorflow.python.layers.pooling.MaxPooling1D object at 0x7fbd086daf50>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Pooling1D.call of <tensorflow.python.layers.pooling.MaxPooling1D object at 0x7fbd086daf50>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-20 19:27-WARNING-Entity <bound method Conv1D.call of <tensorflow.python.layers.convolutional.Conv1D object at 0x7fbd07b2f090>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv1D.call of <tensorflow.python.layers.convolutional.Conv1D object at 0x7fbd07b2f090>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-20 19:27-WARNING-Entity <bound method Pooling1D.call of <tensorflow.python.layers.pooling.MaxPooling1D object at 0x7fbd07af1290>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Pooling1D.call of <tensorflow.python.layers.pooling.MaxPooling1D object at 0x7fbd07af1290>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-20 19:27-WARNING-From ../model/utils/modules.py:242: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.dense instead.
+20-03-20 19:27-WARNING-Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7fbd07b2d310>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7fbd07b2d310>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-20 19:27-WARNING-From ../model/utils/modules.py:244: batch_normalization (from tensorflow.python.layers.normalization) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.BatchNormalization instead.  In particular, `tf.control_dependencies(tf.GraphKeys.UPDATE_OPS)` should not be used (consult the `tf.keras.layers.batch_normalization` documentation).
+20-03-20 19:27-WARNING-Entity <bound method BatchNormalization.call of <tensorflow.python.layers.normalization.BatchNormalization object at 0x7fbd087964d0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method BatchNormalization.call of <tensorflow.python.layers.normalization.BatchNormalization object at 0x7fbd087964d0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-20 19:27-WARNING-From ../model/utils/modules.py:247: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+20-03-20 19:27-WARNING-Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7fbd07a80a90>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7fbd07a80a90>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-20 19:27-WARNING-Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7fbd07a80a90>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7fbd07a80a90>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-20 19:27-WARNING-Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7fbd07b2df90>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7fbd07b2df90>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-20 19:27-WARNING-Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7fbd07aa2ed0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7fbd07aa2ed0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+20-03-20 19:27-WARNING-From ../model/base_model.py:132: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+20-03-20 19:27-WARNING-From /root/anaconda3/lib/python3.7/site-packages/tensorflow/python/ops/clip_ops.py:286: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+20-03-20 19:27-WARNING-From ../model/train.py:90: The name tf.train.Saver is deprecated. Please use tf.compat.v1.train.Saver instead.
+
+20-03-20 19:29-INFO-Epoch 0, Batch 100, Global step 100:
+20-03-20 19:29-INFO-training batch loss: 0.5244; avg_loss: 7.0463
+20-03-20 19:29-INFO-
+20-03-20 19:31-INFO-Epoch 0, Batch 200, Global step 200:
+20-03-20 19:31-INFO-training batch loss: 0.2718; avg_loss: 4.1257
+20-03-20 19:31-INFO-
+20-03-20 19:33-INFO-Epoch 0, Batch 300, Global step 300:
+20-03-20 19:33-INFO-training batch loss: 9.7743; avg_loss: 3.6788
+20-03-20 19:33-INFO-
+20-03-20 19:35-INFO-Epoch 0, Batch 400, Global step 400:
+20-03-20 19:35-INFO-training batch loss: 5.3680; avg_loss: 3.1261
+20-03-20 19:35-INFO-
+20-03-20 19:37-INFO-Epoch 0, Batch 500, Global step 500:
+20-03-20 19:37-INFO-training batch loss: 4.4138; avg_loss: 3.9022
+20-03-20 19:37-INFO-
+20-03-20 19:39-INFO-Epoch 0, Batch 600, Global step 600:
+20-03-20 19:39-INFO-training batch loss: 1.6204; avg_loss: 3.5141
+20-03-20 19:39-INFO-
+20-03-20 19:41-INFO-Epoch 0, Batch 700, Global step 700:
+20-03-20 19:41-INFO-training batch loss: 2.3742; avg_loss: 3.2318
+20-03-20 19:41-INFO-
+20-03-20 19:43-INFO-Epoch 0, Batch 800, Global step 800:
+20-03-20 19:43-INFO-training batch loss: 1.0565; avg_loss: 3.0013
+20-03-20 19:43-INFO-
+20-03-20 19:45-INFO-Epoch 0, Batch 900, Global step 900:
+20-03-20 19:45-INFO-training batch loss: 0.0533; avg_loss: 2.8346
+20-03-20 19:45-INFO-
+20-03-20 19:47-INFO-Epoch 0, Batch 1000, Global step 1000:
+20-03-20 19:47-INFO-training batch loss: 0.1701; avg_loss: 2.7095
+20-03-20 19:47-INFO-
+20-03-20 19:48-INFO-Epoch 0, Batch 1100, Global step 1100:
+20-03-20 19:48-INFO-training batch loss: 0.7528; avg_loss: 2.6278
+20-03-20 19:48-INFO-
+20-03-20 19:50-INFO-Epoch 0, Batch 1200, Global step 1200:
+20-03-20 19:50-INFO-training batch loss: 0.4823; avg_loss: 2.5594
+20-03-20 19:50-INFO-
+20-03-20 19:52-INFO-Epoch 0, Batch 1300, Global step 1300:
+20-03-20 19:52-INFO-training batch loss: 0.4710; avg_loss: 2.4861
+20-03-20 19:52-INFO-
+20-03-20 19:54-INFO-Epoch 0, Batch 1400, Global step 1400:
+20-03-20 19:54-INFO-training batch loss: 2.2313; avg_loss: 2.4805
+20-03-20 19:54-INFO-
+20-03-20 19:56-INFO-Epoch 0, Batch 1500, Global step 1500:
+20-03-20 19:56-INFO-training batch loss: 1.5757; avg_loss: 2.4046
+20-03-20 19:56-INFO-
+20-03-20 19:58-INFO-Epoch 0, Batch 1600, Global step 1600:
+20-03-20 19:58-INFO-training batch loss: 0.3712; avg_loss: 2.4224
+20-03-20 19:58-INFO-
+20-03-20 20:00-INFO-Epoch 0, Batch 1700, Global step 1700:
+20-03-20 20:00-INFO-training batch loss: 0.0484; avg_loss: 2.3859
+20-03-20 20:00-INFO-
+20-03-20 20:02-INFO-Epoch 0, Batch 1800, Global step 1800:
+20-03-20 20:02-INFO-training batch loss: 4.7696; avg_loss: 2.3393
+20-03-20 20:02-INFO-
+20-03-20 20:04-INFO-Epoch 0, Batch 1900, Global step 1900:
+20-03-20 20:04-INFO-training batch loss: 0.1605; avg_loss: 2.3379
+20-03-20 20:04-INFO-
+20-03-20 20:06-INFO-Epoch 0, Batch 2000, Global step 2000:
+20-03-20 20:06-INFO-training batch loss: 0.5229; avg_loss: 2.3030
+20-03-20 20:06-INFO-
+20-03-20 20:10-INFO-Epoch 0, evaluating batch loss: 0.1899; avg_loss: 2.2864
+20-03-20 20:10-INFO-
+20-03-20 20:10-INFO-Epoch 1, Batch 16, Global step 2100:
+20-03-20 20:10-INFO-training batch loss: 0.3054; avg_loss: 0.6084
+20-03-20 20:10-INFO-
+20-03-20 20:12-INFO-Epoch 1, Batch 116, Global step 2200:
+20-03-20 20:12-INFO-training batch loss: 1.1295; avg_loss: 4.9357
+20-03-20 20:12-INFO-
+20-03-20 20:14-INFO-Epoch 1, Batch 216, Global step 2300:
+20-03-20 20:14-INFO-training batch loss: 0.1139; avg_loss: 3.2175
+20-03-20 20:14-INFO-
+20-03-20 20:16-INFO-Epoch 1, Batch 316, Global step 2400:
+20-03-20 20:16-INFO-training batch loss: 0.1308; avg_loss: 3.0941
+20-03-20 20:16-INFO-
+20-03-20 20:18-INFO-Epoch 1, Batch 416, Global step 2500:
+20-03-20 20:18-INFO-training batch loss: 0.3683; avg_loss: 2.7111
+20-03-20 20:18-INFO-
+20-03-20 20:20-INFO-Epoch 1, Batch 516, Global step 2600:
+20-03-20 20:20-INFO-training batch loss: 0.0802; avg_loss: 3.5569
+20-03-20 20:20-INFO-
+20-03-20 20:22-INFO-Epoch 1, Batch 616, Global step 2700:
+20-03-20 20:22-INFO-training batch loss: 0.0842; avg_loss: 3.2150
+20-03-20 20:22-INFO-
+20-03-20 20:24-INFO-Epoch 1, Batch 716, Global step 2800:
+20-03-20 20:24-INFO-training batch loss: 0.0444; avg_loss: 2.9776
+20-03-20 20:24-INFO-
+20-03-20 20:26-INFO-Epoch 1, Batch 816, Global step 2900:
+20-03-20 20:26-INFO-training batch loss: 0.2057; avg_loss: 2.7872
+20-03-20 20:26-INFO-
+20-03-20 20:28-INFO-Epoch 1, Batch 916, Global step 3000:
+20-03-20 20:28-INFO-training batch loss: 0.2567; avg_loss: 2.6655
+20-03-20 20:28-INFO-
+20-03-20 20:30-INFO-Epoch 1, Batch 1016, Global step 3100:
+20-03-20 20:30-INFO-training batch loss: 0.1439; avg_loss: 2.5442
+20-03-20 20:30-INFO-
+20-03-20 20:32-INFO-Epoch 1, Batch 1116, Global step 3200:
+20-03-20 20:32-INFO-training batch loss: 0.3782; avg_loss: 2.4719
+20-03-20 20:32-INFO-
+20-03-20 20:34-INFO-Epoch 1, Batch 1216, Global step 3300:
+20-03-20 20:34-INFO-training batch loss: 0.1802; avg_loss: 2.4463
+20-03-20 20:34-INFO-
+20-03-20 20:36-INFO-Epoch 1, Batch 1316, Global step 3400:
+20-03-20 20:36-INFO-training batch loss: 4.5697; avg_loss: 2.3703
+20-03-20 20:36-INFO-
+20-03-20 20:38-INFO-Epoch 1, Batch 1416, Global step 3500:
+20-03-20 20:38-INFO-training batch loss: 0.6521; avg_loss: 2.3750
+20-03-20 20:38-INFO-
+20-03-20 20:40-INFO-Epoch 1, Batch 1516, Global step 3600:
+20-03-20 20:40-INFO-training batch loss: 1.1643; avg_loss: 2.3049
+20-03-20 20:40-INFO-
+20-03-20 20:42-INFO-Epoch 1, Batch 1616, Global step 3700:
+20-03-20 20:42-INFO-training batch loss: 0.4688; avg_loss: 2.3308
+20-03-20 20:42-INFO-
+20-03-20 20:44-INFO-Epoch 1, Batch 1716, Global step 3800:
+20-03-20 20:44-INFO-training batch loss: 0.3042; avg_loss: 2.2917
+20-03-20 20:44-INFO-
+20-03-20 20:46-INFO-Epoch 1, Batch 1816, Global step 3900:
+20-03-20 20:46-INFO-training batch loss: 0.6235; avg_loss: 2.2425
+20-03-20 20:46-INFO-
+20-03-20 20:48-INFO-Epoch 1, Batch 1916, Global step 4000:
+20-03-20 20:48-INFO-training batch loss: 0.1077; avg_loss: 2.2536
+20-03-20 20:48-INFO-
+20-03-20 20:50-INFO-Epoch 1, Batch 2016, Global step 4100:
+20-03-20 20:50-INFO-training batch loss: 0.4632; avg_loss: 2.2213
+20-03-20 20:50-INFO-
+20-03-20 20:54-INFO-Epoch 1, evaluating batch loss: 0.1899; avg_loss: 2.2865
+20-03-20 20:54-INFO-
+20-03-20 20:54-INFO-Epoch 2, Batch 32, Global step 4200:
+20-03-20 20:54-INFO-training batch loss: 0.0501; avg_loss: 10.4864
+20-03-20 20:54-INFO-
+20-03-20 20:56-INFO-Epoch 2, Batch 132, Global step 4300:
+20-03-20 20:56-INFO-training batch loss: 0.4131; avg_loss: 4.4343
+20-03-20 20:56-INFO-
+20-03-20 20:58-INFO-Epoch 2, Batch 232, Global step 4400:
+20-03-20 20:58-INFO-training batch loss: 20.8902; avg_loss: 3.3037
+20-03-20 20:58-INFO-
+20-03-20 21:00-INFO-Epoch 2, Batch 332, Global step 4500:
+20-03-20 21:00-INFO-training batch loss: 0.2856; avg_loss: 2.9860
+20-03-20 21:00-INFO-
+20-03-20 21:02-INFO-Epoch 2, Batch 432, Global step 4600:
+20-03-20 21:02-INFO-training batch loss: 0.3702; avg_loss: 2.6706
+20-03-20 21:02-INFO-
+20-03-20 21:04-INFO-Epoch 2, Batch 532, Global step 4700:
+20-03-20 21:04-INFO-training batch loss: 0.1755; avg_loss: 3.4975
+20-03-20 21:04-INFO-
+20-03-20 21:06-INFO-Epoch 2, Batch 632, Global step 4800:
+20-03-20 21:06-INFO-training batch loss: 12.9394; avg_loss: 3.1761
+20-03-20 21:06-INFO-
+20-03-20 21:08-INFO-Epoch 2, Batch 732, Global step 4900:
+20-03-20 21:08-INFO-training batch loss: 0.6935; avg_loss: 2.9337
+20-03-20 21:08-INFO-
+20-03-20 21:10-INFO-Epoch 2, Batch 832, Global step 5000:
+20-03-20 21:10-INFO-training batch loss: 0.1852; avg_loss: 2.7605
+20-03-20 21:10-INFO-
+20-03-20 21:12-INFO-Epoch 2, Batch 932, Global step 5100:
+20-03-20 21:12-INFO-training batch loss: 0.9866; avg_loss: 2.6541
+20-03-20 21:12-INFO-
+20-03-20 21:14-INFO-Epoch 2, Batch 1032, Global step 5200:
+20-03-20 21:14-INFO-training batch loss: 0.0715; avg_loss: 2.5409
+20-03-20 21:14-INFO-
+20-03-20 21:16-INFO-Epoch 2, Batch 1132, Global step 5300:
+20-03-20 21:16-INFO-training batch loss: 0.3181; avg_loss: 2.4629
+20-03-20 21:16-INFO-
+20-03-20 21:18-INFO-Epoch 2, Batch 1232, Global step 5400:
+20-03-20 21:18-INFO-training batch loss: 0.9613; avg_loss: 2.4251
+20-03-20 21:18-INFO-
+20-03-20 21:20-INFO-Epoch 2, Batch 1332, Global step 5500:
+20-03-20 21:20-INFO-training batch loss: 12.6661; avg_loss: 2.3773
+20-03-20 21:20-INFO-
+20-03-20 21:22-INFO-Epoch 2, Batch 1432, Global step 5600:
+20-03-20 21:22-INFO-training batch loss: 0.1039; avg_loss: 2.3594
+20-03-20 21:22-INFO-
+20-03-20 21:24-INFO-Epoch 2, Batch 1532, Global step 5700:
+20-03-20 21:24-INFO-training batch loss: 8.2616; avg_loss: 2.3093
+20-03-20 21:24-INFO-
+20-03-20 21:26-INFO-Epoch 2, Batch 1632, Global step 5800:
+20-03-20 21:26-INFO-training batch loss: 0.6803; avg_loss: 2.3162
+20-03-20 21:26-INFO-
+20-03-20 21:28-INFO-Epoch 2, Batch 1732, Global step 5900:
+20-03-20 21:28-INFO-training batch loss: 6.3344; avg_loss: 2.2804
+20-03-20 21:28-INFO-
+20-03-20 21:30-INFO-Epoch 2, Batch 1832, Global step 6000:
+20-03-20 21:30-INFO-training batch loss: 2.0958; avg_loss: 2.3044
+20-03-20 21:30-INFO-
+20-03-20 21:32-INFO-Epoch 2, Batch 1932, Global step 6100:
+20-03-20 21:32-INFO-training batch loss: 0.8180; avg_loss: 2.2484
+20-03-20 21:32-INFO-
+20-03-20 21:35-INFO-Epoch 2, Batch 2032, Global step 6200:
+20-03-20 21:35-INFO-training batch loss: 0.0576; avg_loss: 2.2205
+20-03-20 21:35-INFO-
+20-03-20 21:38-INFO-Epoch 2, evaluating batch loss: 0.1899; avg_loss: 2.2865
+20-03-20 21:38-INFO-
